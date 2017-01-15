@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "The Unix Shell"
+title: "Practical Introduction to Linux"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: hpc@yale.edu
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
