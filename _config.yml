@@ -2,8 +2,8 @@
 # Values for this lesson.
 #------------------------------------------------------------
 
-# Which carpentry is this ("swc" or "dc")?
-carpentry: "swc"
+# Which carpentry is this ("swc" or "dc", added ycrc)?
+carpentry: "ycrc"
 
 # Overall title for pages.
 title: "Practical Introduction to Linux"

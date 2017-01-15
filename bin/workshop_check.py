@@ -18,7 +18,7 @@ EVENTBRITE_PATTERN = r'\d{9,10}'
 URL_PATTERN = r'https?://.+'
 
 # Defaults.
-CARPENTRIES = ("dc", "swc")
+CARPENTRIES = ("dc", "swc", "ycrc")
 DEFAULT_CONTACT_EMAIL = 'admin@software-carpentry.org'
 
 USAGE = 'Usage: "check-workshop path/to/root/directory"'

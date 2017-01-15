@@ -175,7 +175,7 @@ ROOT_CONFIG_YML = '''\
 # Values for this lesson.
 #------------------------------------------------------------
 
-# Which carpentry is this ("swc" or "dc")?
+# Which carpentry is this ("swc" or "dc", or "ycrc")?
 carpentry: "swc"
 
 # Overall title for pages.
@@ -200,6 +200,7 @@ amy_site: "https://amy.software-carpentry.org/workshops"
 dc_site: "http://datacarpentry.org"
 swc_github: "https://github.com/swcarpentry"
 swc_site: "https://software-carpentry.org"
+ycrc_site: "http://research.computing.yale.edu/"
 swc_pages: "https://swcarpentry.github.io"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
