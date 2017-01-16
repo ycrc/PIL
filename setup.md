@@ -41,9 +41,14 @@ Feel free to download a copy of the sample files on the computer in front of you
 Copy the lines below and paste them into your terminal window. To paste in putty, right click the mouse in the window. In Terminal use <kbd>⌘<kbd> + <kbd>v<kbd>
 
 ~~~
-wget {{ page.root }}/data/PIL-data.zip
+wget https://brevans.github.io/PIL/data/PIL-data.zip
 unzip PIL-data.zip
 ~~~
 {: .bash}
+
+>## Playback
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js" id="asciicast-290be69rt5nwph2cpq8gjitvt" data-size="small" async></script>
+>
+{: .solution}
 
 In the lesson, you will find out how to access the data in this folder.  
