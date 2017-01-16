@@ -38,7 +38,7 @@ Type the host name into the "Host Name (or IP address)" box and click open. You 
 
 Feel free to download a copy of the sample files on the computer in front of you, but in order to follow along, you need to download the files on the remote computer.
 
-Copy the lines below and paste them into your terminal window. To paste in putty, right click the mouse in the window. In Terminal use <kbd>⌘<kbd> + <kbd>v<kbd>
+Copy the lines below and paste them into your terminal window. To paste in putty, right click the mouse in the window. In Terminal use <kbd>⌘</kbd> + <kbd>v</kbd>
 
 ~~~
 wget https://brevans.github.io/PIL/data/PIL-data.zip
