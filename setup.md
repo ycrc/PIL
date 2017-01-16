@@ -47,7 +47,8 @@ unzip PIL-data.zip
 {: .bash}
 
 >## Playback
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js" id="asciicast-290be69rt5nwph2cpq8gjitvt" data-size="small" async></script>
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99527" data-size="small" async></script>
 >
 {: .solution}
 
