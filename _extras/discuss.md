@@ -64,8 +64,6 @@ written for.
 
 Want to customize paths, environment variables, aliases,
 and other behaviors of your shell?
-This excellent blog post "[Bash Configurations Demystified][bash-demystified]"
+This excellent blog post [Bash Configurations Demystified][http://dghubble.com/blog/posts/.bashprofile-.profile-and-.bashrc-conventions/]
 from Dalton Hubble
 covers tips, tricks, and how to avoid dangers.
-
-[bash-demystified]: https://github.com/dghubble-org/blog/blob/master/content/bash-configs.md
