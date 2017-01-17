@@ -54,7 +54,7 @@ To start exploring them!
 >{: .bash}
 {: .callout}
 
-### **`whoami`**
+## **Who Are You?**
 Type the command `whoami`,
 then press the Enter key (sometimes marked Return) to send the command to the shell.
 The command's output is the ID of the current user,
@@ -93,7 +93,7 @@ More specifically, when we type `whoami` the shell:
 > what follows, `nelle` should always be replaced by that username.  
 {: .callout}
 
-### **`pwd`**
+## **Where Are You?**
 Next,
 let's find out where we are by running a command called `pwd`
 (which stands for "print working directory").
@@ -120,7 +120,7 @@ $ pwd
 
 
 
-## **The File System**
+## **List Your Files and Directories**
 
 > ## Home Directory Variation
 >
@@ -222,6 +222,8 @@ $ ls --help
 ~~~
 {: .bash}
 
+## **Read the Fine Manual (RTFM)**
+
 Many bash commands, and programs that people have written that can be
 run from within bash, support a `--help` flag to display more
 information on how to use the commands or programs.
@@ -295,7 +297,7 @@ it's possible to put hundreds of files in our home directory,
 just as it's possible to pile hundreds of printed papers on our desk,
 but it's a self-defeating strategy.
 
-## **Moving Around**
+## **Move Around**
 
 We can actually change our location to a different directory, so
 we are no longer located in
