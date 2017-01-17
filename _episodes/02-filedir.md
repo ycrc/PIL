@@ -169,14 +169,14 @@ because its name begins with `/`.
 
 Underneath `/home`,
 we find one directory for each user with an account on Nelle's machine,
-her colleagues Ben and Ben H.  
+her colleagues Abby and Ben.  
 
 ![Home Directories](../fig/home-directories.svg)
 
-The Ben's files are stored in `/home/ben`,
-Ben H's in `/home/benh`,
+Abby's files are stored in `/home/abby`,
+Ben's in `/home/ben`,
 and Nelle's in `/home/nelle`.  Because Nelle is the user in our
-examples here, this is why we get `/Users/nelle` as our home directory.  
+examples here, this is why we get `/home/nelle` as our home directory.  
 Typically, when you open a new command prompt you will be in
 your home directory to start.  
 

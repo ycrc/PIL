@@ -11,9 +11,9 @@ This will be accomplished with a cryptographic network protocol called ssh.
 If you are on a mac, you already have an implementation of ssh, so all you need to do is open up your terminal app.
 To open the terminal app, you can navigate to your apps then utilities directory and double click on its icon, or use spotlight to find it.
 
-It should look something like this: REPLACE
+It should look something like this:
 
-![Terminal App](https://www.imore.com/sites/imore.com/files/styles/larger/public/field/image/2016/02/say-terminal-command-screenshot.jpg)
+![Terminal App]({{ page.root }}/assets/img/macterm.png)
 
 In order to connect to your virtual machine, you'll want to type something like
 
