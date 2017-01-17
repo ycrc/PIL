@@ -33,7 +33,7 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99544.js"
 > id="asciicast-99544" data-size="small"></script>
 >
 {: .asciinema}
@@ -50,7 +50,7 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99545.js"
 > id="asciicast-99545" data-size="small"></script>
 >
 {: .asciinema}
@@ -97,7 +97,7 @@ $ cd thesis
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99548.js"
 > id="asciicast-99548" data-size="small"></script>
 >
 {: .asciinema}
@@ -123,7 +123,7 @@ Let's run a text editor called Nano to create a file called `draft.txt`.
 $ nano draft.txt
 ~~~
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99555.js"
 > id="asciicast-99555" data-size="small"></script>
 >
 {: .asciinema}
@@ -172,7 +172,7 @@ $ ls
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99553.js"
 > id="asciicast-99553" data-size="small"></script>
 >
 {: .asciinema}
@@ -200,7 +200,7 @@ $ cd ..
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99556.js"
 > id="asciicast-99556" data-size="small"></script>
 >
 {: .asciinema}
@@ -214,7 +214,7 @@ $ rm thesis
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99557.js"
 > id="asciicast-99557" data-size="small"></script>
 >
 {: .asciinema}
