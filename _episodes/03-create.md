@@ -219,6 +219,7 @@ $ rm thesis
 >
 {: .asciinema}
 
+## **Delete Everything**
 This happens because `rm` by default only works on files, not directories.
 
 To really get rid of `thesis` we must also delete the file `draft.txt`.
