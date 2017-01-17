@@ -227,8 +227,8 @@ We can do this with the [recursive](https://en.wikipedia.org/wiki/Recursion) opt
 
 > ## With Great Power Comes Great Responsibility
 >
-> Removing the files in a directory recursively can be very dangerous
-> operation. If we're concerned about what we might be deleting we can
+> Removing the files in a directory recursively can be a very dangerous operation.
+> If we're concerned about what we might be deleting we can
 > add the "interactive" flag `-i` to `rm` which will ask us for confirmation
 > before each step
 > ~~~
