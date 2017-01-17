@@ -237,7 +237,7 @@ We can do this with the [recursive](https://en.wikipedia.org/wiki/Recursion) opt
 > {: .bash}
 >
 > >## `output`
-> > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> > <script type="text/javascript" src="https://asciinema.org/a/99560.js"
 > > id="asciicast-99560" data-size="small"></script>
 > {: .asciinema}
 >
@@ -258,7 +258,7 @@ $ ls thesis
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99561.js"
 > id="asciicast-99561" data-size="small"></script>
 >
 {: .asciinema}
@@ -274,7 +274,7 @@ $ ls thesis
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99562.js"
 > id="asciicast-99562" data-size="small"></script>
 >
 {: .asciinema}
@@ -313,7 +313,7 @@ $ ls
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99633.js"
 > id="asciicast-99633" data-size="small"></script>
 >
 {: .asciinema}
@@ -332,7 +332,7 @@ $ ls . thesis/
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99634.js"
 > id="asciicast-99634" data-size="small"></script>
 >
 {: .asciinema}
@@ -347,7 +347,7 @@ $ ls quotes.txt thesis/quotations.txt
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99635.js"
 > id="asciicast-99635" data-size="small"></script>
 >
 {: .asciinema}

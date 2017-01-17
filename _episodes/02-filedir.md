@@ -67,8 +67,8 @@ $ whoami
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-16l208b49zhrjc2yp5hzccerd" data-size="small" ></script>
+> <script type="text/javascript" src="https://asciinema.org/a/99489.js"
+> id="asciicast-99489" data-size="small" ></script>
 >
 {: .asciinema}
 
@@ -113,8 +113,8 @@ $ pwd
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-5yel5rajhqs4ftgs7c3xbluxd" data-size="small"></script>
+> <script type="text/javascript" src="https://asciinema.org/a/99488.js"
+> id="asciicast-99488" data-size="small" ></script>
 >
 {: .asciinema}
 
@@ -190,8 +190,8 @@ $ ls
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-ec3rypatlw7a5fqwu4qohrpp0" data-size="small"></script>
+> <script type="text/javascript" src="https://asciinema.org/a/99492.js"
+> id="asciicast-99492" data-size="small"></script>
 >
 {: .asciinema}
 
@@ -210,8 +210,8 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-4q56k4f9zad5uu32f9xbfnv3h" data-size="small"></script>
+> <script type="text/javascript" src="https://asciinema.org/a/99493.js"
+> id="asciicast-99493" data-size="small"></script>
 >
 {: .asciinema}
 
@@ -239,8 +239,8 @@ $ man ls
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-4xqcbktl6eka8b91iofusbt0h" data-size="small"></script>
+> <script type="text/javascript" src="https://asciinema.org/a/99498.js"
+> id="asciicast-99498" data-size="small"></script>
 >
 {: .asciinema}
 
@@ -282,8 +282,8 @@ $ ls -F PIL-data
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-87f1px8h5pdwj2be44wgjweo0" data-size="small"></script>
+> <script type="text/javascript" src="https://asciinema.org/a/99499.js"
+> id="asciicast-99499" data-size="small"></script>
 >
 {: .asciinema}
 
@@ -321,8 +321,8 @@ $ pwd
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-0f1g1uaxsyebi7rkidbdplymk" data-size="small"></script>
+> <script type="text/javascript" src="https://asciinema.org/a/99503.js"
+> id="asciicast-99503" data-size="small"></script>
 >
 {: .asciinema}
 
@@ -340,8 +340,8 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-0f1g1uaxsyebi7rkidbdplymk" data-size="small"></script>
+> <script type="text/javascript" src="https://asciinema.org/a/99505.js"
+> id="asciicast-99505" data-size="small"></script>
 >
 {: .asciinema}
 
@@ -354,7 +354,7 @@ cd PIL-data
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99507.js"
 > id="asciicast-99507" data-size="small"></script>
 >
 {: .asciinema}
@@ -375,7 +375,7 @@ $ cd ..
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99508.js"
 > id="asciicast-99508" data-size="small"></script>
 >
 {: .asciinema}
@@ -397,7 +397,7 @@ $ ls -F -a
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99509.js"
 > id="asciicast-99509" data-size="small"></script>
 >
 {: .asciinema}
@@ -448,7 +448,7 @@ $ cd
 How can you check what happened?  `pwd` gives us the answer!  
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99511.js"
 > id="asciicast-99511" data-size="small"></script>
 >
 {: .asciinema}
@@ -468,7 +468,7 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99511.js"
 > id="asciicast-99511" data-size="small"></script>
 >
 {: .asciinema}
@@ -495,12 +495,12 @@ to move to `PIL-data`.
 
 ~~~
 $ pwd
-$ cd /Users/nelle/Desktop/PIL-data
+$ cd /home/nelle/Desktop/PIL-data
 ~~~
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99514.js"
 > id="asciicast-99514" data-size="small"></script>
 >
 {: .asciinema}
@@ -595,7 +595,7 @@ and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> <script type="text/javascript" src="https://asciinema.org/a/99515.js"
 > id="asciicast-99515" data-size="small"></script>
 >
 {: .asciinema}
