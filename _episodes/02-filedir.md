@@ -68,9 +68,9 @@ $ whoami
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-16l208b49zhrjc2yp5hzccerd" data-size="small" async></script>
+> id="asciicast-16l208b49zhrjc2yp5hzccerd" data-size="small" ></script>
 >
-{: .solution}
+{: .asciinema}
 
 
 More specifically, when we type `whoami` the shell:
@@ -114,9 +114,9 @@ $ pwd
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-5yel5rajhqs4ftgs7c3xbluxd" data-size="small" async></script>
+> id="asciicast-5yel5rajhqs4ftgs7c3xbluxd" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 
 
@@ -191,9 +191,9 @@ $ ls
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-ec3rypatlw7a5fqwu4qohrpp0" data-size="small" async></script>
+> id="asciicast-ec3rypatlw7a5fqwu4qohrpp0" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 (Again, your results may be slightly different depending on your operating
 system and how you have customized your filesystem.)
@@ -211,9 +211,9 @@ $ ls -F
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-4q56k4f9zad5uu32f9xbfnv3h" data-size="small" async></script>
+> id="asciicast-4q56k4f9zad5uu32f9xbfnv3h" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 `ls` has lots of other options. To find out what they are, we can type:
 
@@ -238,9 +238,9 @@ $ man ls
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-4xqcbktl6eka8b91iofusbt0h" data-size="small" async></script>
+> id="asciicast-4xqcbktl6eka8b91iofusbt0h" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 To navigate through the `man` pages,
 you may use the up and down arrow keys to move line-by-line,
@@ -281,9 +281,9 @@ $ ls -F PIL-data
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-87f1px8h5pdwj2be44wgjweo0" data-size="small" async></script>
+> id="asciicast-87f1px8h5pdwj2be44wgjweo0" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 Your output should be a list of all the files and sub-directories in
 the `PIL-data` directory you downloaded at the start of the lesson.
@@ -320,9 +320,9 @@ $ pwd
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-0f1g1uaxsyebi7rkidbdplymk" data-size="small" async></script>
+> id="asciicast-0f1g1uaxsyebi7rkidbdplymk" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 These commands will move us from our home directory into the `PIL-data` directory,
 then into the `data` directory.  `cd` doesn't print anything,
@@ -339,9 +339,9 @@ $ ls -F
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-0f1g1uaxsyebi7rkidbdplymk" data-size="small" async></script>
+> id="asciicast-0f1g1uaxsyebi7rkidbdplymk" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 We now know how to go down the directory tree, but
 how do we go up?  We might try the following:
@@ -353,9 +353,9 @@ cd PIL-data
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99507" data-size="small" async></script>
+> id="asciicast-99507" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 But we get an error!  Why is this?  
 
@@ -374,9 +374,9 @@ $ cd ..
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99508" data-size="small" async></script>
+> id="asciicast-99508" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 
 `..` is a special directory name meaning
@@ -396,9 +396,9 @@ $ ls -F -a
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99509" data-size="small" async></script>
+> id="asciicast-99509" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 `-a` stands for "show all";
 it forces `ls` to show us file and directory names that begin with `.`,
@@ -447,9 +447,9 @@ How can you check what happened?  `pwd` gives us the answer!
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99511" data-size="small" async></script>
+> id="asciicast-99511" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 It turns out that `cd` without an argument will return you to your home directory,
 which is great if you've gotten lost in your own filesystem.  
@@ -467,9 +467,9 @@ $ ls -F
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99511" data-size="small" async></script>
+> id="asciicast-99511" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 If we want to move up one level from the data directory, we could use `cd ..`.  But
 there is another way to move to any directory, regardless of your
@@ -499,9 +499,9 @@ $ cd /Users/nelle/Desktop/PIL-data
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99514" data-size="small" async></script>
+> id="asciicast-99514" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 We can run `pwd` and `ls -F` to ensure that we're in the directory we expect.  
 
@@ -594,9 +594,9 @@ This is called **tab completion**,
 and we will see it in many other tools as we go on.
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99515" data-size="small" async></script>
+> id="asciicast-99515" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 > ## Absolute vs Relative Paths
 >

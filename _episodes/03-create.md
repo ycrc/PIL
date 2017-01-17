@@ -34,9 +34,9 @@ $ ls -F
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99544" data-size="small" async></script>
+> id="asciicast-99544" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 ## **Make a Directory**
 
@@ -51,9 +51,9 @@ $ ls -F
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99545" data-size="small" async></script>
+> id="asciicast-99545" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 As you might guess from its name,
 `mkdir` means "make directory".
@@ -98,9 +98,9 @@ $ cd thesis
 {: .bash}
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99548" data-size="small" async></script>
+> id="asciicast-99548" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 ## **Edit Some Text**
 Let's run a text editor called Nano to create a file called `draft.txt`.
@@ -124,9 +124,9 @@ $ nano draft.txt
 ~~~
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99555" data-size="small" async></script>
+> id="asciicast-99555" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 Let's type in a few lines of text.
 Once we're happy with our text, we can press <kbd>Ctrl</kbd>+<kbd>O</kbd>
@@ -173,9 +173,9 @@ $ ls
 {: .bash}
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99553" data-size="small" async></script>
+> id="asciicast-99553" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 > ## Deleting Is Forever!
 >
@@ -201,9 +201,9 @@ $ cd ..
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99556" data-size="small" async></script>
+> id="asciicast-99556" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 If we try to remove the entire `thesis` directory using `rm thesis`,
 we get an error message:
@@ -215,9 +215,9 @@ $ rm thesis
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99557" data-size="small" async></script>
+> id="asciicast-99557" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 This happens because `rm` by default only works on files, not directories.
 
@@ -237,8 +237,8 @@ We can do this with the [recursive](https://en.wikipedia.org/wiki/Recursion) opt
 >
 > >## `output`
 > > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> > id="asciicast-99560" data-size="small" async></script>
-> {: .solution}
+> > id="asciicast-99560" data-size="small"></script>
+> {: .asciinema}
 >
 > This removes everything in the directory, then the directory itself, asking
 > at each step for you to confirm the deletion.
@@ -258,9 +258,9 @@ $ ls thesis
 
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99561" data-size="small" async></script>
+> id="asciicast-99561" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 ## **Move a File**
 `draft.txt` isn't a particularly informative name,
@@ -274,9 +274,9 @@ $ ls thesis
 {: .bash}
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99562" data-size="small" async></script>
+> id="asciicast-99562" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 The first parameter tells `mv` what we're "moving",
 while the second is where it's to go.
@@ -313,9 +313,9 @@ $ ls
 {: .bash}
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99633" data-size="small" async></script>
+> id="asciicast-99633" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 ## **Copy a File**
 
@@ -332,9 +332,9 @@ $ ls . thesis/
 {: .bash}
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99634" data-size="small" async></script>
+> id="asciicast-99634" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 To prove that we made a copy,
 let's delete the `quotes.txt` file in the current directory
@@ -347,9 +347,9 @@ $ ls quotes.txt thesis/quotations.txt
 {: .bash}
 >## `output`
 > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99635" data-size="small" async></script>
+> id="asciicast-99635" data-size="small"></script>
 >
-{: .solution}
+{: .asciinema}
 
 We won't find `quotes.txt` in the current directory,
 but copy in `thesis` that we didn't delete remains.

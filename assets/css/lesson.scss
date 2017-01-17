@@ -22,6 +22,7 @@ $color-keypoints:   #7ae78e !default;
 $color-objectives:  #daee84 !default;
 $color-prereq:      #9cd6dc !default;
 $color-solution:    #ded4b9 !default;
+$color-asciinema:      #b9c3de !default;
 $color-testimonial: #fc8dc1 !default;
 
 //----------------------------------------
@@ -93,6 +94,7 @@ $codeblock-padding: 5px !default;
 .objectives{ @include bkSetup($color-objectives, "\e085"); }
 .prereq{ @include bkSetup($color-prereq, "\e124"); }
 .solution{ @include bkSetup($color-solution, "\e105"); }
+.asciinema{ @include bkSetup($color-asciinema, "\e254"); }
 .testimonial{ @include bkSetup($color-testimonial, "\e143"); }
 
 //----------------------------------------
