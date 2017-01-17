@@ -67,8 +67,8 @@ $ whoami
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99489.js"
-> id="asciicast-99489" data-size="small" ></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-01-whoami.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -111,13 +111,11 @@ which is Nelle's **home directory**:
 $ pwd
 ~~~
 {: .bash}
-
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99488.js"
-> id="asciicast-99488" data-size="small" ></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-02-pwd.json">
+> </asciinema-player>
 >
 {: .asciinema}
-
 
 
 ## **List Your Files and Directories**
@@ -190,8 +188,8 @@ $ ls
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99492.js"
-> id="asciicast-99492" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-03-ls.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -210,8 +208,8 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99493.js"
-> id="asciicast-99493" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-04-lsF.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -239,8 +237,8 @@ $ man ls
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99498.js"
-> id="asciicast-99498" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-05-manls.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -282,8 +280,8 @@ $ ls -F PIL-data
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99499.js"
-> id="asciicast-99499" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-06-lspildata.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -321,8 +319,8 @@ $ pwd
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99503.js"
-> id="asciicast-99503" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-07-gotodata.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -340,8 +338,8 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99505.js"
-> id="asciicast-99505" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-08-lsdata.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -354,8 +352,8 @@ cd PIL-data
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99507.js"
-> id="asciicast-99507" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-09-cdoops.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -375,8 +373,8 @@ $ cd ..
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99508.js"
-> id="asciicast-99508" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-10-upone.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -397,8 +395,8 @@ $ ls -F -a
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99509.js"
-> id="asciicast-99509" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-11-lsFa.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -442,14 +440,15 @@ a directory?
 
 ~~~
 $ cd
+$ pwd
 ~~~
 {: .bash}
 
 How can you check what happened?  `pwd` gives us the answer!  
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99511.js"
-> id="asciicast-99511" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-12-cdhome.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -468,8 +467,8 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99511.js"
-> id="asciicast-99511" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-13-cdrelpath.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -500,8 +499,8 @@ $ cd /home/nelle/Desktop/PIL-data
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99514.js"
-> id="asciicast-99514" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-14-cdabspath.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -595,8 +594,8 @@ and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99515.js"
-> id="asciicast-99515" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-15-tabcom.json">
+> </asciinema-player>
 >
 {: .asciinema}
 

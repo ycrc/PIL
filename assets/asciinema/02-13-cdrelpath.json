@@ -1,0 +1,118 @@
+{
+  "width": 80,
+  "version": 1,
+  "title": null,
+  "command": null,
+  "duration": 12.932166,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "height": 16,
+  "stdout": [
+    [
+      0.116486,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ],
+    [
+      0.857646,
+      "c"
+    ],
+    [
+      0.073847,
+      "d"
+    ],
+    [
+      0.150291,
+      " "
+    ],
+    [
+      0.402778,
+      "P"
+    ],
+    [
+      0.305283,
+      "I"
+    ],
+    [
+      0.297763,
+      "L-data/"
+    ],
+    [
+      1.761784,
+      "d"
+    ],
+    [
+      0.0925,
+      "a"
+    ],
+    [
+      0.317067,
+      "ta/"
+    ],
+    [
+      1.36791,
+      "\r\n"
+    ],
+    [
+      0.000971,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ],
+    [
+      1.118986,
+      "p"
+    ],
+    [
+      0.135967,
+      "w"
+    ],
+    [
+      0.303115,
+      "d"
+    ],
+    [
+      2.125399,
+      "\r\n"
+    ],
+    [
+      6.8e-05,
+      "/home/nelle/PIL-data/data\r\n"
+    ],
+    [
+      0.000846,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ],
+    [
+      1.302628,
+      "l"
+    ],
+    [
+      0.122809,
+      "s"
+    ],
+    [
+      0.303229,
+      " "
+    ],
+    [
+      0.941933,
+      "-"
+    ],
+    [
+      0.523811,
+      "F"
+    ],
+    [
+      0.304245,
+      "\r\n"
+    ],
+    [
+      0.002459,
+      "amino-acids.txt  \u001b[0m\u001b[01;34melements\u001b[0m/  \u001b[01;34mpdb\u001b[0m/         salmon.txt\r\nanimals.txt      morse.txt  planets.txt  sunspot.txt\r\n"
+    ],
+    [
+      0.001239,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ]
+  ]
+}

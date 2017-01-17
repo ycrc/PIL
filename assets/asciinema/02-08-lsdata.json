@@ -1,0 +1,50 @@
+{
+  "height": 16,
+  "version": 1,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "duration": 2.67487,
+  "command": null,
+  "title": null,
+  "width": 80,
+  "stdout": [
+    [
+      0.114172,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ],
+    [
+      1.1923,
+      "l"
+    ],
+    [
+      0.093642,
+      "s"
+    ],
+    [
+      0.092194,
+      " "
+    ],
+    [
+      0.300474,
+      "-"
+    ],
+    [
+      0.370425,
+      "F"
+    ],
+    [
+      0.507222,
+      "\r\n"
+    ],
+    [
+      0.002334,
+      "amino-acids.txt  \u001b[0m\u001b[01;34melements\u001b[0m/  \u001b[01;34mpdb\u001b[0m/         salmon.txt\r\nanimals.txt      morse.txt  planets.txt  sunspot.txt\r\n"
+    ],
+    [
+      0.001035,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ]
+  ]
+}

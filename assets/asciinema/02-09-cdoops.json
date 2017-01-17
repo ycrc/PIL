@@ -1,0 +1,74 @@
+{
+  "title": null,
+  "version": 1,
+  "height": 16,
+  "duration": 3.401364,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.116681,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ],
+    [
+      1.280475,
+      "c"
+    ],
+    [
+      0.087856,
+      "d"
+    ],
+    [
+      0.081985,
+      " "
+    ],
+    [
+      1.084148,
+      "P"
+    ],
+    [
+      4.4e-05,
+      "I"
+    ],
+    [
+      4.6e-05,
+      "L"
+    ],
+    [
+      5.6e-05,
+      "-"
+    ],
+    [
+      5.7e-05,
+      "d"
+    ],
+    [
+      6.1e-05,
+      "a"
+    ],
+    [
+      5.4e-05,
+      "t"
+    ],
+    [
+      6.6e-05,
+      "a"
+    ],
+    [
+      0.747869,
+      "\r\n"
+    ],
+    [
+      0.000266,
+      "bash: cd: PIL-data: No such file or directory\r\n"
+    ],
+    [
+      0.000654,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ]
+  ],
+  "width": 80,
+  "command": null
+}

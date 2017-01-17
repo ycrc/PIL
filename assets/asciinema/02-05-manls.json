@@ -1,0 +1,1066 @@
+{
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "width": 80,
+  "title": null,
+  "stdout": [
+    [
+      0.114356,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ],
+    [
+      0.509985,
+      "m"
+    ],
+    [
+      0.100175,
+      "a"
+    ],
+    [
+      0.120042,
+      "n"
+    ],
+    [
+      0.178064,
+      " "
+    ],
+    [
+      0.360073,
+      "l"
+    ],
+    [
+      0.121912,
+      "s"
+    ],
+    [
+      0.410043,
+      "\r\n"
+    ],
+    [
+      0.036366,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.075418,
+      "LS(1)                            User Commands                           LS(1)\u001b[m\r\n\u001b[m\r\n\u001b[1mNAME\u001b[0m\u001b[m\r\n       ls - list directory contents\u001b[m\r\n\u001b[m\r\n\u001b[1mSYNOPSIS\u001b[0m\u001b[m"
+    ],
+    [
+      5.2e-05,
+      "\r\n       \u001b[1mls\u001b[0m [\u001b[4mOPTION\u001b[24m]... [\u001b[4mFILE\u001b[24m]...\u001b[m\r\n\u001b[m\r\n\u001b[1mDESCRIPTION\u001b[0m\u001b[m\r\n       List  information  about  the FILEs (the current directory by default).\u001b[m\r\n       Sort entries alphabetically if none of \u001b[1m-cftuvSUX\u001b[0m nor \u001b[1m--sort\u001b[0m  is  speci‐\u001b[m\r\n       fied.\u001b[m\r\n"
+    ],
+    [
+      3.5e-05,
+      "\u001b[m\r\n       Mandatory  arguments  to  long  options are mandatory for short options\u001b[m\r\n       too.\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "       \u001b[1m-a\u001b[0m, \u001b[1m--all\u001b[0m\u001b[m\r\n              do not ignore entries starting with .\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      3.5e-05,
+      "       \u001b[1m-A\u001b[0m, \u001b[1m--almost-all\u001b[0m\u001b[m\r\n              do not list implied . and ..\u001b[m\r\n\u001b[m"
+    ],
+    [
+      2.9e-05,
+      "\r\n       \u001b[1m--author\u001b[0m\u001b[m\r\n              with \u001b[1m-l\u001b[0m, print the author of each file\u001b[m\r\n\u001b[m"
+    ],
+    [
+      4.8e-05,
+      "\r\n       \u001b[1m-b\u001b[0m, \u001b[1m--escape\u001b[0m\u001b[m\r\n              print C-style escapes for nongraphic characters\u001b[m\r\n"
+    ],
+    [
+      4.8e-05,
+      "\u001b[m\r\n       \u001b[1m--block-size\u001b[0m=\u001b[4mSIZE\u001b[24m\u001b[m\r\n              scale   sizes   b"
+    ],
+    [
+      0.000235,
+      "y   SIZE   before   printing    them.     E.g.,\u001b[m\r\n              '--block-size=M'  prints sizes in units of 1,048,576 bytes.  See\u001b[m"
+    ],
+    [
+      3.3e-05,
+      "\r\n              SIZE format below.\u001b[m\r\n\u001b[m\r\n       \u001b[1m-B\u001b[0m, \u001b[1m--ignore-backups\u001b[0m\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 1 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.955775,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.6e-05,
+      "              do not list implied entries ending with ~\u001b[m\r\n"
+    ],
+    [
+      4.5e-05,
+      "\u001b[7m Manual page ls(1) line 2 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.178137,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 5 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.127696,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      6.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.7e-05,
+      "       \u001b[1m-c\u001b[0m     with \u001b[1m-lt\u001b[0m: sort by, and show, ctime (time of last modification of\u001b[m\r\n"
+    ],
+    [
+      4.3e-05,
+      "\u001b[7m Manual page ls(1) line 6 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.089833,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      9.3e-05,
+      "              file  status  information)  with \u001b[1m-l\u001b[0m: show ctime and sort by name\u001b[m\r\n\u001b[7m Manual page ls(1) line 7 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.20228,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.5e-05,
+      "              otherwise: sort by ctime, newest first\u001b[m\r\n\u001b[7m Manual page ls(1) line 8 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.977716,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 9 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.175987,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      5.2e-05,
+      "       \u001b[1m-C\u001b[0m     list entries by columns\u001b[m\r\n"
+    ],
+    [
+      4.5e-05,
+      "\u001b[7m Manual page ls(1) line 10 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.12403,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 11 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.160388,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      4.9e-05,
+      "       \u001b[1m--color\u001b[0m[=\u001b[4mWHEN\u001b[24m]\u001b[m\r\n\u001b[7m Manual page ls(1) line 12 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.177489,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      8.8e-05,
+      "              colorize the output.   WHEN  defaults  to  'always'  or  can  be\u001b[m\r\n\u001b[7m Manual page ls(1) line 13 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.099798,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.1e-05,
+      "              'never' or 'auto'.  More info below\u001b[m\r\n"
+    ],
+    [
+      4.4e-05,
+      "\u001b[7m Manual page ls(1) line 14 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.123835,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      4e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 15 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.500067,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      4.8e-05,
+      "       \u001b[1m-d\u001b[0m, \u001b[1m--directory\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 16 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033891,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      9.1e-05,
+      "              list  directory entries instead of contents, and do not derefer‐\u001b[m\r\n\u001b[7m Manual page ls(1) line 17 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.032015,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      4e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      4.6e-05,
+      "              ence symbolic links\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 18 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033764,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 19 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031946,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.1e-05,
+      "       \u001b[1m-D\u001b[0m, \u001b[1m--dired\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 20 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033925,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.3e-05,
+      "              generate output designed for Emacs' dired mode\u001b[m\r\n\u001b[7m Manual page ls(1) line 21 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031977,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      4e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 22 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033891,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      7.8e-05,
+      "       \u001b[1m-f\u001b[0m     do not sort, enable \u001b[1m-aU\u001b[0m, disable \u001b[1m-ls\u001b[0m \u001b[1m--color\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 23 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.032614,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4.1e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n"
+    ],
+    [
+      6e-05,
+      "\u001b[7m Manual page ls(1) line 24 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033206,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4.6e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.3e-05,
+      "       \u001b[1m-F\u001b[0m, \u001b[1m--classify\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 25 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033892,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.1e-05,
+      "              append indicator (one of */=>@|) to entries\u001b[m\r\n\u001b[7m Manual page ls(1) line 26 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031892,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 27 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.032137,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      6e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      4.7e-05,
+      "       \u001b[1m--file-type\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 28 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033884,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.9e-05,
+      "              likewise, except do not append '*'\u001b[m\r\n\u001b[7m Manual page ls(1) line 29 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.03184,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4.1e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 30 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.034024,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      4.6e-05,
+      "       \u001b[1m--format\u001b[0m=\u001b[4mWORD\u001b[24m\u001b[m\r\n\u001b[7m Manual page ls(1) line 31 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031867,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      9.2e-05,
+      "              across \u001b[1m-x\u001b[0m, commas \u001b[1m-m\u001b[0m, horizontal \u001b[1m-x\u001b[0m, long \u001b[1m-l\u001b[0m, single-column  \u001b[1m-1\u001b[0m,\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 32 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.036093,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.3e-05,
+      "              verbose \u001b[1m-l\u001b[0m, vertical \u001b[1m-C\u001b[0m\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 33 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.029492,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 34 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.034152,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.7e-05,
+      "       \u001b[1m--full-time\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 35 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.03175,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      8.1e-05,
+      "              like \u001b[1m-l\u001b[0m \u001b[1m--time-style\u001b[0m=\u001b[4mfull-iso\u001b[24m\u001b[m\r\n\u001b[7m Manual page ls(1) line 36 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.034009,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 37 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.032148,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.2e-05,
+      "       \u001b[1m-g\u001b[0m     like \u001b[1m-l\u001b[0m, but do not list owner\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 38 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033648,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      4e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 39 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.042608,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.7e-05,
+      "       \u001b[1m--group-directories-first\u001b[0m\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 40 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.023314,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.1e-05,
+      "              group directories before files.\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 41 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.03178,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      5.9e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 42 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033899,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      0.000104,
+      "              augment  with  a  \u001b[1m--sort\u001b[0m option, but any use of \u001b[1m--sort\u001b[0m=\u001b[4mnone\u001b[24m (\u001b[1m-U\u001b[0m)\u001b[m\r\n\u001b[7m Manual page ls(1) line 43 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.03251,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      8.3e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.3e-05,
+      "              disables grouping\u001b[m\r\n\u001b[7m Manual page ls(1) line 44 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033275,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 45 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.03395,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      4.5e-05,
+      "       \u001b[1m-G\u001b[0m, \u001b[1m--no-group\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 46 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031909,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.7e-05,
+      "              in a long listing, don't print group names\u001b[m\r\n"
+    ],
+    [
+      3.2e-05,
+      "\u001b[7m Manual page ls(1) line 47 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031884,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 48 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033976,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.9e-05,
+      "       \u001b[1m-h\u001b[0m, \u001b[1m--human-readable\u001b[0m\u001b[m\r\n"
+    ],
+    [
+      3.2e-05,
+      "\u001b[7m Manual page ls(1) line 49 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031842,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      8.5e-05,
+      "              with \u001b[1m-l\u001b[0m, print sizes in human readable format (e.g., 1K 234M 2G)\u001b[m\r\n\u001b[7m Manual page ls(1) line 50 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.03387,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 51 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031965,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.8e-05,
+      "       \u001b[1m--si\u001b[0m   likewise, but use powers of 1000 not 1024\u001b[m\r\n"
+    ],
+    [
+      3e-05,
+      "\u001b[7m Manual page ls(1) line 52 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031976,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 53 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.034081,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.9e-05,
+      "       \u001b[1m-H\u001b[0m, \u001b[1m--dereference-command-line\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 54 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033697,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.7e-05,
+      "              follow symbolic links listed on the command line\u001b[m\r\n\u001b[7m Manual page ls(1) line 55 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.0319,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4.1e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 56 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.03393,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      8.9e-05,
+      "       \u001b[1m--dereference-command-line-symlink-to-dir\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 57 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031909,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      8.6e-05,
+      "              follow each command line symbolic link that points to  a  direc‐\u001b[m\r\n\u001b[7m Manual page ls(1) line 58 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033882,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      5e-05,
+      "              tory\u001b[m\r\n\u001b[7m Manual page ls(1) line 59 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.633994,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 60 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.49803,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      4.1e-05,
+      "       \u001b[1m--hide\u001b[0m=\u001b[4mPATTERN\u001b[24m\u001b[m\r\n\u001b[7m Manual page ls(1) line 61 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033921,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4.7e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      7.6e-05,
+      "              do  not  list implied entries matching shell PATTERN (overridden\u001b[m\r\n\u001b[7m Manual page ls(1) line 62 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031912,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.7e-05,
+      "              by \u001b[1m-a\u001b[0m or \u001b[1m-A\u001b[0m)\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 63 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.034045,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4e-05,
+      "\u001b[KB\bB\r\u001b[K\u001b[m\r\n\u001b[7m Manual page ls(1) line 64 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031739,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.8e-05,
+      "       \u001b[1m--indicator-style\u001b[0m=\u001b[4mWORD\u001b[24m\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[7m Manual page ls(1) line 65 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033873,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      7.7e-05,
+      "              append indicator with style WORD to entry names: none (default),\u001b[m\r\n\u001b[7m Manual page ls(1) line 66 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.031918,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      8.9e-05,
+      "              slash (\u001b[1m-p\u001b[0m), file-type (\u001b[1m--file-type\u001b[0m), classify (\u001b[1m-F\u001b[0m)\u001b[m\r\n\u001b[7m Manual page ls(1) line 67 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.034334,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      4e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[m\r\n"
+    ],
+    [
+      4.2e-05,
+      "\u001b[7m Manual page ls(1) line 68 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.033407,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      4.5e-05,
+      "       \u001b[1m-i\u001b[0m, \u001b[1m--inode\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 69 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.585985,
+      "\r\u001b[K"
+    ],
+    [
+      0.00097,
+      "              print the index number of each file\u001b[m\r\n\u001b[m\r\n       \u001b[1m-I\u001b[0m, \u001b[1m--ignore\u001b[0m=\u001b[4mPATTERN\u001b[24m\u001b[m\r\n              do not list implied entries matching shell PATTERN\u001b[m\r\n\u001b[m\r\n       \u001b[1m-k\u001b[0m, \u001b[1m--kibibytes\u001b[0m\u001b[m\r\n"
+    ],
+    [
+      5.5e-05,
+      "              use 1024-byte blocks\u001b[m\r\n\u001b[m\r\n       \u001b[1m-l\u001b[0m     use a long listing format\u001b[m\r\n\u001b[m\r\n       \u001b[1m-L\u001b[0m, \u001b[1m--dereference\u001b[0m\u001b[m\r\n              when showing file information for a symbolic link, show informa‐\u001b[m\r\n              tion for the file the link references rather than for  the  link\u001b[m\r\n"
+    ],
+    [
+      3.4e-05,
+      "              itself\u001b[m\r\n\u001b[m\r\n       \u001b[1m-m\u001b[0m     fill width with a comma separated list of entries\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      3e-05,
+      "       \u001b[1m-n\u001b[0m, \u001b[1m--numeric-uid-gid\u001b[0m\u001b[m\r\n              like \u001b[1m-l\u001b[0m, but list numeric user and group IDs\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      5.8e-05,
+      "       \u001b[1m-N\u001b[0m, \u001b[1m--literal\u001b[0m\u001b[m\r\n              print  raw entry names (don't treat e.g. control characters spe‐\u001b[m\r\n              cially)\u001b[m"
+    ],
+    [
+      3.1e-05,
+      "\r\n\u001b[m\r\n       \u001b[1m-o\u001b[0m     like \u001b[1m-l\u001b[0m, but do not list group information\u001b[m\r\n\u001b[m\r\n       \u001b[1m-p\u001b[0m, \u001b[1m--in"
+    ],
+    [
+      0.000459,
+      "dicator-style\u001b[0m=\u001b[4mslash\u001b[24m\u001b[m\r\n              append / indicator to directories\u001b[m\r\n\u001b[m\r\n       \u001b[1m-q\u001b[0m, \u001b[1m--hide-control-chars\u001b[0m\u001b[m\r\n              print ? instead of non graphic characters\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      4.7e-05,
+      "       \u001b[1m--show-control-chars\u001b[0m\u001b[m\r\n              show non graphic characters as-is  (default  unless  program  is\u001b[m\r\n\u001b[7m Manual page ls(1) line 103 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.716442,
+      "\r\u001b[K"
+    ],
+    [
+      0.00097,
+      "              'ls' and output is a terminal)\u001b[m\r\n\u001b[m\r\n       \u001b[1m-Q\u001b[0m, \u001b[1m--quote-name\u001b[0m\u001b[m\r\n              enclose entry names in double quotes\u001b[m\r\n\u001b[m\r\n       \u001b[1m--quoting-style\u001b[0m=\u001b[4mWORD\u001b[24m\u001b[m\r\n"
+    ],
+    [
+      4.8e-05,
+      "              use  quoting style WORD for entry names: literal, locale, shell,\u001b[m\r\n              shell-always, c, escape\u001b[m\r\n\u001b[m\r\n       \u001b[1m-r\u001b[0m, \u001b[1m--reverse\u001b[0m\u001b[m\r\n              reverse order while sorting\u001b[m\r\n\u001b[m\r\n       \u001b[1m-R\u001b[0m, \u001b[1m--recursive\u001b[0m\u001b[m\r\n"
+    ],
+    [
+      3.3e-05,
+      "              list subdirectories recursively\u001b[m\r\n\u001b[m\r\n       \u001b[1m-s\u001b[0m, \u001b[1m--size\u001b[0m\u001b[m\r\n              print the allocated size of each file, in blocks\u001b[m"
+    ],
+    [
+      3e-05,
+      "\r\n\u001b[m\r\n       \u001b[1m-S\u001b[0m     sort by file size\u001b[m\r\n\u001b[m"
+    ],
+    [
+      3e-05,
+      "\r\n       \u001b[1m--sort\u001b[0m=\u001b[4mWORD\u001b[24m\u001b[m\r\n              sort by WORD instead of name: none \u001b[1m-U\u001b[0m, extension  \u001b[1m-X\u001b[0m,  size  \u001b[1m-S\u001b[0m,\u001b[m\r\n"
+    ],
+    [
+      3.6e-05,
+      "              time \u001b[1m-t\u001b[0m, version \u001b[1m-v\u001b[0m\u001b[m\r\n\u001b[m\r\n       \u001b[1m--time\u001b[0m=\u001b[4mWORD\u001b[24m\u001b[m"
+    ],
+    [
+      3.1e-05,
+      "\r\n              with  \u001b[1m-l\u001b[0m,  show time as WORD instead of modification time: atime\u001b[m\r\n              \u001b[1m-u\u001b[0m, "
+    ],
+    [
+      0.000579,
+      "access \u001b[1m-u\u001b[0m, use \u001b[1m-u\u001b[0m, ctime \u001b[1m-c\u001b[0m, or  status  \u001b[1m-c\u001b[0m;  use  specified\u001b[m\r\n              time as sort key if \u001b[1m--sort\u001b[0m=\u001b[4mtime\u001b[24m\u001b[m\r\n\u001b[m\r\n       \u001b[1m--time-style\u001b[0m=\u001b[4mSTYLE\u001b[24m\u001b[m\r\n              with  \u001b[1m-l\u001b[0m, show times using style STYLE: full-iso, long-iso, iso,\u001b[m\r\n              locale, +FORMAT.  FORMAT is interpreted like 'date';  if  FORMAT\u001b[m"
+    ],
+    [
+      4.6e-05,
+      "\r\n              is  FORMAT1<newline>FORMAT2, FORMAT1 applies to non-recent files\u001b[m\r\n              and FORMAT2 to recent files; if STYLE is prefixed with 'posix-',\u001b[m\r\n\u001b[7m Manual page ls(1) line 137 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.744438,
+      "\r\u001b[K"
+    ],
+    [
+      0.000886,
+      "              STYLE takes effect only outside the POSIX locale\u001b[m\r\n\u001b[m\r\n       \u001b[1m-t\u001b[0m     sort by modification time, newest first\u001b[m\r\n\u001b[m\r\n       \u001b[1m-T\u001b[0m, \u001b[1m--tabsize\u001b[0m=\u001b[4mCOLS\u001b[24m\u001b[m\r\n              assume tab stops at each COLS instead of 8\u001b[m\r\n"
+    ],
+    [
+      4.7e-05,
+      "\u001b[m\r\n       \u001b[1m-u\u001b[0m     with  \u001b[1m-lt\u001b[0m:  sort  by, and show, access time with \u001b[1m-l\u001b[0m: show access\u001b[m\r\n              time and sort by name otherwise: sort by access time\u001b[m\r\n\u001b[m\r\n       \u001b[1m-U\u001b[0m     do not sort; list entries in directory order\u001b[m\r\n\u001b[m\r\n       \u001b[1m-v\u001b[0m     natural sort of (version) numbers within text\u001b[m"
+    ],
+    [
+      3.3e-05,
+      "\r\n\u001b[m\r\n       \u001b[1m-w\u001b[0m, \u001b[1m--width\u001b[0m=\u001b[4mCOLS\u001b[24m\u001b[m\r\n              assume screen width instead of current value\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "\u001b[m\r\n       \u001b[1m-x\u001b[0m     list entries by lines instead of by columns\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      3e-05,
+      "       \u001b[1m-X\u001b[0m     sort alphabetically by entry extension\u001b[m\r\n\u001b[m\r\n       \u001b[1m-Z\u001b[0m, \u001b[1m--context\u001b[0m\u001b[m"
+    ],
+    [
+      3.2e-05,
+      "\r\n              print any SELinux security context of each file\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      3.1e-05,
+      "       \u001b[1m-1\u001b[0m     list one file per line\u001b[m\r\n\u001b[m\r\n       \u001b[1m--help"
+    ],
+    [
+      0.00043,
+      "\u001b[0m display this help and exit\u001b[m\r\n\u001b[m\r\n       \u001b[1m--version\u001b[0m\u001b[m\r\n              output version information and exit\u001b[m\r\n\u001b[m\r\n       SIZE is an integer and optional unit (example:  10M  is  10*1024*1024).\u001b[m\r\n"
+    ],
+    [
+      5.5e-05,
+      "       Units  are K, M, G, T, P, E, Z, Y (powers of 1024) or KB, MB, ... (pow‐\u001b[m\r\n       ers of 1000).\u001b[m\r\n\u001b[7m Manual page ls(1) line 171 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.834513,
+      "\r\u001b[K"
+    ],
+    [
+      4e-05,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000869,
+      "       Using color to distinguish file types is disabled both by  default  and\u001b[m\r\n       with  \u001b[1m--color\u001b[0m=\u001b[4mnever\u001b[24m.  With \u001b[1m--color\u001b[0m=\u001b[4mauto\u001b[24m, ls emits color codes only when\u001b[m\r\n       standard output is connected to a terminal.  The LS_COLORS  environment\u001b[m\r\n       variable can change the settings.  Use the dircolors command to set it.\u001b[m\r\n\u001b[m\r\n   \u001b[1mExit\u001b[0m \u001b[1mstatus:\u001b[0m\u001b[m\r\n"
+    ],
+    [
+      4.6e-05,
+      "       0      if OK,\u001b[m\r\n\u001b[m\r\n       1      if minor problems (e.g., cannot access subdirectory),\u001b[m\r\n\u001b[m\r\n       2      if serious trouble (e.g., cannot access command-line argument).\u001b[m\r\n\u001b[m\r\n\u001b[1mAUTHOR\u001b[0m\u001b[m"
+    ],
+    [
+      3.5e-05,
+      "\r\n       Written by Richard M. Stallman and David MacKenzie.\u001b[m\r\n\u001b[m\r\n\u001b[1mREPORTING\u001b[0m \u001b[1mBUGS\u001b[0m\u001b[m"
+    ],
+    [
+      3.1e-05,
+      "\r\n       Report ls bugs to bug-coreutils@gnu.org\u001b[m\r\n       GNU coreutils home page: <http://www.gnu.org/software/coreutils/>\u001b[m\r\n       General help using GNU software: <http://www.gnu.org/gethelp/>\u001b[m"
+    ],
+    [
+      2.9e-05,
+      "\r\n       Report ls translation bugs to <http://translationproject.org/team/>\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      3.9e-05,
+      "\u001b[1mCOPYRIGHT\u001b[0m\u001b[m\r\n       Copyrig"
+    ],
+    [
+      0.000586,
+      "ht  ©  2013  Free Software Foundation, Inc.  License GPLv3+: GNU\u001b[m\r\n       GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\u001b[m\r\n       This is free software: you are free  to  change  and  redistribute  it.\u001b[m\r\n       There is NO WARRANTY, to the extent permitted by law.\u001b[m\r\n\u001b[m\r\n\u001b[1mSEE\u001b[0m \u001b[1mALSO\u001b[0m\u001b[m\r\n"
+    ],
+    [
+      5.3e-05,
+      "       The  full  documentation  for \u001b[1mls\u001b[0m is maintained as a Texinfo manual.  If\u001b[m\r\n       the \u001b[1minfo\u001b[0m and \u001b[1mls\u001b[0m programs are properly installed at your site, the  com‐\u001b[m\r\n       mand\u001b[m\r\n\u001b[m\r\n              \u001b[1minfo\u001b[0m \u001b[1mcoreutils\u001b[0m \u001b[1m'ls\u001b[0m \u001b[1minvocation'\u001b[0m\u001b[m\r\n\u001b[7m Manual page ls(1) line 205 (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      1.048337,
+      "\r\u001b[K"
+    ],
+    [
+      0.000211,
+      "\u001b[m\r\n       should give you access to the complete manual.\u001b[m"
+    ],
+    [
+      3.2e-05,
+      "\r\n\u001b[m\r\nGNU coreutils 8.21                March 2016                             LS(1)\u001b[m\r\n"
+    ],
+    [
+      6.3e-05,
+      "\u001b[7m Manual page ls(1) line 209/244 (END) (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.816051,
+      "\r\u001b[K"
+    ],
+    [
+      4e-05,
+      "\u0007\r\u001b[K\u001b[7m Manual page ls(1) line 209/244 (END) (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      0.315835,
+      "\r\u001b[K"
+    ],
+    [
+      4.7e-05,
+      "\u0007\r\u001b[K\u001b[7m Manual page ls(1) line 209/244 (END) (press h for help or q to quit)\u001b[27m\u001b[K"
+    ],
+    [
+      1.706108,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.002388,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ]
+  ],
+  "height": 35,
+  "version": 1,
+  "command": null,
+  "duration": 15.517916
+}

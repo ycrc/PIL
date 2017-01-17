@@ -1,0 +1,74 @@
+{
+  "height": 16,
+  "command": null,
+  "stdout": [
+    [
+      0.117192,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      1.032608,
+      "p"
+    ],
+    [
+      0.388082,
+      "w"
+    ],
+    [
+      0.125769,
+      "d"
+    ],
+    [
+      1.128102,
+      "\r\n"
+    ],
+    [
+      8.1e-05,
+      "/home/nelle/PIL-data\r\n"
+    ],
+    [
+      0.000698,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      0.939381,
+      "l"
+    ],
+    [
+      0.174075,
+      "s"
+    ],
+    [
+      0.172308,
+      " "
+    ],
+    [
+      0.309965,
+      "-"
+    ],
+    [
+      0.525887,
+      "F"
+    ],
+    [
+      0.428884,
+      "\r\n"
+    ],
+    [
+      0.002866,
+      "\u001b[0m\u001b[01;34mcreatures\u001b[0m/  \u001b[01;34mDesktop\u001b[0m/    \u001b[01;34mnorth-pacific-gyre\u001b[0m/  pizza.cfg  \u001b[01;34mwriting\u001b[0m/\r\n\u001b[01;34mdata\u001b[0m/       \u001b[01;34mmolecules\u001b[0m/  notes.txt            solar.pdf\r\n"
+    ],
+    [
+      0.000744,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ]
+  ],
+  "duration": 5.347754,
+  "version": 1,
+  "width": 80,
+  "title": null,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "duration": 13.642372,
+  "command": null,
+  "stdout": [
+    [
+      0.114245,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ],
+    [
+      0.952506,
+      "c"
+    ],
+    [
+      0.061984,
+      "d"
+    ],
+    [
+      0.089996,
+      " "
+    ],
+    [
+      0.546067,
+      "P"
+    ],
+    [
+      0.160042,
+      "I"
+    ],
+    [
+      0.547755,
+      "L-data/"
+    ],
+    [
+      2.170604,
+      "\r\n"
+    ],
+    [
+      0.000746,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      2.995726,
+      "c"
+    ],
+    [
+      0.069027,
+      "d"
+    ],
+    [
+      0.143174,
+      " "
+    ],
+    [
+      0.491894,
+      "d"
+    ],
+    [
+      0.094839,
+      "a"
+    ],
+    [
+      0.201248,
+      "t"
+    ],
+    [
+      0.069966,
+      "a"
+    ],
+    [
+      2.212214,
+      "\r\n"
+    ],
+    [
+      0.000945,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ],
+    [
+      1.601624,
+      "p"
+    ],
+    [
+      0.121795,
+      "w"
+    ],
+    [
+      0.236796,
+      "d"
+    ],
+    [
+      0.757205,
+      "\r\n"
+    ],
+    [
+      3.9e-05,
+      "/home/nelle/PIL-data/data\r\n"
+    ],
+    [
+      0.000861,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ]
+  ],
+  "width": 80,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "height": 16,
+  "version": 1,
+  "title": null
+}

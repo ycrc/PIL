@@ -1,0 +1,62 @@
+{
+  "stdout": [
+    [
+      0.111399,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      0.867237,
+      "l"
+    ],
+    [
+      0.084931,
+      "s"
+    ],
+    [
+      0.083897,
+      " "
+    ],
+    [
+      0.265958,
+      "m"
+    ],
+    [
+      0.039745,
+      "o"
+    ],
+    [
+      0.216236,
+      "l"
+    ],
+    [
+      0.095876,
+      "e"
+    ],
+    [
+      0.593116,
+      "cules/"
+    ],
+    [
+      0.617829,
+      "\r\n"
+    ],
+    [
+      0.002472,
+      "cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb\r\n"
+    ],
+    [
+      0.00096,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ]
+  ],
+  "duration": 2.980765,
+  "command": null,
+  "height": 16,
+  "width": 80,
+  "version": 1,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "title": null
+}

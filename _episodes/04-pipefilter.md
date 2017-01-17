@@ -39,8 +39,8 @@ $ ls molecules
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99667.js"
-> id="asciicast-99667" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-01-lsmo.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -57,8 +57,8 @@ $ wc *.pdb
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99668.js"
-> id="asciicast-99668" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-02-wcwild.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -71,8 +71,8 @@ $ wc -l *.pdb
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99675.js"
-> id="asciicast-99675" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-03-wcl.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -107,8 +107,8 @@ There's only one file in this case,
 so `cat` just shows us what it contains:
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99677.js"
-> id="asciicast-99677" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-04-redirect.json">
+> </asciinema-player>
 >
 {: .asciinema}
 

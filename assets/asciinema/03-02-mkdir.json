@@ -1,0 +1,106 @@
+{
+  "duration": 10.302044,
+  "height": 16,
+  "command": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "version": 1,
+  "width": 80,
+  "title": null,
+  "stdout": [
+    [
+      0.118804,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      1.422981,
+      "m"
+    ],
+    [
+      0.202046,
+      "k"
+    ],
+    [
+      0.301396,
+      "d"
+    ],
+    [
+      0.142817,
+      "i"
+    ],
+    [
+      0.162281,
+      "r"
+    ],
+    [
+      0.226008,
+      " "
+    ],
+    [
+      0.883763,
+      "t"
+    ],
+    [
+      0.102064,
+      "h"
+    ],
+    [
+      0.162293,
+      "e"
+    ],
+    [
+      0.297919,
+      "s"
+    ],
+    [
+      0.122101,
+      "i"
+    ],
+    [
+      0.150206,
+      "s"
+    ],
+    [
+      1.965816,
+      "\r\n"
+    ],
+    [
+      0.003146,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      2.353796,
+      "l"
+    ],
+    [
+      0.131474,
+      "s"
+    ],
+    [
+      0.114114,
+      " "
+    ],
+    [
+      0.33679,
+      "-"
+    ],
+    [
+      0.491386,
+      "F"
+    ],
+    [
+      0.606165,
+      "\r\n"
+    ],
+    [
+      0.002589,
+      "\u001b[0m\u001b[01;34mcreatures\u001b[0m/  \u001b[01;34mDesktop\u001b[0m/    \u001b[01;34mnorth-pacific-gyre\u001b[0m/  pizza.cfg  \u001b[01;34mthesis\u001b[0m/\r\n\u001b[01;34mdata\u001b[0m/       \u001b[01;34mmolecules\u001b[0m/  notes.txt            solar.pdf  \u001b[01;34mwriting\u001b[0m/\r\n"
+    ],
+    [
+      0.00099,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "command": null,
+  "version": 1,
+  "title": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "duration": 4.58256,
+  "width": 80,
+  "height": 16,
+  "stdout": [
+    [
+      0.110953,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ],
+    [
+      1.363728,
+      "l"
+    ],
+    [
+      0.280047,
+      "s"
+    ],
+    [
+      0.345805,
+      " "
+    ],
+    [
+      0.290197,
+      "-"
+    ],
+    [
+      0.972019,
+      "F"
+    ],
+    [
+      1.215995,
+      "\r\n"
+    ],
+    [
+      0.002319,
+      "\u001b[0m\u001b[01;34mPIL-data\u001b[0m/  \u001b[01;31mPIL-data.zip\u001b[0m\r\n"
+    ],
+    [
+      0.000643,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ]
+  ]
+}

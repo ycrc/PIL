@@ -1,0 +1,82 @@
+{
+  "height": 16,
+  "version": 1,
+  "title": null,
+  "width": 80,
+  "stdout": [
+    [
+      0.113575,
+      "\u001b]0;nelle@stacks: ~/PIL-data/thesis\u0007nelle@stacks:~/PIL-data/thesis$ "
+    ],
+    [
+      1.047122,
+      "l"
+    ],
+    [
+      0.095963,
+      "s"
+    ],
+    [
+      0.409956,
+      "\r\n"
+    ],
+    [
+      0.002303,
+      "draft.txt\r\n"
+    ],
+    [
+      0.001289,
+      "\u001b]0;nelle@stacks: ~/PIL-data/thesis\u0007nelle@stacks:~/PIL-data/thesis$ "
+    ],
+    [
+      0.952559,
+      "r"
+    ],
+    [
+      0.104007,
+      "m"
+    ],
+    [
+      0.203988,
+      " "
+    ],
+    [
+      2.035208,
+      "d"
+    ],
+    [
+      0.197507,
+      "raft.txt "
+    ],
+    [
+      1.179765,
+      "\r\n"
+    ],
+    [
+      0.003001,
+      "\u001b]0;nelle@stacks: ~/PIL-data/thesis\u0007nelle@stacks:~/PIL-data/thesis$ "
+    ],
+    [
+      0.843412,
+      "l"
+    ],
+    [
+      0.059707,
+      "s"
+    ],
+    [
+      0.20197,
+      "\r\n"
+    ],
+    [
+      0.003515,
+      "\u001b]0;nelle@stacks: ~/PIL-data/thesis\u0007nelle@stacks:~/PIL-data/thesis$ "
+    ]
+  ],
+  "command": null,
+  "duration": 7.455926,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  }
+}

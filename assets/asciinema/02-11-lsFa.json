@@ -1,0 +1,66 @@
+{
+  "width": 80,
+  "version": 1,
+  "height": 16,
+  "stdout": [
+    [
+      0.115889,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      0.867814,
+      "l"
+    ],
+    [
+      0.095713,
+      "s"
+    ],
+    [
+      0.085985,
+      " "
+    ],
+    [
+      0.320163,
+      "-"
+    ],
+    [
+      0.471969,
+      "F"
+    ],
+    [
+      0.229992,
+      " "
+    ],
+    [
+      0.280438,
+      "-"
+    ],
+    [
+      0.243681,
+      "a"
+    ],
+    [
+      0.472075,
+      "\r\n"
+    ],
+    [
+      0.002475,
+      "\u001b[0m\u001b[01;34m.\u001b[0m/             \u001b[01;34mcreatures\u001b[0m/  lshelp.json  \u001b[01;34mmolecules\u001b[0m/           pizza.cfg\r\n\u001b[01;34m..\u001b[0m/            \u001b[01;34mdata\u001b[0m/       lspil.json   \u001b[01;34mnorth-pacific-gyre\u001b[0m/  solar.pdf\r\n"
+    ],
+    [
+      5.1e-05,
+      ".bash_profile  \u001b[01;34mDesktop\u001b[0m/    manls.json   notes.txt            \u001b[01;34mwriting\u001b[0m/\r\n"
+    ],
+    [
+      0.000882,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ]
+  ],
+  "command": null,
+  "title": null,
+  "duration": 3.187941,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  }
+}

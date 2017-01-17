@@ -1,0 +1,62 @@
+{
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "duration": 6.602425,
+  "height": 16,
+  "width": 80,
+  "command": null,
+  "title": null,
+  "stdout": [
+    [
+      0.116468,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      3.541186,
+      "r"
+    ],
+    [
+      0.100479,
+      "m"
+    ],
+    [
+      0.22401,
+      " "
+    ],
+    [
+      0.316032,
+      "t"
+    ],
+    [
+      0.101571,
+      "h"
+    ],
+    [
+      0.258183,
+      "e"
+    ],
+    [
+      0.764643,
+      "sis/"
+    ],
+    [
+      1.175578,
+      "\r\n"
+    ],
+    [
+      0.00207,
+      "rm: cannot remove ‘thesis/’"
+    ],
+    [
+      0.000157,
+      ": Is a directory\r\n"
+    ],
+    [
+      0.000978,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ]
+  ],
+  "version": 1
+}

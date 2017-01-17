@@ -1,0 +1,66 @@
+{
+  "stdout": [
+    [
+      0.11292,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      0.903938,
+      "l"
+    ],
+    [
+      0.08829,
+      "s"
+    ],
+    [
+      0.665919,
+      " "
+    ],
+    [
+      0.688052,
+      "n"
+    ],
+    [
+      0.492163,
+      "o"
+    ],
+    [
+      0.516253,
+      "r"
+    ],
+    [
+      0.409179,
+      "th-pacific-gyre/"
+    ],
+    [
+      1.472248,
+      "2012-07-03/"
+    ],
+    [
+      2.617066,
+      "\r\n"
+    ],
+    [
+      0.00274,
+      "goodiff         NENE01736A.txt  NENE01843A.txt  NENE01978B.txt  NENE02040Z.txt\r\ngoostats        NENE01751A.txt  NENE01843B.txt  NENE02018B.txt  NENE02043A.txt\r\n"
+    ],
+    [
+      4.6e-05,
+      "NENE01729A.txt  NENE01751B.txt  NENE01971Z.txt  NENE02040A.txt  NENE02043B.txt\r\nNENE01729B.txt  NENE01812A.txt  NENE01978A.txt  NENE02040B.txt\r\n"
+    ],
+    [
+      0.001181,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ]
+  ],
+  "version": 1,
+  "height": 16,
+  "command": null,
+  "width": 80,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "title": null,
+  "duration": 7.971088
+}

@@ -1,0 +1,198 @@
+{
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "duration": 15.633988,
+  "version": 1,
+  "title": null,
+  "width": 80,
+  "stdout": [
+    [
+      0.114228,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ],
+    [
+      1.060896,
+      "p"
+    ],
+    [
+      0.174038,
+      "w"
+    ],
+    [
+      0.218024,
+      "d"
+    ],
+    [
+      0.228086,
+      "\r\n"
+    ],
+    [
+      4.8e-05,
+      "/home/nelle/PIL-data/data\r\n"
+    ],
+    [
+      0.000723,
+      "\u001b]0;nelle@stacks: ~/PIL-data/data\u0007nelle@stacks:~/PIL-data/data$ "
+    ],
+    [
+      4.781926,
+      "c"
+    ],
+    [
+      0.068007,
+      "d"
+    ],
+    [
+      0.22202,
+      " "
+    ],
+    [
+      1.326213,
+      "/"
+    ],
+    [
+      7.3e-05,
+      "h"
+    ],
+    [
+      8.2e-05,
+      "o"
+    ],
+    [
+      8.7e-05,
+      "m"
+    ],
+    [
+      8.8e-05,
+      "e"
+    ],
+    [
+      8.8e-05,
+      "/"
+    ],
+    [
+      8.9e-05,
+      "n"
+    ],
+    [
+      9.1e-05,
+      "e"
+    ],
+    [
+      9.3e-05,
+      "l"
+    ],
+    [
+      9.6e-05,
+      "l"
+    ],
+    [
+      9.7e-05,
+      "e"
+    ],
+    [
+      9.7e-05,
+      "/"
+    ],
+    [
+      0.000102,
+      "P"
+    ],
+    [
+      0.000101,
+      "I"
+    ],
+    [
+      9.9e-05,
+      "L"
+    ],
+    [
+      0.000104,
+      "-"
+    ],
+    [
+      0.000103,
+      "d"
+    ],
+    [
+      0.000115,
+      "a"
+    ],
+    [
+      9.9e-05,
+      "t"
+    ],
+    [
+      0.000108,
+      "a"
+    ],
+    [
+      1.458321,
+      "\r\n"
+    ],
+    [
+      0.000683,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      1.95551,
+      "p"
+    ],
+    [
+      0.196125,
+      "w"
+    ],
+    [
+      0.102034,
+      "d"
+    ],
+    [
+      0.167995,
+      "\r\n"
+    ],
+    [
+      4e-05,
+      "/home/nelle/PIL-data\r\n"
+    ],
+    [
+      0.000698,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      1.431494,
+      "l"
+    ],
+    [
+      0.110438,
+      "s"
+    ],
+    [
+      0.469661,
+      " "
+    ],
+    [
+      0.432018,
+      "-"
+    ],
+    [
+      0.504069,
+      "F"
+    ],
+    [
+      0.604286,
+      "\r\n"
+    ],
+    [
+      0.002469,
+      "\u001b[0m\u001b[01;34mcreatures\u001b[0m/  \u001b[01;34mDesktop\u001b[0m/     lspil.json  \u001b[01;34mmolecules\u001b[0m/           notes.txt  solar.pdf\r\n\u001b[01;34mdata\u001b[0m/       lshelp.json  manls.json  \u001b[01;34mnorth-pacific-gyre\u001b[0m/  pizza.cfg  \u001b[01;34mwriting\u001b[0m/\r\n"
+    ],
+    [
+      0.001054,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ]
+  ],
+  "command": null,
+  "height": 16
+}

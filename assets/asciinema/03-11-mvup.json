@@ -1,0 +1,118 @@
+{
+  "title": null,
+  "height": 16,
+  "version": 1,
+  "width": 80,
+  "duration": 10.625654,
+  "stdout": [
+    [
+      0.112874,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      1.206186,
+      "m"
+    ],
+    [
+      0.149284,
+      "v"
+    ],
+    [
+      0.249609,
+      " "
+    ],
+    [
+      1.086498,
+      "t"
+    ],
+    [
+      0.118073,
+      "h"
+    ],
+    [
+      0.0886,
+      "e"
+    ],
+    [
+      0.210365,
+      "sis/"
+    ],
+    [
+      0.75497,
+      "quotes.txt "
+    ],
+    [
+      1.230681,
+      "."
+    ],
+    [
+      0.380802,
+      "\r\n"
+    ],
+    [
+      0.002624,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      1.341754,
+      "l"
+    ],
+    [
+      0.174131,
+      "s"
+    ],
+    [
+      0.114079,
+      " "
+    ],
+    [
+      0.219521,
+      "t"
+    ],
+    [
+      0.1535,
+      "h"
+    ],
+    [
+      0.059627,
+      "e"
+    ],
+    [
+      0.283739,
+      "sis/"
+    ],
+    [
+      0.475031,
+      "\r\n"
+    ],
+    [
+      0.003352,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      0.832823,
+      "l"
+    ],
+    [
+      0.087031,
+      "s"
+    ],
+    [
+      1.2858,
+      "\r\n"
+    ],
+    [
+      0.002457,
+      "\u001b[0m\u001b[01;34mcreatures\u001b[0m  \u001b[01;34mDesktop\u001b[0m    \u001b[01;34mnorth-pacific-gyre\u001b[0m  pizza.cfg   solar.pdf  \u001b[01;34mwriting\u001b[0m\r\n\u001b[01;34mdata\u001b[0m       \u001b[01;34mmolecules\u001b[0m  notes.txt           quotes.txt  \u001b[01;34mthesis\u001b[0m\r\n"
+    ],
+    [
+      0.001089,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ]
+  ],
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "command": null
+}

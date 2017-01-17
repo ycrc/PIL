@@ -1,0 +1,58 @@
+{
+  "command": null,
+  "version": 1,
+  "width": 80,
+  "stdout": [
+    [
+      0.112502,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      1.332136,
+      "c"
+    ],
+    [
+      0.049993,
+      "d"
+    ],
+    [
+      0.23217,
+      "\r\n"
+    ],
+    [
+      0.000243,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ],
+    [
+      2.406119,
+      "p"
+    ],
+    [
+      0.15461,
+      "w"
+    ],
+    [
+      0.143368,
+      "d"
+    ],
+    [
+      0.486076,
+      "\r\n"
+    ],
+    [
+      4.1e-05,
+      "/home/nelle\r\n"
+    ],
+    [
+      0.000416,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ]
+  ],
+  "height": 16,
+  "title": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "duration": 4.91872
+}

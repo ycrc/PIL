@@ -1,0 +1,114 @@
+{
+  "command": null,
+  "title": null,
+  "height": 16,
+  "version": 1,
+  "width": 80,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "duration": 8.63985,
+  "stdout": [
+    [
+      0.116696,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      0.704001,
+      "c"
+    ],
+    [
+      0.060368,
+      "d"
+    ],
+    [
+      0.076554,
+      " "
+    ],
+    [
+      0.226405,
+      "m"
+    ],
+    [
+      0.064744,
+      "o"
+    ],
+    [
+      0.717186,
+      "lecules/"
+    ],
+    [
+      0.723624,
+      "\r\n"
+    ],
+    [
+      0.001153,
+      "\u001b]0;nelle@stacks: ~/PIL-data/molecules\u0007nelle@stacks:~/PIL-data/molecules$ "
+    ],
+    [
+      1.076997,
+      "w"
+    ],
+    [
+      0.239998,
+      "c"
+    ],
+    [
+      0.096696,
+      " "
+    ],
+    [
+      0.86143,
+      "*"
+    ],
+    [
+      1.441803,
+      "."
+    ],
+    [
+      0.369749,
+      "p"
+    ],
+    [
+      0.620301,
+      "d"
+    ],
+    [
+      0.487618,
+      "b"
+    ],
+    [
+      0.749363,
+      "\r\n"
+    ],
+    [
+      0.002064,
+      "  20  156 1158 cubane.pdb\r\n"
+    ],
+    [
+      4.2e-05,
+      "  12   84  622 ethane.pdb\r\n   9   57  422 methane.pdb\r\n"
+    ],
+    [
+      0.00013,
+      "  30  246 1828 octane.pdb\r\n"
+    ],
+    [
+      9.2e-05,
+      "  21  165 1226 pentane.pdb\r\n"
+    ],
+    [
+      7.2e-05,
+      "  15  111  825 propane.pdb\r\n"
+    ],
+    [
+      0.000387,
+      " 107  819 6081 total\r\n"
+    ],
+    [
+      0.001302,
+      "\u001b]0;nelle@stacks: ~/PIL-data/molecules\u0007nelle@stacks:~/PIL-data/molecules$ "
+    ]
+  ]
+}

@@ -16,14 +16,14 @@ keypoints:
 - "`mv old new` moves (renames) a file or directory."
 - "`rm path` removes (deletes) a file."
 - "`rmdir path` removes (deletes) an empty directory."
-- "Use of the Control key may be described in many ways, including `Ctrl-X`, `Control-X`, and `^X`."
+- "Use of the Control key may be described in many ways, including `Control-X`, <kbd>Ctrl</kbd>+<kbd>X</kbd>, and `^X`."
 - "The shell does not have a trash bin: once something is deleted, it's really gone."
 - "Nano is a very simple text editor: please use something else for real work."
 ---
 
 We now know how to explore files and directories,
 but how do we create them in the first place?
-Let's go back to our `PIL-data` directory on the Desktop
+Let's go back to our `PIL-data` directory
 and use `ls -F` to see what it contains:
 
 ~~~
@@ -33,8 +33,8 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99544.js"
-> id="asciicast-99544" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-01-pwdls.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -50,8 +50,8 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99545.js"
-> id="asciicast-99545" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-02-mkdir.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -97,8 +97,8 @@ $ cd thesis
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99548.js"
-> id="asciicast-99548" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-03-cdthesis.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -123,8 +123,8 @@ Let's run a text editor called Nano to create a file called `draft.txt`.
 $ nano draft.txt
 ~~~
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99555.js"
-> id="asciicast-99555" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-04-nano.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -172,8 +172,8 @@ $ ls
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99553.js"
-> id="asciicast-99553" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-05-rmdraft.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -200,8 +200,8 @@ $ cd ..
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99556.js"
-> id="asciicast-99556" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-06-nanoagain.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -214,8 +214,8 @@ $ rm thesis
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99557.js"
-> id="asciicast-99557" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-07-rmoops.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -236,9 +236,9 @@ We can do this with the [recursive](https://en.wikipedia.org/wiki/Recursion) opt
 > ~~~
 > {: .bash}
 >
-> >## `output`
-> > <script type="text/javascript" src="https://asciinema.org/a/99560.js"
-> > id="asciicast-99560" data-size="small"></script>
+> > ## `output`
+> > <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-08-rmi.json"></asciinema-player>
+> >
 > {: .asciinema}
 >
 > This removes everything in the directory, then the directory itself, asking
@@ -258,8 +258,8 @@ $ ls thesis
 {: .bash}
 
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99561.js"
-> id="asciicast-99561" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-09-nanoagainagain.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -274,8 +274,8 @@ $ ls thesis
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99562.js"
-> id="asciicast-99562" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-10-mv.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -313,8 +313,8 @@ $ ls
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99633.js"
-> id="asciicast-99633" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-11-mvup.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -332,8 +332,8 @@ $ ls . thesis/
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99634.js"
-> id="asciicast-99634" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-12-cp.json">
+> </asciinema-player>
 >
 {: .asciinema}
 
@@ -347,8 +347,8 @@ $ ls quotes.txt thesis/quotations.txt
 ~~~
 {: .bash}
 >## `output`
-> <script type="text/javascript" src="https://asciinema.org/a/99635.js"
-> id="asciicast-99635" data-size="small"></script>
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-13-rmquotes.json">
+> </asciinema-player>
 >
 {: .asciinema}
 

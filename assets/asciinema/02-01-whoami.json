@@ -1,0 +1,54 @@
+{
+  "height": 16,
+  "duration": 3.335563,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "title": null,
+  "stdout": [
+    [
+      0.114368,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ],
+    [
+      1.418945,
+      "w"
+    ],
+    [
+      0.278627,
+      "h"
+    ],
+    [
+      0.089654,
+      "o"
+    ],
+    [
+      0.282355,
+      "a"
+    ],
+    [
+      0.201549,
+      "m"
+    ],
+    [
+      0.204053,
+      "i"
+    ],
+    [
+      0.742035,
+      "\r\n"
+    ],
+    [
+      0.002488,
+      "nelle\r\n"
+    ],
+    [
+      0.00044,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ]
+  ],
+  "version": 1,
+  "command": null,
+  "width": 80
+}

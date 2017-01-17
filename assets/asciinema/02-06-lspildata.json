@@ -1,0 +1,70 @@
+{
+  "title": null,
+  "width": 80,
+  "height": 16,
+  "stdout": [
+    [
+      0.117683,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ],
+    [
+      0.905325,
+      "l"
+    ],
+    [
+      0.092187,
+      "s"
+    ],
+    [
+      0.089636,
+      " "
+    ],
+    [
+      0.363831,
+      "-"
+    ],
+    [
+      0.488208,
+      "F"
+    ],
+    [
+      0.241909,
+      " "
+    ],
+    [
+      0.450089,
+      "P"
+    ],
+    [
+      0.115955,
+      "I"
+    ],
+    [
+      0.525374,
+      "\u0007"
+    ],
+    [
+      4.4e-05,
+      "L-data"
+    ],
+    [
+      1.2308,
+      "\r\n"
+    ],
+    [
+      0.002515,
+      "\u001b[0m\u001b[01;34mcreatures\u001b[0m/  \u001b[01;34mDesktop\u001b[0m/     lspil.json  \u001b[01;34mmolecules\u001b[0m/           notes.txt  solar.pdf\r\n\u001b[01;34mdata\u001b[0m/       lshelp.json  manls.json  \u001b[01;34mnorth-pacific-gyre\u001b[0m/  pizza.cfg  \u001b[01;34mwriting\u001b[0m/\r\n"
+    ],
+    [
+      0.000777,
+      "\u001b]0;nelle@stacks: ~\u0007nelle@stacks:~$ "
+    ]
+  ],
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "version": 1,
+  "command": null,
+  "duration": 4.625395
+}
