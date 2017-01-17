@@ -1,6 +1,6 @@
 ---
 title: "Loops"
-teaching: 15
+teaching: 25
 exercises: 0
 questions:
 - "How can I perform the same actions on many different files?"
@@ -83,25 +83,25 @@ When the shell sees the keyword `for`,
 it knows to repeat a command (or group of commands) once for each thing `in` a list.
 For each iteration,
 the name of the each thing is sequentially assigned to
-the **variable** and the commands inside the loop are executed before moving on to 
+the **variable** and the commands inside the loop are executed before moving on to
 the next thing in the list.
 Inside the loop,
 we call for the variable's value by putting `$` in front of it.
 The `$` tells the shell interpreter to treat
 the **variable** as a variable name and substitute its value in its place,
-rather than treat it as text or an external command. 
+rather than treat it as text or an external command.
 
 In this example, the list is two filenames: `basilisk.dat` and `unicorn.dat`.
 Each time the loop iterates, it will assign a file name to the variable `filename`
 and run the `head` command.
 The first time throught the loop,
-`$filename` is `basilisk.dat`. 
-The interpreter runs the command `head` on `basilisk.dat`, 
-and the prints the 
+`$filename` is `basilisk.dat`.
+The interpreter runs the command `head` on `basilisk.dat`,
+and the prints the
 first three lines of `basilisk.dat`.
-For the second iteration, `$filename` becomes 
+For the second iteration, `$filename` becomes
 `unicorn.dat`. This time, the shell runs `head` on `unicorn.dat`
-and prints the first three lines of `unicorn.dat`. 
+and prints the first three lines of `unicorn.dat`.
 Since the list was only two items, the shell exits the `for` loop.
 
 When using variables it is also
@@ -223,9 +223,9 @@ from whatever file is being processed
 > purple unicorn.dat
 > ~~~
 > {: .source}
-> 
+>
 > We need to use
-> 
+>
 > ~~~
 > for filename in "red dragon.dat" "purple unicorn.dat"
 > do
@@ -509,13 +509,13 @@ so she decides to get some coffee and catch up on her reading.
 > fructose.dat    glucose.dat   sucrose.dat   maltose.txt
 > ~~~
 > {: .output}
-> 
+>
 > What would be the output of the following loop?
 >
 > ~~~
 > for filename in s*
 > do
->     ls $filename 
+>     ls $filename
 > done
 > ~~~
 > {: .bash}
@@ -530,7 +530,7 @@ so she decides to get some coffee and catch up on her reading.
 > ~~~
 > for filename in *s*
 > do
->     ls $filename 
+>     ls $filename
 > done
 > ~~~
 > {: .bash}
@@ -546,7 +546,7 @@ so she decides to get some coffee and catch up on her reading.
 > A loop is a way to do many things at once --- or to make many mistakes at
 > once if it does the wrong thing. One way to check what a loop *would* do
 > is to echo the commands it would run instead of actually running them.
-> 
+>
 > Suppose we want to preview the commands the following loop will execute
 > without actually running those commands:
 >
