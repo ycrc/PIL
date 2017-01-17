@@ -23,65 +23,43 @@ keypoints:
 
 We now know how to explore files and directories,
 but how do we create them in the first place?
-Let's go back to our `data-shell` directory on the Desktop
+Let's go back to our `PIL-data` directory on the Desktop
 and use `ls -F` to see what it contains:
 
 ~~~
 $ pwd
-~~~
-{: .bash}
-
-~~~
-/Users/nelle/Desktop/data-shell
-~~~
-{: .output}
-
-~~~
 $ ls -F
 ~~~
 {: .bash}
 
-~~~
-creatures/  molecules/           pizza.cfg
-data/       north-pacific-gyre/  solar.pdf
-Desktop/    notes.txt            writing/
-~~~
-{: .output}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99544" data-size="small" async></script>
+>
+{: .solution}
+
+## **Make a Directory**
 
 Let's create a new directory called `thesis` using the command `mkdir thesis`
 (which has no output):
 
 ~~~
 $ mkdir thesis
+$ ls -F
 ~~~
 {: .bash}
+
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99545" data-size="small" async></script>
+>
+{: .solution}
 
 As you might guess from its name,
 `mkdir` means "make directory".
 Since `thesis` is a relative path
 (i.e., doesn't have a leading slash),
-the new directory is created in the current working directory:
-
-~~~
-$ ls -F
-~~~
-{: .bash}
-
-~~~
-creatures/  north-pacific-gyre/  thesis/
-data/       notes.txt            writing/
-Desktop/    pizza.cfg
-molecules/  solar.pdf
-~~~
-{: .output}
-
-> ## Two ways of doing the same thing
-> Using the shell to create a directory is no different than using a file explorer.
-> If you open the current directory using your operating system's graphical file explorer,
-> the `thesis` directory will appear there too.
-> While they are two different ways of interacting with the files,
-> the files and directories themselves are the same.
-{: .callout}
+the new directory is created in the current working directory.
 
 > ## Good names for files and directories
 >
@@ -89,18 +67,19 @@ molecules/  solar.pdf
 > when working on the command line. Here we provide a few useful
 > tips for the names of your files from now on.
 >
-> 1. Don't use whitespaces.
+>  **1. Don't use whitespaces.**
 >
 >    White spaces can make a name more meaningful
 >    but since whitespace is used to break arguments on the command line
 >    is better to avoid them on name of files and directories.
 >    You can use `-` or `_` instead of whitespace.
 >
-> 2. Don't begin the name with `-` (dash).
 >
->    Commands treat names starting with `-` as options.
+>  **2. Don't begin the name with `-` (dash).**
 >
-> 3. Stick with letters, numbers, `.` (period), `-` (dash) and `_` (underscore).
+> Commands treat names starting with `-` as options.
+>
+>  **3. Stick with letters, numbers, `.` (period), `-` (dash) and `_` (underscore).**
 >
 >    Many other characters have a special meaning on the command line
 >    that we will learn during this lesson. Some will only make your command not work,
@@ -110,21 +89,21 @@ molecules/  solar.pdf
 > or another non-alphanumeric character, you should surround the name in quotes (`""`).
 {: .callout}
 
-Since we've just created the `thesis` directory, there's nothing in it yet:
+Since we've just created the `thesis` directory, there's nothing in it yet. Lets go there:
 
 ~~~
 $ ls -F thesis
-~~~
-{: .bash}
-
-Let's change our working directory to `thesis` using `cd`,
-then run a text editor called Nano to create a file called `draft.txt`:
-
-~~~
 $ cd thesis
-$ nano draft.txt
 ~~~
 {: .bash}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99548" data-size="small" async></script>
+>
+{: .solution}
+
+## **Edit Some Text**
+Let's run a text editor called Nano to create a file called `draft.txt`.
 
 > ## Which Editor?
 >
@@ -134,30 +113,29 @@ $ nano draft.txt
 > drive it anywhere without training, but please use something more
 > powerful for real work. On Unix systems (such as Linux and Mac OS X),
 > many programmers use [Emacs](http://www.gnu.org/software/emacs/) or
-> [Vim](http://www.vim.org/) (both of which are completely unintuitive,
-> even by Unix standards), or a graphical editor such as
-> [Gedit](http://projects.gnome.org/gedit/). On Windows, you may wish to
-> use [Notepad++](http://notepad-plus-plus.org/).  Windows also has a built-in
-> editor called `notepad` that can be run from the command line in the same
-> way as `nano` for the purposes of this lesson.  
+> [Vim](http://www.vim.org/) (both of which are take some time to learn),
+> or a graphical editor such as [Gedit](http://projects.gnome.org/gedit/).
+> On Windows, you may wish to use [Notepad++](http://notepad-plus-plus.org/).
 >
-> No matter what editor you use, you will need to know where it searches
-> for and saves files. If you start it from the shell, it will (probably)
-> use your current working directory as its default location. If you use
-> your computer's start menu, it may want to save files in your desktop or
-> documents directory instead. You can change this by navigating to
-> another directory the first time you "Save As..."
 {: .callout}
 
+~~~
+$ nano draft.txt
+~~~
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99555" data-size="small" async></script>
+>
+{: .solution}
+
 Let's type in a few lines of text.
-Once we're happy with our text, we can press `Ctrl-O` (press the Ctrl or Control key and, while
+Once we're happy with our text, we can press <kbd>Ctrl</kbd>+<kbd>O</kbd>
+(press the Ctrl or Control key and, while
 holding it down, press the O key) to write our data to disk
 (we'll be asked what file we want to save this to:
 press Return to accept the suggested default of `draft.txt`).
 
-![Nano in Action](../fig/nano-screenshot.png)
-
-Once our file is saved, we can use `Ctrl-X` to quit the editor and
+Once our file is saved, we can use <kbd>Ctrl</kbd>+<kbd>X</kbd> to quit the editor and
 return to the shell.
 
 > ## Control, Ctrl, or ^ Key
@@ -174,41 +152,32 @@ return to the shell.
 > * `^X`
 >
 > In nano, along the bottom of the screen you'll see `^G Get Help ^O WriteOut`.
-> This means that you can use `Control-G` to get help and `Control-O` to save your
+> This means that you can use <kbd>Ctrl</kbd>+<kbd>G</kbd> to get help and
+> <kbd>Ctrl</kbd>+<kbd>O</kbd> to save your
 > file.
 {: .callout}
 
+## **Delete a File**
+
 `nano` doesn't leave any output on the screen after it exits,
-but `ls` now shows that we have created a file called `draft.txt`:
-
-~~~
-$ ls
-~~~
-{: .bash}
-
-~~~
-draft.txt
-~~~
-{: .output}
-
-Let's tidy up by running `rm draft.txt`:
-
-~~~
-$ rm draft.txt
-~~~
-{: .bash}
-
-This command removes files (`rm` is short for "remove").
-If we run `ls` again,
-its output is empty once more,
+but `ls` now shows that we have created a file called `draft.txt`.
+Let's tidy up by running `rm draft.txt`.This command removes files
+(`rm` is short for "remove"). If we run `ls` again, its output is empty once more,
 which tells us that our file is gone:
 
 ~~~
 $ ls
+$ rm draft.txt
+$ ls
 ~~~
 {: .bash}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99553" data-size="small" async></script>
+>
+{: .solution}
 
-> ## Deleting Is Forever
+> ## Deleting Is Forever!
 >
 > The Unix shell doesn't have a trash bin that we can recover deleted
 > files from (though most graphical interfaces to Unix do).  Instead,
@@ -220,33 +189,21 @@ $ ls
 {: .callout}
 
 Let's re-create that file
-and then move up one directory to `/Users/nelle/Desktop/data-shell` using `cd ..`:
+and then move up one directory to `/home/nelle/data-shell` using `cd ..`:
 
 ~~~
 $ pwd
-~~~
-{: .bash}
-
-~~~
-/Users/nelle/Desktop/data-shell/thesis
-~~~
-{: .output}
-
-~~~
 $ nano draft.txt
 $ ls
-~~~
-{: .bash}
-
-~~~
-draft.txt
-~~~
-{: .output}
-
-~~~
 $ cd ..
 ~~~
 {: .bash}
+
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99556" data-size="small" async></script>
+>
+{: .solution}
 
 If we try to remove the entire `thesis` directory using `rm thesis`,
 we get an error message:
@@ -256,20 +213,16 @@ $ rm thesis
 ~~~
 {: .bash}
 
-~~~
-rm: cannot remove `thesis': Is a directory
-~~~
-{: .error}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99557" data-size="small" async></script>
+>
+{: .solution}
 
 This happens because `rm` by default only works on files, not directories.
 
 To really get rid of `thesis` we must also delete the file `draft.txt`.
 We can do this with the [recursive](https://en.wikipedia.org/wiki/Recursion) option for `rm`:
-
-~~~
-$ rm -r thesis
-~~~
-{: .bash}
 
 > ## With Great Power Comes Great Responsibility
 >
@@ -277,14 +230,15 @@ $ rm -r thesis
 > operation. If we're concerned about what we might be deleting we can
 > add the "interactive" flag `-i` to `rm` which will ask us for confirmation
 > before each step
->
 > ~~~
 > $ rm -r -i thesis
-> rm: descend into directory ‘thesis’? y
-> rm: remove regular file ‘thesis/draft.txt’? y
-> rm: remove directory ‘thesis’? y
 > ~~~
 > {: .bash}
+>
+> >## `output`
+> > <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> > id="asciicast-99560" data-size="small" async></script>
+> {: .solution}
 >
 > This removes everything in the directory, then the directory itself, asking
 > at each step for you to confirm the deletion.
@@ -295,35 +249,34 @@ Let's create that directory and file one more time.
 rather than going into the `thesis` directory and running `nano` on `draft.txt` there.)
 
 ~~~
-$ pwd
-~~~
-{: .bash}
-
-~~~
-/Users/nelle/Desktop/data-shell
-~~~
-{: .output}
-
-~~~
 $ mkdir thesis
 $ nano thesis/draft.txt
+$ ls
 $ ls thesis
 ~~~
 {: .bash}
 
-~~~
-draft.txt
-~~~
-{: .output}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99561" data-size="small" async></script>
+>
+{: .solution}
 
+## **Move a File**
 `draft.txt` isn't a particularly informative name,
 so let's change the file's name using `mv`,
 which is short for "move":
 
 ~~~
 $ mv thesis/draft.txt thesis/quotes.txt
+$ ls thesis
 ~~~
 {: .bash}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99562" data-size="small" async></script>
+>
+{: .solution}
 
 The first parameter tells `mv` what we're "moving",
 while the second is where it's to go.
@@ -333,18 +286,8 @@ which has the same effect as renaming the file.
 Sure enough,
 `ls` shows us that `thesis` now contains one file called `quotes.txt`:
 
-~~~
-$ ls thesis
-~~~
-{: .bash}
-
-~~~
-quotes.txt
-~~~
-{: .output}
-
-One has to be careful when specifying the target file name, since `mv` will
-silently overwrite any existing file with the same name, which could
+One has to be careful when specifying the target file name, since **`mv` will
+silently overwrite any existing file with the same name**, which could
 lead to data loss. An additional flag, `mv -i` (or `mv --interactive`),
 can be used to make `mv` ask you for confirmation before overwriting.
 
@@ -359,50 +302,39 @@ but put the file somewhere new.
 (This is why the command is called "move".)
 In this case,
 the directory name we use is the special directory name `.` that we mentioned earlier.
-
-~~~
-$ mv thesis/quotes.txt .
-~~~
-{: .bash}
-
 The effect is to move the file from the directory it was in to the current working directory.
 `ls` now shows us that `thesis` is empty:
 
 ~~~
+$ mv thesis/quotes.txt .
 $ ls thesis
+$ ls
 ~~~
 {: .bash}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99633" data-size="small" async></script>
+>
+{: .solution}
 
-Further,
-`ls` with a filename or directory name as a parameter only lists that file or directory.
-We can use this to see that `quotes.txt` is still in our current directory:
-
-~~~
-$ ls quotes.txt
-~~~
-{: .bash}
-
-~~~
-quotes.txt
-~~~
-{: .output}
+## **Copy a File**
 
 The `cp` command works very much like `mv`,
 except it copies a file instead of moving it.
 We can check that it did the right thing using `ls`
-with two paths as parameters --- like most Unix commands,
+with two paths as parameters. Unlike some Unix commands,
 `ls` can be given multiple paths at once:
 
 ~~~
 $ cp quotes.txt thesis/quotations.txt
-$ ls quotes.txt thesis/quotations.txt
+$ ls . thesis/
 ~~~
 {: .bash}
-
-~~~
-quotes.txt   thesis/quotations.txt
-~~~
-{: .output}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99634" data-size="small" async></script>
+>
+{: .solution}
 
 To prove that we made a copy,
 let's delete the `quotes.txt` file in the current directory
@@ -413,15 +345,14 @@ $ rm quotes.txt
 $ ls quotes.txt thesis/quotations.txt
 ~~~
 {: .bash}
+>## `output`
+> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
+> id="asciicast-99635" data-size="small" async></script>
+>
+{: .solution}
 
-~~~
-ls: cannot access quotes.txt: No such file or directory
-thesis/quotations.txt
-~~~
-{: .error}
-
-This time it tells us that it can't find `quotes.txt` in the current directory,
-but it does find the copy in `thesis` that we didn't delete.
+We won't find `quotes.txt` in the current directory,
+but copy in `thesis` that we didn't delete remains.
 
 > ## What's In A Name?
 >
@@ -480,7 +411,7 @@ but it does find the copy in `thesis` that we didn't delete.
 > ~~~
 > {: .bash}
 > ~~~
-> /Users/jamie/data
+> /home/jamie/data
 > ~~~
 > {: .output}
 > ~~~
@@ -505,18 +436,18 @@ but it does find the copy in `thesis` that we didn't delete.
 > 4.   `proteins-saved.dat`
 >
 > > ## Solution
-> > We start in the `/Users/jamie/data` directory, and create a new folder called `recombine`.
+> > We start in the `/home/jamie/data` directory, and create a new folder called `recombine`.
 > > The second line moves (`mv`) the file `proteins.dat` to the new folder (`recombine`).
 > > The third line makes a copy of the file we just moved.  The tricky part here is where the file was
-> > copied to.  Recall that `..` means "go up a level", so the copied file is now in `/Users/jamie`.
+> > copied to.  Recall that `..` means "go up a level", so the copied file is now in `/home/jamie`.
 > > Notice that `..` is interpreted with respect to the current working
 > > directory, **not** with respect to the location of the file being copied.
-> > So, the only thing that will show using ls (in `/Users/jamie/data`) is the recombine folder.
+> > So, the only thing that will show using ls (in `/home/jamie/data`) is the recombine folder.
 > >
-> > 1. No, see explanation above.  `proteins-saved.dat` is located at `/Users/jamie`
+> > 1. No, see explanation above.  `proteins-saved.dat` is located at `/home/jamie`
 > > 2. Yes
-> > 3. No, see explanation above.  `proteins.dat` is located at `/Users/jamie/data/recombine`
-> > 4. No, see explanation above.  `proteins-saved.dat` is located at `/Users/jamie`
+> > 3. No, see explanation above.  `proteins.dat` is located at `/home/jamie/data/recombine`
+> > 4. No, see explanation above.  `proteins-saved.dat` is located at `/home/jamie`
 > {: .solution}
 {: .challenge}
 
@@ -626,13 +557,19 @@ but it does find the copy in `thesis` that we didn't delete.
 > ~~~
 > {: .bash}
 >
-> Fill in the blanks to move these files to the current folder
+> Fill in the [blanks] to move these files to the current folder
 > (i.e., the one she is currently in):
 >
 > ~~~
-> $ mv ___/sucrose.dat  ___/maltose.dat ___
+> $ mv [blank]/sucrose.dat  [blank]/maltose.dat [blank]
 > ~~~
 > {: .bash}
+> > ## Solution
+> > ~~~
+> > $ mv ../analyzed/sucrose.dat  ../analyzed/maltose.dat .
+> > ~~~
+> >
+> {: .solution}
 {: .challenge}
 
 > ## Using `rm` Safely
