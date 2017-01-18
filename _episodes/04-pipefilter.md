@@ -485,10 +485,10 @@ so this matches all the valid data files she has.
 > {: .output}
 >
 > Explain why `-n` has this effect.
+>
 > > ## Solution
 > >
 > > from the man page: `-n, --numerical-sort: compare according to string numerical value.`
-> >
 > >
 > > By default, sort sorts its input [lexicographically](https://en.wikipedia.org/wiki/Lexicographical_order),
 > > treating each number as a string of characters and sorting them one character at a time.
@@ -511,6 +511,7 @@ so this matches all the valid data files she has.
 > $ wc -l mydata.dat
 > ~~~
 > {: .bash}
+>
 > > ## Solution
 > > In the first case, `wc` doesn't have any command line parameters, so it
 > > reads from standard input, to which the shell directs the contents of
@@ -537,8 +538,9 @@ so this matches all the valid data files she has.
 > {: .bash}
 >
 > Hint: Try executing each command twice in a row and then examining the output files.
+>
 > > ## Solution
-> >  `>>` appends to the redirected output, in this case the file testfile02.txt.
+> > `>>` appends to the redirected output, in this case the file testfile02.txt.
 > {: .solution}
 >
 {: .challenge}
@@ -577,6 +579,7 @@ so this matches all the valid data files she has.
 > {: .bash}
 >
 > Help Sam by filling in the [blank]s.
+>
 > > ## Solution
 > > ~~~
 > > $ cp *calibration* /backup/calibration
