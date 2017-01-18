@@ -21,8 +21,8 @@ keypoints:
 - "Use `Ctrl-R` to search through the previously entered commands."
 - "Use `history` to display recent commands, and `!number` to repeat a command by number."
 ---
-
-**Loops** are key to productivity improvements through automation as they allow us to execute
+## **Loops**
+ are key to productivity improvements through automation; they allow us to execute
 commands repetitively. Similar to wildcards and tab completion, using loops also reduces the
 amount of typing (and typing mistakes).
 Suppose we have several hundred genome data files named `basilisk.dat`, `unicorn.dat`, and so on.
@@ -47,10 +47,11 @@ $ cp basilisk.dat unicorn.dat original-*.dat
 
 This wouldn't back up our files, instead we get an error:
 
-~~~
-cp: target `original-*.dat' is not a directory
-~~~
-{: .error}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-01-cperr.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 This problem arises when `cp` receives more than two inputs. When this happens, it
 expects the last input to be a directory where it can copy all the files it was passed.
@@ -69,15 +70,11 @@ $ for filename in basilisk.dat unicorn.dat
 ~~~
 {: .bash}
 
-~~~
-COMMON NAME: basilisk
-CLASSIFICATION: basiliscus vulgaris
-UPDATED: 1745-05-02
-COMMON NAME: unicorn
-CLASSIFICATION: equus monoceros
-UPDATED: 1738-11-24
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-02-forhead.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 When the shell sees the keyword `for`,
 it knows to repeat a command (or group of commands) once for each thing `in` a list.
@@ -91,23 +88,21 @@ The `$` tells the shell interpreter to treat
 the **variable** as a variable name and substitute its value in its place,
 rather than treat it as text or an external command.
 
-In this example, the list is two filenames: `basilisk.dat` and `unicorn.dat`.
-Each time the loop iterates, it will assign a file name to the variable `filename`
-and run the `head` command.
-The first time throught the loop,
-`$filename` is `basilisk.dat`.
-The interpreter runs the command `head` on `basilisk.dat`,
-and the prints the
-first three lines of `basilisk.dat`.
-For the second iteration, `$filename` becomes
-`unicorn.dat`. This time, the shell runs `head` on `unicorn.dat`
-and prints the first three lines of `unicorn.dat`.
-Since the list was only two items, the shell exits the `for` loop.
+In this example, the list is two filenames: `basilisk.dat` and `unicorn.dat`,
+separated by a space. Each time the loop iterates, it will assign a file name
+to the variable `filename` and run the `head` command. The first time through
+the loop, `$filename` is `basilisk.dat`. The interpreter runs the command `head`
+on `basilisk.dat`, which prints the first three lines of `basilisk.dat`.
+For the second iteration, `$filename` becomes `unicorn.dat`. This time,
+the shell runs `head` on `unicorn.dat` and prints the first three lines
+of `unicorn.dat`. Since the list was only two items, the shell exits the
+`for` loop.
 
 When using variables it is also
 possible to put the names into curly braces to clearly delimit the variable
 name: `$filename` is equivalent to `${filename}`, but is different from
-`${file}name`. You may find this notation in other people's programs.
+`${file}name`. The `{}` way is often a bit safer because it explicitly separates
+your variable name from the text around it.
 
 > ## Follow the Prompt
 >
@@ -129,6 +124,10 @@ name: `$filename` is equivalent to `${filename}`, but is different from
 >
 > If *you* type `>` or `$` yourself, it is an instruction from you that
 > the shell to redirect output or get the value of a variable.
+>
+> 🤔 Maybe if there were more characters available back in the day,
+> we wouldn't have this problem?
+>
 {: .callout}
 
 We have called the variable in this loop `filename`
@@ -155,7 +154,7 @@ done
 {: .bash}
 
 it would work exactly the same way.
-*Don't do this.*
+*Try to avoid this.*
 Programs are only useful if people can understand them,
 so meaningless names (like `x`) or misleading names (like `temperature`)
 increase the odds that the program won't do what its readers think it does.
@@ -166,31 +165,22 @@ Here's a slightly more complicated loop:
 for filename in *.dat
 do
     echo $filename
-    head -n 100 $filename | tail -n 20
+    head -n 100 $filename | tail -n 2
 done
 ~~~
 {: .bash}
+
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-03-forechohead.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 The shell starts by expanding `*.dat` to create the list of files it will process.
 The **loop body**
 then executes two commands for each of those files.
 The first, `echo`, just prints its command-line parameters to standard output.
-For example:
-
-~~~
-$ echo hello there
-~~~
-{: .bash}
-
-prints:
-
-~~~
-hello there
-~~~
-{: .output}
-
-In this case,
-since the shell expands `$filename` to be the name of a file,
+In this case, since the shell expands `$filename` to be the name of a file,
 `echo $filename` just prints the name of the file.
 Note that we can't write this as:
 
@@ -198,19 +188,22 @@ Note that we can't write this as:
 for filename in *.dat
 do
     $filename
-    head -n 100 $filename | tail -n 20
+    head -n 100 $filename | tail -n 2
 done
 ~~~
 {: .bash}
 
 because then the first time through the loop,
-when `$filename` expanded to `basilisk.dat`, the shell would try to run `basilisk.dat` as a program.
+when `$filename` expanded to `basilisk.dat`, the shell would try to run
+`basilisk.dat` as a program.
+
+
 Finally,
-the `head` and `tail` combination selects lines 81-100
+the `head` and `tail` combination selects lines 98-100
 from whatever file is being processed
 (assuming the file has at least 100 lines).
 
-> ## Spaces in Names
+> ## Spaces in Names, Just Say No!
 >
 > Whitespace is used to separate the elements on the list
 > that we are going to loop over. If on the list we have elements
@@ -233,6 +226,9 @@ from whatever file is being processed
 > done
 > ~~~
 > {: .bash}
+>
+> If we are getting our filenames more programmatically, we can run
+> into real trouble.
 >
 > It is simpler just to avoid using whitespaces (or other special characters) in filenames.
 {: .callout}
@@ -267,13 +263,14 @@ cp unicorn.dat original-unicorn.dat
 ~~~
 {: .bash}
 
-## Nelle's Pipeline: Processing Files
+## **Nelle's Pipeline: Processing Files**
 
 Nelle is now ready to process her data files.
 Since she's still learning how to use the shell,
-she decides to build up the required commands in stages.
-Her first step is to make sure that she can select the right files --- remember,
-these are ones whose names end in 'A' or 'B', rather than 'Z'. Starting from her home directory, Nelle types:
+she decides to build up the required commands in stages using just a subset of
+her files at first. Her first step is to make sure that she can select the
+right files --- remember, these are ones whose names end in 'A' or 'B',
+rather than 'Z'. Starting from her `PIL-data` directory, Nelle types:
 
 ~~~
 $ cd north-pacific-gyre/2012-07-03
@@ -284,20 +281,15 @@ $ for datafile in *[AB].txt
 ~~~
 {: .bash}
 
-~~~
-NENE01729A.txt
-NENE01729B.txt
-NENE01736A.txt
-...
-NENE02043A.txt
-NENE02043B.txt
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-04-nelleforecho.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
-Her next step is to decide
-what to call the files that the `goostats` analysis program will create.
-Prefixing each input file's name with "stats" seems simple,
-so she modifies her loop to do that:
+Her next step is to decide what to call the files that the `goostats`
+analysis program will create. Prefixing each input file's name with "stats"
+seems simple, so she modifies her loop to do that:
 
 ~~~
 $ for datafile in *[AB].txt
@@ -307,15 +299,11 @@ $ for datafile in *[AB].txt
 ~~~
 {: .bash}
 
-~~~
-NENE01729A.txt stats-NENE01729A.txt
-NENE01729B.txt stats-NENE01729B.txt
-NENE01736A.txt stats-NENE01736A.txt
-...
-NENE02043A.txt stats-NENE02043A.txt
-NENE02043B.txt stats-NENE02043B.txt
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-05-nelleforechostats.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 She hasn't actually run `goostats` yet,
 but now she's sure she can select the right files and generate the right output filenames.
@@ -342,14 +330,19 @@ $ for datafile in *[AB].txt; do bash goostats $datafile stats-$datafile; done
 ~~~
 {: .bash}
 
-When she presses Enter,
-the shell runs the modified command.
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-06-nelleforabort.json">
+> </asciinema-player>
+>
+{: .asciinema}
+
+When she presses <kbd>Enter</kbd>, the shell runs the modified command.
 However, nothing appears to happen --- there is no output.
-After a moment, Nelle realizes that since her script doesn't print anything to the screen any longer,
+After a moment, Nelle realizes that since her script doesn't
+print anything to the screen any longer,
 she has no idea whether it is running, much less how quickly.
-She kills the running command by typing `Ctrl-C`,
-uses up-arrow to repeat the command,
-and edits it to read:
+She kills the running command by typing <kbd>CTRL</kbd>+<kbd>C</kbd>,
+uses up-arrow to repeat the command, and edits it to read:
 
 ~~~
 $ for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$datafile; done
@@ -365,24 +358,22 @@ $ for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$d
 When she runs her program now,
 it produces one line of output every five seconds or so:
 
-~~~
-NENE01729A.txt
-NENE01729B.txt
-NENE01736A.txt
-...
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-07-nelleforgoo.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
-1518 times 5 seconds,
-divided by 60,
-tells her that her script will take about two hours to run.
-As a final check,
-she opens another terminal window,
-goes into `north-pacific-gyre/2012-07-03`,
-and uses `cat stats-NENE01729B.txt`
-to examine one of the output files.
-It looks good,
-so she decides to get some coffee and catch up on her reading.
+... and oops! we left the beginnings of the aborted run,
+`stats-stats-NENE01729A.txt` which matched our wildcard expansion. We'll just
+remove that one file with `rm`.
+
+For Nelle's fill data set, she has more than 1,500 files!
+1518 times 5 seconds, divided by 60, tells her that her script will take about
+two hours to run. As a final check, she uses `cat stats-NENE01729B.txt`
+to examine one of the output files. It looks good,
+so she decides to run a loop on the full list of files, then goes to
+get some coffee and catch up on her reading.
 
 > ## Those Who Know History Can Choose to Repeat It
 >
@@ -450,6 +441,28 @@ so she decides to get some coffee and catch up on her reading.
 > {: .bash}
 >
 > Why do these two loops give different outputs?
+>
+> > ## Solution
+> > Loop 1:
+> > ~~~
+> > fructose.dat    glucose.dat   sucrose.dat
+> > fructose.dat    glucose.dat   sucrose.dat
+> > fructose.dat    glucose.dat   sucrose.dat
+> > ~~~
+> > {: .output}
+> > Loop 2:
+> > ~~~
+> > fructose.dat
+> > glucose.dat
+> > sucrose.dat
+> > ~~~
+> > {: .output}
+> >
+> > This is because in the first case, `ls` is actually receiving an expanded
+> > list of all files in the directory for each time the loop runs. The second
+> > loop gives `ls` just a single file to list for each iteration:
+> > the current value of `$datafile`.
+> {: .solution}
 {: .challenge}
 
 > ## Saving to a File in a Loop - Part One
@@ -471,6 +484,11 @@ so she decides to get some coffee and catch up on her reading.
 > 3.  Prints `fructose.dat`, `glucose.dat`, `sucrose.dat`, and
 >     `xylose.dat`, and the text from `sucrose.dat` will be saved to a file called `xylose.dat`.
 > 4.  None of the above.
+>
+> > ## Solution
+> >
+> > 1
+> {: .solution}
 {: .challenge}
 
 > ## Saving to a File in a Loop - Part Two
@@ -499,6 +517,11 @@ so she decides to get some coffee and catch up on her reading.
 >     would be concatenated and saved to a file called `sugar.dat`.
 > 4.  All of the text from `fructose.dat`, `glucose.dat` and `sucrose.dat` would be printed
 >     to the screen and saved to a file called `sugar.dat`
+>
+> > ## Solution
+> >
+> > 3
+> {: .solution}
 {: .challenge}
 
 > ## Limiting Sets of Files
@@ -539,45 +562,10 @@ so she decides to get some coffee and catch up on her reading.
 > 2.  All the files are listed this time.
 > 3.  No files are listed this time.
 > 4.  The file `sucrose.dat` will be listed twice, with the other files listed once each.
-{: .challenge}
-
-> ## Doing a Dry Run
 >
-> A loop is a way to do many things at once --- or to make many mistakes at
-> once if it does the wrong thing. One way to check what a loop *would* do
-> is to echo the commands it would run instead of actually running them.
->
-> Suppose we want to preview the commands the following loop will execute
-> without actually running those commands:
->
-> ~~~
-> for file in *.dat
-> do
->   analyze $file > analyzed-$file
-> done
-> ~~~
-> {: .bash}
->
-> What is the difference between the two loops below, and which one would we
-> want to run?
->
-> ~~~
-> # Version 1
-> for file in *.dat
-> do
->   echo analyze $file > analyzed-$file
-> done
-> ~~~
-> {: .bash}
->
-> ~~~
-> # Version 2
-> for file in *.dat
-> do
->   echo "analyze $file > analyzed-$file"
-> done
-> ~~~
-> {: .bash}
+> > ## Solution
+> > 4, 2
+> {: .solution}
 {: .challenge}
 
 > ## Nested Loops
@@ -597,4 +585,13 @@ so she decides to get some coffee and catch up on her reading.
 > done
 > ~~~
 > {: .bash}
+>
+> >## Solution
+> > you get the following directories:
+> > ~~~
+fructose-25  fructose-37  glucose-25  glucose-37  sucrose-25  sucrose-37
+fructose-30  fructose-40  glucose-30  glucose-40  sucrose-30  sucrose-40
+> > ~~~
+> > {: .output}
+> {: .solution}
 {: .challenge}
