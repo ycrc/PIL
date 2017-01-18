@@ -18,11 +18,11 @@ It should look something like this:
 In order to connect to your virtual machine, you'll want to type something like
 
 ~~~
-$ ssh user@host.yale.edu
+$ ssh netid@spinup-######.yu.yale.edu
 ~~~
 {: .bash}
 
-You will then be prompted to enter your password.
+(We'll show you how to find your specific hostname.)
 
 ### Windows
 The simplest way to use ssh on windows is with [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty). You can download an installer
@@ -32,7 +32,7 @@ When you open putty.exe, you should see a window like this:
 
 ![Putty window]({{ page.root }}/assets/img/putty.png)
 
-Type the host name into the "Host Name (or IP address)" box and click open. You will be prompted for your username and password.
+Type the host name (`spinup-######.yu.yale.edu`) into the "Host Name (or IP address)" box and click open. You will be prompted for your username and password. (We'll show you how to find your specific hostname.)
 
 ### Sample Files
 
@@ -46,10 +46,10 @@ unzip PIL-data.zip
 ~~~
 {: .bash}
 
->## Playback
-> <script type="text/javascript" src="https://asciinema.org/a/290be69rt5nwph2cpq8gjitvt.js"
-> id="asciicast-99527" data-size="small" async></script>
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/00-01-getdata.json">
+> </asciinema-player>
 >
-{: .solution}
+{: .asciinema}
 
-In the lesson, you will find out how to access the data in this folder.  
+In the lesson, you will find out how to access and manipulate the data in this folder.  
