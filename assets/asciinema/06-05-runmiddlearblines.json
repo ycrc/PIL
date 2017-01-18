@@ -1,0 +1,346 @@
+{
+  "version": 1,
+  "height": 16,
+  "command": null,
+  "width": 80,
+  "title": null,
+  "duration": 31.57494,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.113261,
+      "\u001b]0;nelle@stacks: ~/PIL-data/molecules\u0007nelle@stacks:~/PIL-data/molecules$ "
+    ],
+    [
+      0.924996,
+      "n"
+    ],
+    [
+      0.127338,
+      "a"
+    ],
+    [
+      0.242454,
+      "n"
+    ],
+    [
+      0.328025,
+      "o"
+    ],
+    [
+      0.204189,
+      " "
+    ],
+    [
+      0.484575,
+      "m"
+    ],
+    [
+      0.083647,
+      "i"
+    ],
+    [
+      0.202898,
+      "ddle.sh "
+    ],
+    [
+      0.414664,
+      "\r\n"
+    ],
+    [
+      0.033141,
+      "\u001b[?1049h\u001b[1;16r\u001b(B\u001b[m\u001b[4l\u001b[?7h\u001b[?12l\u001b[?25h\u001b[?1h\u001b="
+    ],
+    [
+      8.6e-05,
+      "\u001b[?1h\u001b=\u001b[?1h\u001b="
+    ],
+    [
+      0.003873,
+      "\u001b[39;49m\u001b[39;49m\u001b(B\u001b[m\u001b[H\u001b[2J\u001b(B\u001b[0;7m  GNU nano 2.2.6              File: middle.sh                                   \u001b[3;1H\u001b(B\u001b[mhead \u001b[32m-n\u001b[39m\u001b(B\u001b[m 15 octane.pdb \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\u001b[14;33H\u001b(B\u001b[0;7m[ Read 1 line ]\r\u001b[15d^G\u001b(B\u001b[m Get Help  \u001b(B\u001b[0;7m^O\u001b(B\u001b[m WriteOut  \u001b(B\u001b[0;7m^R\u001b(B\u001b[m Read File \u001b(B\u001b[0;7m^Y\u001b(B\u001b[m Prev Page \u001b(B\u001b[0;7m^K\u001b(B\u001b[m Cut Text  \u001b(B\u001b[0;7m^C\u001b(B\u001b[m Cur Pos\r\u001b[16d\u001b(B\u001b[0;7m^X\u001b(B\u001b[m Exit\u001b[14G\u001b(B\u001b[0;7m^J\u001b(B\u001b[m Justify   \u001b(B\u001b[0;7m^W\u001b(B\u001b[m Where Is  \u001b(B\u001b[0;7m^V\u001b(B\u001b[m Next Page \u001b(B\u001b[0;7m^U\u001b(B\u001b[m UnCut Text\u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Spell\r\u001b[3d"
+    ],
+    [
+      0.777901,
+      "h"
+    ],
+    [
+      0.500286,
+      "e"
+    ],
+    [
+      0.032766,
+      "a"
+    ],
+    [
+      0.032533,
+      "d"
+    ],
+    [
+      0.033025,
+      " "
+    ],
+    [
+      0.203236,
+      "\u001b[C"
+    ],
+    [
+      0.154189,
+      "\u001b[C"
+    ],
+    [
+      0.117681,
+      " "
+    ],
+    [
+      0.256667,
+      "\u001b[1;71H\u001b(B\u001b[0;7mModified\u001b[3;9H\u001b(B\u001b[m\u001b[1P"
+    ],
+    [
+      0.136245,
+      "\u001b[1P"
+    ],
+    [
+      1.029328,
+      "\" octane.pdb \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\u001b[3;10H"
+    ],
+    [
+      1.01497,
+      "\u001b[32m$\u001b[39m\u001b(B\u001b[m octane.pdb \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\u001b[3;11H"
+    ],
+    [
+      0.329707,
+      "\b\u001b(B\u001b[0;1m\u001b[31m$2\u001b[39m\u001b(B\u001b[m octane.pdb \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\u001b[3;12H"
+    ],
+    [
+      0.311666,
+      "\b\b\b\u001b(B\u001b[0;1m\u001b[33m\"$2\"\u001b[39m\u001b(B\u001b[m octane.pdb \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\u001b[3;13H"
+    ],
+    [
+      0.887466,
+      " "
+    ],
+    [
+      0.155887,
+      "\u001b[1P"
+    ],
+    [
+      0.500464,
+      "\u001b[1P"
+    ],
+    [
+      0.033189,
+      "\u001b[1P"
+    ],
+    [
+      0.032751,
+      "\u001b[1P"
+    ],
+    [
+      0.033203,
+      "\u001b[1P"
+    ],
+    [
+      0.136796,
+      "\u001b[1P"
+    ],
+    [
+      0.131477,
+      "\u001b[1P"
+    ],
+    [
+      0.14698,
+      "\u001b[1P"
+    ],
+    [
+      0.331951,
+      "\u001b[1P"
+    ],
+    [
+      0.342795,
+      "\u001b[1P"
+    ],
+    [
+      0.54472,
+      "\" \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\r\u001b[14d\u001b[K\u001b[3;15H"
+    ],
+    [
+      0.714047,
+      "\u001b[32m$\u001b[39m\u001b(B\u001b[m \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\u001b[3;16H"
+    ],
+    [
+      0.55911,
+      "\b\u001b(B\u001b[0;1m\u001b[31m$1\u001b[39m\u001b(B\u001b[m \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\u001b[3;17H"
+    ],
+    [
+      0.328771,
+      "\b\b\b\u001b(B\u001b[0;1m\u001b[33m\"$1\"\u001b[39m\u001b(B\u001b[m \u001b[32m|\u001b[39m\u001b(B\u001b[m tail \u001b[32m-n\u001b[39m\u001b(B\u001b[m 5\u001b[3;18H"
+    ],
+    [
+      0.672259,
+      " "
+    ],
+    [
+      0.501072,
+      "\u001b[C"
+    ],
+    [
+      0.0316,
+      " "
+    ],
+    [
+      0.033982,
+      "t"
+    ],
+    [
+      0.032477,
+      "a"
+    ],
+    [
+      0.033284,
+      "i"
+    ],
+    [
+      0.032549,
+      "l"
+    ],
+    [
+      0.033166,
+      " "
+    ],
+    [
+      0.033062,
+      "\u001b[C"
+    ],
+    [
+      0.033001,
+      "\u001b[C"
+    ],
+    [
+      0.280651,
+      " "
+    ],
+    [
+      0.294308,
+      "\b\u001b[42m \u001b[49m\u001b(B\u001b[m\u001b[K"
+    ],
+    [
+      0.800616,
+      "\b \""
+    ],
+    [
+      1.039142,
+      "\u001b[32m$\u001b[39m\u001b(B\u001b[m"
+    ],
+    [
+      0.441933,
+      "\b\u001b(B\u001b[0;1m\u001b[31m$3\u001b[39m\u001b(B\u001b[m"
+    ],
+    [
+      0.407085,
+      "\b\b\b\u001b(B\u001b[0;1m\u001b[33m\"$3\"\u001b[39m\u001b(B\u001b[m"
+    ],
+    [
+      1.587336,
+      "\r\u001b[14d\u001b(B\u001b[0;7mFile Name to Write: middle.sh                                                   \u001b[15;14H\u001b(B\u001b[m       \u001b(B\u001b[0;7mM-D\u001b(B\u001b[m DOS Format      \u001b(B\u001b[0;7mM-A\u001b(B\u001b[m Append          \u001b(B\u001b[0;7mM-B\u001b(B\u001b[m Backup File\u001b[16;2H\u001b(B\u001b[0;7mC\u001b(B\u001b[m Cancel           \u001b(B\u001b[0;7mM-M\u001b(B\u001b[m Mac Format      \u001b(B\u001b[0;7mM-P\u001b(B\u001b[m Prepend\u001b[K\u001b[14;30H"
+    ],
+    [
+      0.444692,
+      "\u001b[1;71H\u001b[39;49m\u001b(B\u001b[0;7m        \u001b[14;32H\u001b(B\u001b[m\u001b[1K \u001b(B\u001b[0;7m[ Wrote 1 line ]\u001b(B\u001b[m\u001b[K\u001b[15;14H\u001b(B\u001b[0;7m^O\u001b(B\u001b[m WriteOut  \u001b(B\u001b[0;7m^R\u001b(B\u001b[m Read File \u001b(B\u001b[0;7m^Y\u001b(B\u001b[m Prev Page \u001b(B\u001b[0;7m^K\u001b(B\u001b[m Cut Text  \u001b(B\u001b[0;7m^C\u001b(B\u001b[m Cur Pos\u001b[16;2H\u001b(B\u001b[0;7mX\u001b(B\u001b[m Exit      \u001b(B\u001b[0;7m^J\u001b(B\u001b[m Justify   \u001b(B\u001b[0;7m^W\u001b(B\u001b[m Where Is  \u001b(B\u001b[0;7m^V\u001b(B\u001b[m Next Page \u001b(B\u001b[0;7m^U\u001b(B\u001b[m UnCut Text\u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Spell\u001b[3;33H"
+    ],
+    [
+      0.777301,
+      "\r\u001b[15d\u001b[J\u001b[16;80H"
+    ],
+    [
+      3.9e-05,
+      "\u001b[16;1H\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.001518,
+      "\u001b]0;nelle@stacks: ~/PIL-data/molecules\u0007nelle@stacks:~/PIL-data/molecules$ "
+    ],
+    [
+      2.730419,
+      "b"
+    ],
+    [
+      0.080528,
+      "a"
+    ],
+    [
+      0.402506,
+      "s"
+    ],
+    [
+      0.133717,
+      "h"
+    ],
+    [
+      0.150784,
+      " "
+    ],
+    [
+      2.598908,
+      "m"
+    ],
+    [
+      0.126644,
+      "i"
+    ],
+    [
+      0.140703,
+      "ddle.sh "
+    ],
+    [
+      0.73305,
+      "p"
+    ],
+    [
+      0.222701,
+      "e"
+    ],
+    [
+      0.095542,
+      "n"
+    ],
+    [
+      0.120097,
+      "tane.pdb "
+    ],
+    [
+      1.408467,
+      "1"
+    ],
+    [
+      0.143281,
+      "5"
+    ],
+    [
+      0.303902,
+      " "
+    ],
+    [
+      0.418791,
+      "5"
+    ],
+    [
+      1.273003,
+      "\r\n"
+    ],
+    [
+      0.004993,
+      "ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00\r\nATOM     10  H           1       1.271   1.378   0.122  1.00  0.00\r\nATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00\r\nATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00\r\n"
+    ],
+    [
+      4.5e-05,
+      "ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00\r\n"
+    ],
+    [
+      0.001722,
+      "\u001b]0;nelle@stacks: ~/PIL-data/molecules\u0007nelle@stacks:~/PIL-data/molecules$ "
+    ]
+  ]
+}

@@ -21,12 +21,11 @@ keypoints:
 We are finally ready to see what makes the shell such a powerful programming environment.
 We are going to take the commands we repeat frequently and save them in files
 so that we can re-run all those operations again later by typing a single command.
-For historical reasons,
-a bunch of commands saved in a file is usually called a **shell script**,
-but make no mistake:
-these are actually small programs.
+For historical reasons, a bunch of commands saved in a file is usually called
+a **shell script**, but make no mistake: these are actually small programs.
 
-Let's start by going back to `molecules/` and putting the following line into a new file, `middle.sh`:
+Let's start by going back to `molecules/` and putting the following line into a
+new file, `middle.sh`:
 
 ~~~
 $ cd molecules
@@ -44,13 +43,19 @@ head -n 15 octane.pdb | tail -n 5
 ~~~
 {: .source}
 
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-01-middlesh.json">
+> </asciinema-player>
+>
+{: .asciinema}
+
 This is a variation on the pipe we constructed earlier:
 it selects lines 11-15 of the file `octane.pdb`.
 Remember, we are *not* running it as a command just yet:
 we are putting the commands in a file.
 
-Then we save the file (`Ctrl-O` in nano),
- and exit the text editor (`Ctrl-X` in nano).
+Then we save the file (<kbd>CTRL</kbd>+<kbd>O</kbd> in nano),
+ and exit the text editor (<kbd>CTRL</kbd>+<kbd>X</kbd> in nano).
 Check that the directory `molecules` now contains a file called `middle.sh`.
 
 Once we have saved the file,
@@ -62,29 +67,24 @@ $ bash middle.sh
 ~~~
 {: .bash}
 
-~~~
-ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
-ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
-ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
-ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
-ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-02-runmiddle.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 Sure enough,
 our script's output is exactly what we would get if we ran that pipeline directly.
 
 > ## Text vs. Whatever
 >
-> We usually call programs like Microsoft Word or LibreOffice Writer "text
-> editors", but we need to be a bit more careful when it comes to
-> programming. By default, Microsoft Word uses `.docx` files to store not
-> only text, but also formatting information about fonts, headings, and so
-> on. This extra information isn't stored as characters, and doesn't mean
-> anything to tools like `head`: they expect input files to contain
-> nothing but the letters, digits, and punctuation on a standard computer
-> keyboard. When editing programs, therefore, you must either use a plain
-> text editor, or be careful to save files as plain text.
+> Programs like Microsoft Word or LibreOffice Writer are *word processors*. They
+> include a lot more than just text in `.docx` and `.odt` files in order to show
+> you the fancy layout and format that they do. We need to be a bit more
+> careful when it comes to programming. Tools like `head` expect input files
+> to contain nothing but the letters, digits, and punctuation.
+> When editing programs, therefore, you should stick to a
+> plain text editor.
 {: .callout}
 
 What if we want to select lines from an arbitrary file?
@@ -113,14 +113,11 @@ $ bash middle.sh octane.pdb
 ~~~
 {: .bash}
 
-~~~
-ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
-ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
-ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
-ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
-ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-03-runmiddlearb.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 or on a different file like this:
 
@@ -129,25 +126,20 @@ $ bash middle.sh pentane.pdb
 ~~~
 {: .bash}
 
-~~~
-ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
-ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
-ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
-ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
-ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-04-runmiddlepentane.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 > ## Double-Quotes Around Arguments
 >
-> For the same reason that we put the loop variable inside double-quotes,
-> in case the filename happens to contain any spaces,
-> we surround `$1` with double-quotes.
+> In case the filename happens to contain any spaces,it is good practice to
+> surround `$1` with double-quotes.
 {: .callout}
 
 We still need to edit `middle.sh` each time we want to adjust the range of lines,
-though.
-Let's fix that by using the special variables `$2` and `$3` for the
+though. Let's fix that by using the special variables `$2` and `$3` for the
 number of lines to be passed to `head` and `tail` respectively:
 
 ~~~
@@ -167,14 +159,11 @@ $ bash middle.sh pentane.pdb 15 5
 ~~~
 {: .bash}
 
-~~~
-ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
-ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
-ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
-ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
-ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-05-runmiddlearblines.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 By changing the arguments to our command we can change our script's
 behaviour:
@@ -184,14 +173,11 @@ $ bash middle.sh pentane.pdb 20 5
 ~~~
 {: .bash}
 
-~~~
-ATOM     14  H           1      -1.259   1.420   0.112  1.00  0.00
-ATOM     15  H           1      -2.608  -0.407   1.130  1.00  0.00
-ATOM     16  H           1      -2.540  -1.303  -0.404  1.00  0.00
-ATOM     17  H           1      -3.393   0.254  -0.321  1.00  0.00
-TER      18              1
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-06-runmiddlediffnums.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 This works,
 but it may take the next person who reads `middle.sh` a moment to figure out what it does.
@@ -208,13 +194,19 @@ $ nano middle.sh
 head -n "$2" "$1" | tail -n "$3"
 ~~~
 {: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-07-documentmiddle.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
-A comment starts with a `#` character and runs to the end of the line.
-The computer ignores comments,
-but they're invaluable for helping people (including your future self) understand and use scripts.
-The only caveat is that each time you modify the script,
+A **comment** starts with a `#` character and runs to the end of the line.
+The computer ignores comments, but they're invaluable for helping people
+(including and possibly most importantly, your future self) understand and
+use scripts. The only caveat is that each time you modify the script,
 you should check that the comment is still accurate:
-an explanation that sends the reader in the wrong direction is worse than none at all.
+an explanation that sends the reader in the wrong
+direction is worse than none at all.
 
 What if we want to process many files in a single pipeline?
 For example, if we want to sort our `.pdb` files by length, we would type:
@@ -258,17 +250,11 @@ $ bash sorted.sh *.pdb ../creatures/*.dat
 ~~~
 {: .bash}
 
-~~~
-9 methane.pdb
-12 ethane.pdb
-15 propane.pdb
-20 cubane.pdb
-21 pentane.pdb
-30 octane.pdb
-163 ../creatures/basilisk.dat
-163 ../creatures/unicorn.dat
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-08-sorted.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 > ## Why Isn't It Doing Anything?
 >
@@ -291,7 +277,9 @@ $ bash sorted.sh *.pdb ../creatures/*.dat
 > Since it doesn't have any filenames, `wc` assumes it is supposed to
 > process standard input, so it just sits there and waits for us to give
 > it some data interactively. From the outside, though, all we see is it
-> sitting there: the script doesn't appear to do anything.
+> sitting there: the script doesn't appear to do anything. To stop it we can use
+> either the kill("STOP NOW") or end of file ("I'm all done!") control codes by typing
+> <kbd>CTRL</kbd>+<kbd>C</kbd> or <kbd>CTRL</kbd>+<kbd>D</kbd>, respectively.
 {: .callout}
 
 
@@ -299,8 +287,7 @@ Suppose we have just run a series of commands that did something useful --- for 
 that created a graph we'd like to use in a paper.
 We'd like to be able to re-create the graph later if we need to,
 so we want to save the commands in a file.
-Instead of typing them in again
-(and potentially getting them wrong)
+Instead of typing them in again (and potentially getting them wrong)
 we can do this:
 
 ~~~
@@ -323,23 +310,28 @@ After a moment's work in an editor to remove the serial numbers on the commands,
 and to remove the final line where we called the `history` command,
 we have a completely accurate record of how we created that figure.
 
-In practice, most people develop shell scripts by running commands at the shell prompt a few times
-to make sure they're doing the right thing,
-then saving them in a file for re-use.
-This style of work allows people to recycle
-what they discover about their data and their workflow with one call to `history`
-and a bit of editing to clean up the output
+In practice, most people develop shell scripts by running commands at the
+shell prompt a few times to make sure they're doing the right thing,
+then saving them in a file for re-use. This style of work allows
+people to recycle what they discover about their data and their workflow
+with one call to `history` and a bit of editing to clean up the output
 and save it as a shell script.
 
-## Nelle's Pipeline: Creating a Script
+## **Nelle's Pipeline: Creating a Script**
 
 An off-hand comment from her supervisor has made Nelle realize that
-she should have provided a couple of extra parameters to `goostats` when she processed her files.
-This might have been a disaster if she had done all the analysis by hand,
-but thanks to `for` loops,
-it will only take a couple of hours to re-do.
+she should have provided a couple of extra parameters to `goostats` when
+she processed her files. This might have been a disaster if she had done all
+the analysis by hand, but thanks to `for` loops, it will only take a couple
+of hours to re-do (and that time is mostly computer work, not hers).
 
-But experience has taught her that if something needs to be done twice,
+First she clears the old output:
+~~~
+$ rm stats-NENE0*
+~~~
+{: .bash}
+
+Experience has taught her that if something needs to be done twice,
 it will probably need to be done a third or fourth time as well.
 She runs the editor and writes the following:
 
@@ -362,15 +354,27 @@ $ bash do-stats.sh *[AB].txt
 ~~~
 {: .bash}
 
+She can check the output with:
+~~~
+$ less stats-NENE01729A.txt
+~~~
+{: bash}
+and quit less but typing <kbd>Q</kbd>
+
 She can also do this:
 
 ~~~
 $ bash do-stats.sh *[AB].txt | wc -l
 ~~~
 {: .bash}
-
 so that the output is just the number of files processed
 rather than the names of the files that were processed.
+
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-09-goorevisit.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 One thing to note about Nelle's script is that
 it lets the person running it decide what files to process.
@@ -388,14 +392,13 @@ done
 
 The advantage is that this always selects the right files:
 she doesn't have to remember to exclude the 'Z' files.
-The disadvantage is that it *always* selects just those files --- she can't run it on all files
-(including the 'Z' files),
+The disadvantage is that it *always* selects just those files ---
+she can't run it on all files (including the 'Z' files),
 or on the 'G' or 'H' files her colleagues in Antarctica are producing,
-without editing the script.
-If she wanted to be more adventurous,
+without editing the script. If she wanted to be more adventurous,
 she could modify her script to check for command-line parameters,
-and use `*[AB].txt` if none were provided.
-Of course, this introduces another tradeoff between flexibility and complexity.
+and use `*[AB].txt` if none were provided. Of course, this introduces another
+tradeoff between flexibility, complexity, and her time.
 
 > ## Variables in Shell Scripts
 >
@@ -411,7 +414,7 @@ Of course, this introduces another tradeoff between flexibility and complexity.
 > While you are in the `molecules` directory, you type the following command:
 >
 > ~~~
-> bash script.sh '*.pdb' 1 1
+> $ bash script.sh '*.pdb' 1 1
 > ~~~
 > {: .bash}
 >
@@ -420,8 +423,16 @@ Of course, this introduces another tradeoff between flexibility and complexity.
 > 1. All of the lines between the first and the last lines of each file ending in `.pdb`
 >    in the `molecules` directory
 > 2. The first and the last line of each file ending in `.pdb` in the `molecules` directory
-> 3. The first and the last line of each file in the `molecules` directory
-> 4. An error because of the quotes around `*.pdb`
+> 3. All of the first, then all of the last lines of each file ending in `.pdb`
+> in the `molecules` directory
+> 4. The first and the last line of each file in the `molecules` directory
+> 5. An error because of the quotes around `*.pdb`
+>
+> >## Solution
+> >
+> > 3
+> >
+> {: .solution}
 {: .challenge}
 
 > ## List Unique Species
@@ -438,12 +449,25 @@ Of course, this introduces another tradeoff between flexibility and complexity.
 > 2013-11-07,rabbit,18
 > 2013-11-07,bear,1
 > ~~~
-> {: .source}
+> {: .output}
 >
 > Write a shell script called `species.sh` that takes any number of
 > filenames as command-line parameters, and uses `cut`, `sort`, and
 > `uniq` to print a list of the unique species appearing in each of
 > those files separately.
+>
+> > ## Solution
+> > example species.sh:
+> > ~~~
+> > for $filename in $@
+> > do
+> >     echo "### $filename ###"
+> >     cut -d , -f 2 $filename | sort | uniq
+> >     echo "### $filename ###"
+> > done
+> > ~~~
+> > {: .bash}
+> {: .solution}
 {: .challenge}
 
 > ## Find the Longest File With a Given Extension
@@ -458,23 +482,16 @@ Of course, this introduces another tradeoff between flexibility and complexity.
 > ~~~
 > {: .bash}
 >
-> would print the name of the `.pdb` file in `/tmp/data` that has
-> the most lines.
-{: .challenge}
-
-> ## Why Record Commands in the History Before Running Them?
+> would print the number of lines and name of the `.pdb` file in `/tmp/data`
+> that has the most lines.
 >
-> If you run the command:
->
-> ~~~
-> $ history | tail -n 5 > recent.sh
-> ~~~
-> {: .bash}
->
-> the last command in the file is the `history` command itself, i.e.,
-> the shell has added `history` to the command log before actually
-> running it. In fact, the shell *always* adds commands to the log
-> before running them. Why do you think it does this?
+> > ## Solution
+> > example longest.sh:
+> > ~~~
+> > wc -l ${1}/*.${2} | sort -rn | head -n 2 | tail -n 1
+> > ~~~
+> > {: .bash}
+> {: .solution}
 {: .challenge}
 
 > ## Script Reading Comprehension
@@ -504,6 +521,28 @@ Of course, this introduces another tradeoff between flexibility and complexity.
 > echo $@.dat
 > ~~~
 > {: .bash}
+>
+> > ## Solution
+> >
+> > Script 1 output:
+> > ~~~
+> > example.sh fructose.dat  glucose.dat  sucrose.dat
+> > ~~~
+> > {: .output}
+> >
+> > Script 2 output:
+> > ~~~
+> > #All the data in fructose.dat, glucose.dat, and sucrose.dat
+> > ~~~
+> > {: .output}
+> >
+> > Script 3 output:
+> > ~~~
+> > fructose.dat glucose.dat sucrose.dat.dat
+> > ~~~
+> > {: .output}
+> >
+> {: .solution}
 {: .challenge}
 
 > ## Debugging Scripts
@@ -538,4 +577,12 @@ Of course, this introduces another tradeoff between flexibility and complexity.
 >
 > What is the output showing you?
 > Which line is responsible for the error?
+>
+> > ## Solution
+> >
+> > You'll see a "trace" of what bash is executing. Notice that echo isn't
+> > echoing anything? That's because we never defined a variable called
+> > `datfile`, so bash just evaluates that to nothing. 
+> >
+> {: .solution}
 {: .challenge}
