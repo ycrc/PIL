@@ -589,8 +589,8 @@ get some coffee and catch up on her reading.
 > >## Solution
 > > you get the following directories:
 > > ~~~
-fructose-25  fructose-37  glucose-25  glucose-37  sucrose-25  sucrose-37
-fructose-30  fructose-40  glucose-30  glucose-40  sucrose-30  sucrose-40
+> > fructose-25  fructose-37  glucose-25  glucose-37  sucrose-25  sucrose-37
+> > fructose-30  fructose-40  glucose-30  glucose-40  sucrose-30  sucrose-40
 > > ~~~
 > > {: .output}
 > {: .solution}
