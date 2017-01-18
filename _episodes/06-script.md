@@ -355,10 +355,12 @@ $ bash do-stats.sh *[AB].txt
 {: .bash}
 
 She can check the output with:
+
 ~~~
 $ less stats-NENE01729A.txt
 ~~~
 {: bash}
+
 and quit less but typing <kbd>Q</kbd>
 
 She can also do this:
