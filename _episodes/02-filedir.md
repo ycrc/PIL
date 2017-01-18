@@ -56,7 +56,7 @@ To start exploring them!
 
 ## **Who Are You?**
 Type the command `whoami`,
-then press the Enter key (sometimes marked Return) to send the command to the shell.
+then press the <kbd>ENTER</kbd> key (sometimes marked Return) to send the command to the shell.
 The command's output is the ID of the current user,
 i.e.,
 it shows us who the shell thinks we are:

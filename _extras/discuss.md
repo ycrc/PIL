@@ -32,7 +32,7 @@ following are all equivalent `Ctrl-C`, `Ctrl+C`, `Control-C`, `Control+C`, `^C`)
 *   `Ctrl-D`:
     indicates the end of a file or stream of characters that you are entering on the command line.
     For example, we saw earlier that the `wc` command counts lines, words, and characters in a file.
-    If we just type `wc` and hit the Enter key without providing a file name,
+    If we just type `wc` and hit the <kbd>ENTER</kbd> key without providing a file name,
     then `wc` will assume we want it to analyze all the stuff we type next.
     After typing our magnum opus directly into the shell prompt,
     we can then type Ctrl-D to tell `wc` that we're done and we'd like to see the results of the word count.
