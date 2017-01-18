@@ -153,7 +153,7 @@ so `cat` just shows us what it contains:
 > which you use with `less lengths.txt`.
 > This displays a screenful of the file, and then stops.
 >
-> - Go forward one screenful by pressing the <kbd>&nbsp;&nbsp;spacebar&nbsp;&nbsp;</kbd>.
+> - Go forward one screenful by pressing the <kbd>&nbsp;&nbsp;&nbsp;SPACEBAR&nbsp;&nbsp;&nbsp;</kbd>.
 >
 > - Go back one screenful by pressing <kbd>B</kbd>
 >
