@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "title": null,
+  "duration": 6.781535,
+  "command": null,
+  "stdout": [
+    [
+      0.117683,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      1.317514,
+      "g"
+    ],
+    [
+      0.519718,
+      "r"
+    ],
+    [
+      0.046121,
+      "e"
+    ],
+    [
+      0.147381,
+      "p"
+    ],
+    [
+      0.369011,
+      " "
+    ],
+    [
+      0.847523,
+      "n"
+    ],
+    [
+      0.038261,
+      "o"
+    ],
+    [
+      0.163779,
+      "t"
+    ],
+    [
+      0.198964,
+      " "
+    ],
+    [
+      0.486084,
+      "h"
+    ],
+    [
+      0.084013,
+      "a"
+    ],
+    [
+      0.205963,
+      "iku.txt "
+    ],
+    [
+      2.234922,
+      "\r\n"
+    ],
+    [
+      0.002155,
+      "Is \u001b[01;31m\u001b[Knot\u001b[m\u001b[K the true Tao, until\r\n\"My Thesis\" \u001b[01;31m\u001b[Knot\u001b[m\u001b[K found.\r\nToday it is \u001b[01;31m\u001b[Knot\u001b[m\u001b[K working\r\n"
+    ],
+    [
+      0.001329,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "width": 80,
+  "height": 16,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  }
+}

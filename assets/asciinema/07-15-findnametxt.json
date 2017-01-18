@@ -1,0 +1,66 @@
+{
+  "width": 80,
+  "height": 16,
+  "stdout": [
+    [
+      0.119342,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      0.801475,
+      "find . -name *.txt"
+    ],
+    [
+      0.557218,
+      "\b"
+    ],
+    [
+      0.154012,
+      "\b"
+    ],
+    [
+      0.145016,
+      "\b"
+    ],
+    [
+      0.17959,
+      "\b"
+    ],
+    [
+      0.181572,
+      "\b"
+    ],
+    [
+      0.755258,
+      "'*.txt\b\b\b\b\b"
+    ],
+    [
+      0.094328,
+      "\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.176519,
+      "'"
+    ],
+    [
+      2.134659,
+      "\r\n"
+    ],
+    [
+      0.002241,
+      "./haiku.txt\r\n./data/one.txt\r\n./data/two.txt\r\n"
+    ],
+    [
+      0.00145,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "command": null,
+  "title": null,
+  "version": 1,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "duration": 5.303795
+}

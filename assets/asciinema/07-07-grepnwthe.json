@@ -1,0 +1,110 @@
+{
+  "width": 80,
+  "version": 1,
+  "duration": 6.866683,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.114064,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      0.84084,
+      "g"
+    ],
+    [
+      0.202231,
+      "r"
+    ],
+    [
+      0.046724,
+      "e"
+    ],
+    [
+      0.103103,
+      "p"
+    ],
+    [
+      0.194499,
+      " "
+    ],
+    [
+      0.619586,
+      "-"
+    ],
+    [
+      0.307854,
+      "n"
+    ],
+    [
+      0.088373,
+      " "
+    ],
+    [
+      0.267546,
+      "-"
+    ],
+    [
+      0.825601,
+      "w"
+    ],
+    [
+      0.136727,
+      " "
+    ],
+    [
+      0.745788,
+      "\""
+    ],
+    [
+      0.254877,
+      "t"
+    ],
+    [
+      0.088701,
+      "h"
+    ],
+    [
+      0.079261,
+      "e"
+    ],
+    [
+      0.425482,
+      "\""
+    ],
+    [
+      0.243193,
+      " "
+    ],
+    [
+      0.539023,
+      "h"
+    ],
+    [
+      0.072063,
+      "a"
+    ],
+    [
+      0.21538,
+      "iku.txt "
+    ],
+    [
+      0.451046,
+      "\r\n"
+    ],
+    [
+      0.002286,
+      "\u001b[32m\u001b[K2\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KIs not \u001b[01;31m\u001b[Kthe\u001b[m\u001b[K true Tao, until\r\n\u001b[32m\u001b[K6\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[Kand \u001b[01;31m\u001b[Kthe\u001b[m\u001b[K presence of absence:\r\n"
+    ],
+    [
+      0.001311,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "height": 16
+}

@@ -7,12 +7,12 @@ permalink: /discuss/
 
 If the command to find out who we are is `whoami`, the command to find
 out where we are ought to be called `whereami`, so why is it `pwd`
-instead? The usual answer is that in the early 1970s, when Unix was
+instead? The usual answer is that in the early 1970s, when Linux was
 first being developed, every keystroke counted: the devices of the day
 were slow, and backspacing on a teletype was so painful that cutting the
 number of keystrokes in order to cut the number of typing mistakes was
 actually a win for usability. The reality is that commands were added to
-Unix one by one, without any master plan, by people who were immersed in
+Linux one by one, without any master plan, by people who were immersed in
 its jargon. The result is as inconsistent as the roolz uv Inglish
 speling, but we're stuck with it now.
 
@@ -55,8 +55,8 @@ have similar feature sets, but their syntax rules are different and
 this makes them incompatible with each other. A few other shells have
 appeared since, including ksh, zsh, and a number of others; they are
 mostly compatible with Bash, and Bash is the default shell on most
-modern implementations of Unix (including most packages that provide
-Unix-like tools for Windows) but if you get strange errors in shell
+modern implementations of Linux (including most packages that provide
+Linux-like tools for Windows) but if you get strange errors in shell
 scripts written by colleagues, check to see which shell they were
 written for.
 

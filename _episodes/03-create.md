@@ -111,7 +111,7 @@ Let's run a text editor called Nano to create a file called `draft.txt`.
 > only work with plain character data, not tables, images, or any other
 > human-friendly media. We use it in examples because almost anyone can
 > drive it anywhere without training, but please use something more
-> powerful for real work. On Unix systems (such as Linux and Mac OS X),
+> powerful for real work. On Linux systems (such as Linux and Mac OS X),
 > many programmers use [Emacs](http://www.gnu.org/software/emacs/) or
 > [Vim](http://www.vim.org/) (both of which are take some time to learn),
 > or a graphical editor such as [Gedit](http://projects.gnome.org/gedit/).
@@ -179,8 +179,8 @@ $ ls
 
 > ## Deleting Is Forever!
 >
-> The Unix shell doesn't have a trash bin that we can recover deleted
-> files from (though most graphical interfaces to Unix do).  Instead,
+> The Linux shell doesn't have a trash bin that we can recover deleted
+> files from (though most graphical interfaces to Linux do).  Instead,
 > when we delete files, they are unhooked from the file system so that
 > their storage space on disk can be recycled. Tools for finding and
 > recovering deleted files do exist, but there's no guarantee they'll
@@ -323,7 +323,7 @@ $ ls
 The `cp` command works very much like `mv`,
 except it copies a file instead of moving it.
 We can check that it did the right thing using `ls`
-with two paths as parameters. Unlike some Unix commands,
+with two paths as parameters. Unlike some Linux commands,
 `ls` can be given multiple paths at once:
 
 ~~~

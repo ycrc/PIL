@@ -24,7 +24,7 @@ keypoints:
 - "`/` on its own is the root directory of the whole file system."
 - "A relative path specifies a location starting from the current location."
 - "An absolute path specifies a location from the root of the file system."
-- "Directory names in a path are separated with '/' on Unix, but '\\\\' on Windows."
+- "Directory names in a path are separated with '/' on Linux, but '\\\\' on Windows."
 - "'..' means 'the directory above the current one'; '.' on its own means 'the current directory'."
 - "Most files' names are `something.extension`. The extension isn't required, and doesn't guarantee anything, but is normally used to indicate the type of data in the file."
 - "Most commands take options (flags) which begin with a '-'."
@@ -227,7 +227,7 @@ run from within bash, support a `--help` flag to display more
 information on how to use the commands or programs.
 
 For more information on how to use `ls` we can type `man ls`.
-`man` is the Unix "manual" command:
+`man` is the Linux "manual" command:
 it prints a description of a command and its options,
 and (if you're lucky) provides a few examples of how to use it.
 

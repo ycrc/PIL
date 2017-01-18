@@ -1,0 +1,130 @@
+{
+  "height": 16,
+  "version": 1,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "title": null,
+  "stdout": [
+    [
+      0.118171,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      0.898726,
+      "g"
+    ],
+    [
+      0.2486,
+      "r"
+    ],
+    [
+      0.049941,
+      "e"
+    ],
+    [
+      0.095025,
+      "p"
+    ],
+    [
+      0.196767,
+      " "
+    ],
+    [
+      0.705403,
+      "-"
+    ],
+    [
+      0.301598,
+      "n"
+    ],
+    [
+      0.160275,
+      " "
+    ],
+    [
+      0.245775,
+      "-"
+    ],
+    [
+      0.22218,
+      "w"
+    ],
+    [
+      0.162038,
+      " "
+    ],
+    [
+      0.478614,
+      "-"
+    ],
+    [
+      0.416217,
+      "v"
+    ],
+    [
+      0.090196,
+      " "
+    ],
+    [
+      0.467993,
+      "\""
+    ],
+    [
+      0.302672,
+      "t"
+    ],
+    [
+      0.087449,
+      "h"
+    ],
+    [
+      0.076789,
+      "e"
+    ],
+    [
+      0.382751,
+      "\""
+    ],
+    [
+      0.237195,
+      " "
+    ],
+    [
+      0.356914,
+      "h"
+    ],
+    [
+      0.091894,
+      "a"
+    ],
+    [
+      0.093186,
+      "i"
+    ],
+    [
+      0.221095,
+      "ku.txt "
+    ],
+    [
+      0.517919,
+      "\r\n"
+    ],
+    [
+      0.002296,
+      "\u001b[32m\u001b[K1\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KThe Tao that is seen\r\n\u001b[32m\u001b[K3\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KYou bring fresh toner.\r\n\u001b[32m\u001b[K4\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[K\r\n\u001b[32m\u001b[K5\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KWith searching comes loss"
+    ],
+    [
+      5.1e-05,
+      "\r\n\u001b[32m\u001b[K7\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[K\"My Thesis\" not found.\r\n\u001b[32m\u001b[K8\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[K\r\n\u001b[32m\u001b[K9\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KYesterday it worked\r\n\u001b[32m\u001b[K10\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KToday it is not working\r\n\u001b[32m\u001b[K11\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KSoftware is like that.\r\n"
+    ],
+    [
+      0.001369,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "width": 80,
+  "command": null,
+  "duration": 7.2302
+}

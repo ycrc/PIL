@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "title": null,
+  "duration": 7.217995,
+  "command": null,
+  "stdout": [
+    [
+      0.118116,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      0.897986,
+      "g"
+    ],
+    [
+      0.215487,
+      "r"
+    ],
+    [
+      0.049465,
+      "e"
+    ],
+    [
+      0.124447,
+      "p"
+    ],
+    [
+      0.187813,
+      " "
+    ],
+    [
+      0.826983,
+      "-"
+    ],
+    [
+      0.478949,
+      "n"
+    ],
+    [
+      0.174808,
+      " "
+    ],
+    [
+      0.654297,
+      "\""
+    ],
+    [
+      0.796439,
+      "i"
+    ],
+    [
+      0.106323,
+      "t"
+    ],
+    [
+      0.659731,
+      "\""
+    ],
+    [
+      0.209493,
+      " "
+    ],
+    [
+      0.236378,
+      "h"
+    ],
+    [
+      0.097326,
+      "a"
+    ],
+    [
+      0.097982,
+      "i"
+    ],
+    [
+      0.279483,
+      "ku.txt "
+    ],
+    [
+      1.001903,
+      "\r\n"
+    ],
+    [
+      0.002165,
+      "\u001b[32m\u001b[K5\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KW\u001b[01;31m\u001b[Kit\u001b[m\u001b[Kh searching comes loss\r\n\u001b[32m\u001b[K9\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KYesterday \u001b[01;31m\u001b[Kit\u001b[m\u001b[K worked\r\n\u001b[32m\u001b[K10\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KToday \u001b[01;31m\u001b[Kit\u001b[m\u001b[K is not working\r\n"
+    ],
+    [
+      0.00132,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "width": 80,
+  "height": 16,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  }
+}

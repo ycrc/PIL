@@ -31,7 +31,7 @@ The following keyboard shortcuts areavailable (when the player focused):
 
 ## **Filesystem heirarchy**
 
-The following is an overview of a standard Unix filesystem.
+The following is an overview of a standard Linux filesystem.
 The exact heirarchy is dependent on the platform,
 so you may not see exactly the same files/directories on your computer:
 
@@ -44,7 +44,7 @@ absolute path
 :   A [path](#path) that refers to a particular location in a file system.
     Absolute paths are usually written with respect to the file system's
     [root directory](#root-directory),
-    and begin with either "/" (on Unix) or "\\" (on Microsoft Windows).
+    and begin with either "/" (on Linux) or "\\" (on Microsoft Windows).
     See also: [relative path](#relative-path).
 
 argument
@@ -62,7 +62,7 @@ command-line interface
 comment
 :   A remark in a program that is intended to help human readers understand what is going on,
     but is ignored by the computer.
-    Comments in Python, R, and the Unix shell start with a `#` character and run to the end of the line;
+    Comments in Python, R, and the Linux shell start with a `#` character and run to the end of the line;
     comments in SQL start with `--`,
     and other languages have other conventions.
 
@@ -91,13 +91,13 @@ filename extension
 
 filter
 :   A program that transforms a stream of data.
-    Many Unix command-line tools are written as filters:
+    Many Linux command-line tools are written as filters:
     they read data from [standard input](#standard-input),
     process it, and write the result to [standard output](#standard-output).
 
 flag
 :   A terse way to specify an option or setting to a command-line program.
-    By convention Unix applications use a dash followed by a single letter,
+    By convention Linux applications use a dash followed by a single letter,
     such as `-v`, or two dashes followed by a word, such as `--verbose`,
     while DOS applications use a slash, such as `/V`.
     Depending on the application, a flag may be followed by a single argument, as in `-o /tmp/output.txt`.
@@ -188,7 +188,7 @@ relative path
 
 root directory
 :   The top-most directory in a [file system](#file-system).
-    Its name is "/" on Unix (including Linux and Mac OS X) and "\\" on Microsoft Windows.
+    Its name is "/" on Linux (including Linux and Mac OS X) and "\\" on Microsoft Windows.
 
 shell
 :   A [command-line interface](#cli) such as Bash (the Bourne-Again Shell)
@@ -233,6 +233,6 @@ while loop
 
 wildcard
 :   A character used in pattern matching.
-    In the Unix shell,
+    In the Linux shell,
     the wildcard `*` matches zero or more characters,
     so that `*.txt` matches all files whose names end in `.txt`.

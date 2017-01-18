@@ -18,40 +18,32 @@ keypoints:
 - "`$(command)` inserts a command's output in place."
 ---
 
-In the same way that many of us now use "Google" as a 
-verb meaning "to find", Unix programmers often use the 
+## **`grep`**
+
+In the same way that many of us now use "Google" as a
+verb meaning "to find", Linux programmers often use the
 word "grep".
 "grep" is a contraction of "global/regular expression/print",
-a common sequence of operations in early Unix text editors.
+a common sequence of operations in early Linux text editors.
 It is also the name of a very useful command-line program.
 
 `grep` finds and prints lines in files that match a pattern.
 For our examples,
 we will use a file that contains three haikus taken from a
 1998 competition in *Salon* magazine. For this set of examples,
-we're going to be working in the writing subdirectory:
+we're going to be working in the writing subdirectory. From `PIL-data`:
 
 ~~~
-$ cd
 $ cd writing
 $ cat haiku.txt
 ~~~
 {: .bash}
 
-~~~
-The Tao that is seen
-Is not the true Tao, until
-You bring fresh toner.
-
-With searching comes loss
-and the presence of absence:
-"My Thesis" not found.
-
-Yesterday it worked
-Today it is not working
-Software is like that.
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-01-cathai.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 > ## Forever, or Five Years
 >
@@ -67,12 +59,11 @@ $ grep not haiku.txt
 ~~~
 {: .bash}
 
-~~~
-Is not the true Tao, until
-"My Thesis" not found
-Today it is not working
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-02-grepnot.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 Here, `not` is the pattern we're searching for.
 It's pretty simple:
@@ -87,11 +78,11 @@ $ grep day haiku.txt
 ~~~
 {: .bash}
 
-~~~
-Yesterday it worked
-Today it is not working
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-03-grepday.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 This time,
 two lines that include the letters "day" are outputted.
@@ -105,6 +96,13 @@ $ grep -w day haiku.txt
 ~~~
 {: .bash}
 
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-04-grepwday.json">
+> </asciinema-player>
+>
+{: .asciinema}
+
+
 In this case, there aren't any, so `grep`'s output is empty. Sometimes we don't
 want to search for a single word, but a phrase. This is also easy to do with
 `grep` by putting the phrase in quotes.
@@ -114,10 +112,11 @@ $ grep -w "is not" haiku.txt
 ~~~
 {: .bash}
 
-~~~
-Today it is not working
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-05-grepwisnot.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 We've now seen that you don't have to have quotes around single words,
 but it is useful to use quotes when searching for multiple words.
@@ -132,16 +131,15 @@ $ grep -n "it" haiku.txt
 ~~~
 {: .bash}
 
-~~~
-5:With searching comes loss
-9:Yesterday it worked
-10:Today it is not working
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-06-grepnit.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 Here, we can see that lines 5, 9, and 10 contain the letters "it".
 
-We can combine options (i.e. flags) as we do with other Unix commands.
+We can combine options (i.e. flags) as we do with other Linux commands.
 For example, let's find the lines that contain the word "the". We can combine
 the option `-w` to find the lines that contain the word "the" and `-n` to number the lines that match:
 
@@ -150,11 +148,11 @@ $ grep -n -w "the" haiku.txt
 ~~~
 {: .bash}
 
-~~~
-2:Is not the true Tao, until
-6:and the presence of absence:
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-07-grepnwthe.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 Now we want to use the option `-i` to make our search case-insensitive:
 
@@ -163,93 +161,58 @@ $ grep -n -w -i "the" haiku.txt
 ~~~
 {: .bash}
 
-~~~
-1:The Tao that is seen
-2:Is not the true Tao, until
-6:and the presence of absence:
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-08-grepnwithe.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 Now, we want to use the option `-v` to invert our search, i.e., we want to output
-the lines that do not contain the word "the".
+the lines that *do not* contain the word "the".
 
 ~~~
 $ grep -n -w -v "the" haiku.txt
 ~~~
 {: .bash}
 
-~~~
-1:The Tao that is seen
-3:You bring fresh toner.
-4:
-5:With searching comes loss
-7:"My Thesis" not found.
-8:
-9:Yesterday it worked
-10:Today it is not working
-11:Software is like that.
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-09-grepnnwvthe.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 `grep` has lots of other options. To find out what they are, we can type:
 
 ~~~
-$ grep --help
+$ grep --help | less
 ~~~
 {: .bash}
 
-~~~
-Usage: grep [OPTION]... PATTERN [FILE]...
-Search for PATTERN in each FILE or standard input.
-PATTERN is, by default, a basic regular expression (BRE).
-Example: grep -i 'hello world' menu.h main.c
+and type <kbd>Q</kbd> to quit when we're done.
 
-Regexp selection and interpretation:
-  -E, --extended-regexp     PATTERN is an extended regular expression (ERE)
-  -F, --fixed-strings       PATTERN is a set of newline-separated fixed strings
-  -G, --basic-regexp        PATTERN is a basic regular expression (BRE)
-  -P, --perl-regexp         PATTERN is a Perl regular expression
-  -e, --regexp=PATTERN      use PATTERN for matching
-  -f, --file=FILE           obtain PATTERN from FILE
-  -i, --ignore-case         ignore case distinctions
-  -w, --word-regexp         force PATTERN to match only whole words
-  -x, --line-regexp         force PATTERN to match only whole lines
-  -z, --null-data           a data line ends in 0 byte, not newline
-
-Miscellaneous:
-...        ...        ...
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-10-grephelp.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 > ## Wildcards
 >
 > `grep`'s real power doesn't come from its options, though; it comes from
 > the fact that patterns can include wildcards. (The technical name for
-> these is **regular expressions**, which
+> these is [**regular expressions**](https://en.wikipedia.org/wiki/Regular_expression), which
 > is what the "re" in "grep" stands for.) Regular expressions are both complex
-> and powerful; if you want to do complex searches, please look at the lesson
-> on [our website](http://v4.software-carpentry.org/regexp/index.html). As a taster, we can
+> and powerful. If you want to test complex searches, take a look at the site
+> on [RegExr](http://regexr.com/). As a taster, we can
 > find lines that have an 'o' in the second position like this:
 >
-> ~~~
-> $ grep -E '^.o' haiku.txt
-> ~~~
-> {: .bash}
->
-> ~~~
-> You bring fresh toner.
-> Today it is not working
-> Software is like that.
-> ~~~
-> {: .output}
->
-> We use the `-E` flag and put the pattern in quotes to prevent the shell
-> from trying to interpret it. (If the pattern contained a `*`, for
-> example, the shell would try to expand it before running `grep`.) The
-> `^` in the pattern anchors the match to the start of the line. The `.`
-> matches a single character (just like `?` in the shell), while the `o`
-> matches an actual 'o'.
+> To use refular explressions and grep, use the `-E` flag and put the pattern
+> in quotes to prevent the shell from trying to interpret it. (If the pattern
+>  contained a `*`, for example, the shell would try to expand it before
+> running `grep`.)
 {: .callout}
+
+## **`find`**
 
 While `grep` finds lines in files,
 the `find` command finds files themselves.
@@ -273,23 +236,11 @@ $ find .
 ~~~
 {: .bash}
 
-~~~
-.
-./old
-./old/.gitkeep
-./data
-./data/one.txt
-./data/two.txt
-./tools
-./tools/format
-./tools/old
-./tools/old/oldtool
-./tools/stats
-./haiku.txt
-./thesis
-./thesis/empty-draft.md
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-11-find.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 As always,
 the `.` on its own means the current working directory,
@@ -297,7 +248,7 @@ which is where we want our search to start.
 `find`'s output is the names of every file **and** directory
 under the current working directory.
 This can seem useless at first but `find` has many options
-to filter the output and in this lesson we will discover some 
+to filter the output and in this lesson we will cover some
 of them.
 
 The first option in our list is
@@ -311,14 +262,11 @@ $ find . -type d
 ~~~
 {: .bash}
 
-~~~
-./
-./data
-./thesis
-./tools
-./tools/old
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-12-findd.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 If we change `-type d` to `-type f`,
 we get a listing of all the files instead:
@@ -328,16 +276,11 @@ $ find . -type f
 ~~~
 {: .bash}
 
-~~~
-./haiku.txt
-./tools/stats
-./tools/old/oldtool
-./tools/format
-./thesis/empty-draft.md
-./data/one.txt
-./data/two.txt
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-13-findf.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 Now let's try matching by name:
 
@@ -346,10 +289,11 @@ $ find . -name *.txt
 ~~~
 {: .bash}
 
-~~~
-./haiku.txt
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-14-findbadname.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 We expected it to find all the text files,
 but it only prints out `./haiku.txt`.
@@ -375,28 +319,26 @@ $ find . -name '*.txt'
 ~~~
 {: .bash}
 
-~~~
-./data/one.txt
-./data/two.txt
-./haiku.txt
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-15-findnametxt.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 > ## Listing vs. Finding
 >
 > `ls` and `find` can be made to do similar things given the right options,
-> but under normal circumstances,
-> `ls` lists everything it can,
+> but under normal circumstances, `ls` lists everything it can,
 > while `find` searches for things with certain properties and shows them.
 {: .callout}
 
-As we said earlier,
-the command line's power lies in combining tools.
-We've seen how to do that with pipes;
-let's look at another technique.
-As we just saw,
-`find . -name '*.txt'` gives us a list of all text files in or below the current directory.
-How can we combine that with `wc -l` to count the lines in all those files?
+## **Subshells**
+
+As we said earlier, the command line's power lies in combining tools.
+We've seen how to do that with pipes; let's look at another technique.
+As we just saw, `find . -name '*.txt'` gives us a list of all text
+files in or below the current directory. How can we combine that
+with `wc -l` to count the lines in all those files?
 
 The simplest way is to put the `find` command inside `$()`:
 
@@ -405,44 +347,43 @@ $ wc -l $(find . -name '*.txt')
 ~~~
 {: .bash}
 
-~~~
-11 ./haiku.txt
-300 ./data/two.txt
-70 ./data/one.txt
-381 total
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-16-findwc.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 When the shell executes this command,
-the first thing it does is run whatever is inside the `$()`.
-It then replaces the `$()` expression with that command's output.
-Since the output of `find` is the three filenames `./data/one.txt`, `./data/two.txt`, and `./haiku.txt`,
-the shell constructs the command:
+the first thing it does is run whatever is inside the `$()`, which we
+call a subshell. It then replaces the `$()` expression with that command's
+output. Since the output of `find` is the three filenames `./data/one.txt`,
+`./data/two.txt`, and `./haiku.txt`, the shell constructs the command:
 
 ~~~
 $ wc -l ./data/one.txt ./data/two.txt ./haiku.txt
 ~~~
 {: .bash}
 
-which is what we wanted.
-This expansion is exactly what the shell does when it expands wildcards like `*` and `?`,
-but lets us use any command we want as our own "wildcard".
+which is what we wanted. This expansion is exactly what the shell does when
+it expands wildcards like `*` and `?`, but lets us use any command we want
+as our own "wildcard".
 
-It's very common to use `find` and `grep` together.
-The first finds files that match a pattern;
-the second looks for lines inside those files that match another pattern.
-Here, for example, we can find PDB files that contain iron atoms
-by looking for the string "FE" in all the `.pdb` files above the current directory:
+It's very common to use `find` and `grep` together. The first finds files
+that match a pattern; the second looks for lines inside those files that
+match another pattern. Here, for example, we can find PDB files that contain
+iron atoms by looking for the string "FE" in all the `.pdb` files above
+the current directory:
 
 ~~~
 $ grep "FE" $(find .. -name '*.pdb')
 ~~~
 {: .bash}
 
-~~~
-../data/pdb/heme.pdb:ATOM     25 FE           1      -0.924   0.535  -0.518
-~~~
-{: .output}
+>## `output`
+> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-17-grepfe.json">
+> </asciinema-player>
+>
+{: .asciinema}
 
 > ## Binary Files
 >
@@ -469,7 +410,7 @@ $ grep "FE" $(find .. -name '*.pdb')
 > ideas from it, and imitation is also the sincerest form of praise.
 {: .callout}
 
-The Unix shell is older than most of the people who use it. It has
+The Linux shell is older than most of the people who use it. It has
 survived so long because it is one of the most productive programming
 environments ever created --- maybe even *the* most productive. Its syntax
 may be cryptic, but people who have mastered it can experiment with
@@ -495,6 +436,12 @@ about them."
 > 2. `grep -E "of" haiku.txt`
 > 3. `grep -w "of" haiku.txt`
 > 4. `grep -i "of" haiku.txt`
+>
+> > ## Solution
+> >
+> > 3
+> >
+> {: .solution}
 {: .challenge}
 
 > ## `find` Pipeline Reading Comprehension
@@ -505,6 +452,13 @@ about them."
 > wc -l $(find . -name '*.dat') | sort -n
 > ~~~
 > {: .bash}
+>
+> > ## Solution
+> >
+> > The pipeline above will print a list of files ending in .dat in this and
+> > all subdirectories, sorted by the number of lines they contain.
+> >
+> {: .solution}
 {: .challenge}
 
 > ## Matching and Subtracting
@@ -519,13 +473,19 @@ about them."
 > 2.  `find /data -name ose.dat | grep -v temp`
 > 3.  `grep -v "temp" $(find /data -name '*ose.dat')`
 > 4.  None of the above.
+>
+> > ## Solution
+> >
+> > 3
+> >
+> {: .solution}
 {: .challenge}
 
 > ## Tracking a Species
-> 
-> Leah has several hundred 
+>
+> Leah has several hundred
 > data files saved in one directory, each of which is formatted like this:
-> 
+>
 > ~~~
 > 2013-11-05,deer,5
 > 2013-11-05,rabbit,22
@@ -535,11 +495,11 @@ about them."
 > ~~~
 > {: .source}
 >
-> She wants to write a shell script that takes a directory and a species 
-> as command-line parameters and return one file called `species.txt` 
+> She wants to write a shell script that takes a directory and a species
+> as command-line parameters and return one file called `species.txt`
 > containing a list of dates and the number of that species seen on that date,
 > such as this file for rabbits:
-> 
+>
 > ~~~
 > 2013-11-05,22
 > 2013-11-06,19
@@ -548,7 +508,7 @@ about them."
 > {: .source}
 >
 > Put these commands and pipes in the right order to achieve this:
-> 
+>
 > ~~~
 > cut -d : -f 2  
 > >  
@@ -562,6 +522,13 @@ about them."
 >
 > Hint: use `man grep` to look for how to grep text recursively in a directory
 > and `man cut` to select more than one field in a line.
+>
+> > ## Solution
+> > ~~~
+> > grep -w $1 -r $2 | cut -d : -f 2 | cut -d , -f 1,3 > $1.txt
+> > ~~~
+> >{: .bash}
+> {: .solution}
 {: .challenge}
 
 > ## Little Women
@@ -571,16 +538,28 @@ about them."
 > book, Jo, Meg, Beth, and Amy, your friend thinks that Jo was the
 > most mentioned.  You, however, are certain it was Amy.  Luckily, you
 > have a file `LittleWomen.txt` containing the full text of the novel.
-> Using a `for` loop, how would you tabulate the number of times each
-> of the four sisters is mentioned?
+> Using a `for` loop, how would you tabulate the number of lines that contain
+> each of the four sisters' names?
 >
 > Hint: one solution might employ
 > the commands `grep` and `wc` and a `|`, while another might utilize
 > `grep` options.
+>
+> > ## Solution
+> > example:
+> > ~~~
+> > for woman in "Jo" "Meg" "Beth" "Amy"
+> > do
+> >     echo $woman:
+> >     grep $woman LittleWomen.txt | wc -l
+> > done
+> > ~~~
+> >{: .bash}
+> {: .solution}
 {: .challenge}
 
 > ## Finding Files With Different Properties
-> 
+>
 > The `find` command can be given several other criteria known as "tests"
 > to locate files with specific attributes, such as creation time, size,
 > permissions, or ownership.  Use `man find` to explore these, and then
@@ -589,12 +568,14 @@ about them."
 >
 > Hint 1: you will need to use three tests: `-type`, `-mtime`, and `-user`.
 >
-> Hint 2: The value for `-mtime` will need to be negative---why?
+> Hint 2: The value for `-mtime` will need to be negative... why?
 >
-> Solution: Assuming that Nelle’s home is our working directory we type:
->
-> ~~~
+> > ## Solution
+> >Assuming that Nelle’s home is our working directory we type:
+> >
+> > ~~~
 > $ find ./ -type f -mtime -1 -user ahmed
-> ~~~
-> {: .bash}
+> > ~~~
+> >{: .bash}
+> {: .solution}
 {: .challenge}

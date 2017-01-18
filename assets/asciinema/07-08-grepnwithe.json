@@ -1,0 +1,122 @@
+{
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "command": null,
+  "version": 1,
+  "width": 80,
+  "stdout": [
+    [
+      0.120291,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      0.619698,
+      "grep -n -w \"the\" haiku.txt "
+    ],
+    [
+      0.31611,
+      "\b"
+    ],
+    [
+      0.500144,
+      "\b"
+    ],
+    [
+      0.032983,
+      "\b"
+    ],
+    [
+      0.032593,
+      "\b"
+    ],
+    [
+      0.033844,
+      "\b"
+    ],
+    [
+      0.032708,
+      "\b"
+    ],
+    [
+      0.033038,
+      "\b"
+    ],
+    [
+      0.032598,
+      "\b"
+    ],
+    [
+      0.033433,
+      "\b"
+    ],
+    [
+      0.032559,
+      "\b"
+    ],
+    [
+      0.033015,
+      "\b"
+    ],
+    [
+      0.033293,
+      "\b"
+    ],
+    [
+      0.033498,
+      "\b"
+    ],
+    [
+      0.032168,
+      "\b"
+    ],
+    [
+      0.033339,
+      "\b"
+    ],
+    [
+      0.032938,
+      "\b"
+    ],
+    [
+      0.384504,
+      "\b"
+    ],
+    [
+      0.632455,
+      "\u001b[C\u001b[1@ \b"
+    ],
+    [
+      0.111884,
+      "\u001b[1@-"
+    ],
+    [
+      0.596938,
+      "\u001b[1@i"
+    ],
+    [
+      0.807603,
+      "\r\n"
+    ],
+    [
+      0.002325,
+      "\u001b[32m\u001b[K1\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[K\u001b[01;31m\u001b[KThe\u001b[m\u001b[K Tao that is seen\r\n"
+    ],
+    [
+      5.9e-05,
+      "\u001b[32m\u001b[K2\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[KIs not \u001b[01;31m\u001b[Kthe\u001b[m\u001b[K true Tao, until\r\n"
+    ],
+    [
+      3.6e-05,
+      "\u001b[32m\u001b[K6\u001b[m\u001b[K\u001b[36m\u001b[K:\u001b[m\u001b[Kand \u001b[01;31m\u001b[Kthe\u001b[m\u001b[K presence of absence:\r\n"
+    ],
+    [
+      0.001416,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "duration": 4.5566,
+  "height": 16,
+  "title": null
+}

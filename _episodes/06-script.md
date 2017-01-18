@@ -15,7 +15,7 @@ keypoints:
 - "`$@` refers to all of a shell script's command-line parameters."
 - "`$1`, `$2`, etc., refer to the first command-line parameter, the second command-line parameter, etc."
 - "Place variables in quotes if the values might have spaces in them."
-- "Letting users decide what files to process is more flexible and more consistent with built-in Unix commands."
+- "Letting users decide what files to process is more flexible and more consistent with built-in Linux commands."
 ---
 
 We are finally ready to see what makes the shell such a powerful programming environment.
@@ -582,7 +582,7 @@ tradeoff between flexibility, complexity, and her time.
 > >
 > > You'll see a "trace" of what bash is executing. Notice that echo isn't
 > > echoing anything? That's because we never defined a variable called
-> > `datfile`, so bash just evaluates that to nothing. 
+> > `datfile`, so bash just evaluates that to nothing.
 > >
 > {: .solution}
 {: .challenge}

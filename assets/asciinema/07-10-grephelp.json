@@ -1,0 +1,354 @@
+{
+  "height": 16,
+  "width": 80,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "title": null,
+  "duration": 14.294549,
+  "version": 1,
+  "command": null,
+  "stdout": [
+    [
+      0.119548,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      0.900785,
+      "g"
+    ],
+    [
+      0.22806,
+      "r"
+    ],
+    [
+      0.048602,
+      "e"
+    ],
+    [
+      0.123862,
+      "p"
+    ],
+    [
+      0.203774,
+      " "
+    ],
+    [
+      0.193552,
+      "-"
+    ],
+    [
+      0.135933,
+      "-"
+    ],
+    [
+      0.688904,
+      "h"
+    ],
+    [
+      0.067645,
+      "e"
+    ],
+    [
+      0.098252,
+      "l"
+    ],
+    [
+      0.037704,
+      "p"
+    ],
+    [
+      0.426423,
+      " "
+    ],
+    [
+      0.723422,
+      "|"
+    ],
+    [
+      0.243714,
+      " "
+    ],
+    [
+      0.156967,
+      "k"
+    ],
+    [
+      0.004784,
+      "l"
+    ],
+    [
+      0.164038,
+      "e"
+    ],
+    [
+      0.229924,
+      "\b\u001b[K"
+    ],
+    [
+      0.130153,
+      "\b\u001b[K"
+    ],
+    [
+      0.189857,
+      "\b\u001b[K"
+    ],
+    [
+      0.636344,
+      "l"
+    ],
+    [
+      0.089968,
+      "e"
+    ],
+    [
+      0.206862,
+      "s"
+    ],
+    [
+      0.149915,
+      "s"
+    ],
+    [
+      0.290045,
+      "\r\n"
+    ],
+    [
+      0.004162,
+      "\u001b[?1049h\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.000522,
+      "Usage: grep [OPTION]... PATTERN [FILE]...\r\nSearch for PATTERN in each FILE or standard input.\r\nPATTERN is, by default, a basic regular expression (BRE).\r\nExample: grep -i 'hello world' menu.h main.c\r\n\r\nRegexp selection and interpretation:\r\n  -E, --extended-regexp     PATTERN is an extended regular expression (ERE)"
+    ],
+    [
+      4.8e-05,
+      "\r\n  -F, --fixed-strings       PATTERN is a set of newline-separated fixed strings\r\n  -G, --basic-regexp        PATTERN is a basic regular expression (BRE)\r\n  -P, --perl-regexp         PATTERN is a Perl regular expression\r\n  -e, --regexp=PATTERN      use PATTERN for matching\r\n  -f, --file=FILE           obtain PATTERN from FILE\r\n  -i, --ignore-case         ignore case distinctions\r\n"
+    ],
+    [
+      3.6e-05,
+      "  -w, --word-regexp         force PATTERN to match only whole words\r\n  -x, --line-regexp         force PATTERN to match only whole lines\r\n:\u001b[K"
+    ],
+    [
+      1.366381,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.7e-05,
+      "  -z, --null-data           a data line ends in 0 byte, not newline\r\n:\u001b[K"
+    ],
+    [
+      0.298645,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.278764,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4.1e-05,
+      "\u001b[KB\bB\r\u001b[KMiscellaneous:\r\n:\u001b[K"
+    ],
+    [
+      0.270376,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4.4e-05,
+      "\u001b[KB\bB\r\u001b[K  -s, --no-messages         suppress error messages"
+    ],
+    [
+      4.6e-05,
+      "\r\n:\u001b[K"
+    ],
+    [
+      0.250576,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.1e-05,
+      "  -v, --invert-match        select non-matching lines\r\n:\u001b[K"
+    ],
+    [
+      0.268855,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.1e-05,
+      "  -V, --version             print version information and exit\r\n:\u001b[K"
+    ],
+    [
+      0.228169,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4.2e-05,
+      "\u001b[KB\bB\r\u001b[K      --help                display this help and exit"
+    ],
+    [
+      4.9e-05,
+      "\r\n:\u001b[K"
+    ],
+    [
+      0.208102,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.1e-05,
+      "      --mmap                deprecated no-op; evokes a warning\r\n:\u001b[K"
+    ],
+    [
+      0.249351,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K\r\n:\u001b[K"
+    ],
+    [
+      0.236169,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[KOutput control:\r\n:\u001b[K"
+    ],
+    [
+      0.242494,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      4e-05,
+      "\u001b[KB\bB\r\u001b[K  -m, --max-count=NUM       stop after NUM matches"
+    ],
+    [
+      4.5e-05,
+      "\r\n:\u001b[K"
+    ],
+    [
+      0.240657,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.8e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.1e-05,
+      "  -b, --byte-offset         print the byte offset with output lines\r\n:\u001b[K"
+    ],
+    [
+      0.244592,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      3.2e-05,
+      "  -n, --line-number         print line number with output lines\r\n:\u001b[K"
+    ],
+    [
+      0.43103,
+      "\r\u001b[K"
+    ],
+    [
+      0.000631,
+      "      --line-buffered       flush output on every line\r\n  -H, --with-filename       print the file name for each match\r\n  -h, --no-filename         suppress the file name prefix on output\r\n      --label=LABEL         use LABEL as the standard input file name prefix\r\n  -o, --only-matching       show only the part of a line matching PATTERN\r\n  -q, --quiet, --silent     suppress all normal output"
+    ],
+    [
+      4.7e-05,
+      "\r\n      --binary-files=TYPE   assume that binary files are TYPE;\r\n                            TYPE is 'binary', 'text', or 'without-match'\r\n  -a, --text                equivalent to --binary-files=text\r\n  -I                        equivalent to --binary-files=without-match\r\n  -d, --directories=ACTION  how to handle directories;\r\n                            ACTION is 'read', 'recurse', or 'skip'"
+    ],
+    [
+      3.9e-05,
+      "\r\n  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;\r\n                            ACTION is 'read' or 'skip'\r\n  -r, --recursive           like --directories=recurse\r\n"
+    ],
+    [
+      3e-05,
+      ":\u001b[K"
+    ],
+    [
+      0.487711,
+      "\r\u001b[K"
+    ],
+    [
+      0.000607,
+      "  -R, --dereference-recursive  likewise, but follow all symlinks\r\n      --include=FILE_PATTERN  search only files that match FILE_PATTERN\r\n      --exclude=FILE_PATTERN  skip files and directories matching FILE_PATTERN\r\n      --exclude-from=FILE   skip files matching any file pattern from FILE\r\n      --exclude-dir=PATTERN  directories that match PATTERN will be skipped.\r\n  -L, --files-without-match  print only names of FILEs containing no match"
+    ],
+    [
+      4.8e-05,
+      "\r\n  -l, --files-with-matches  print only names of FILEs containing matches\r\n  -c, --count               print only a count of matching lines per FILE\r\n  -T, --initial-tab         make tabs line up (if needed)\r\n  -Z, --null                print 0 byte after FILE name\r\n\r\nContext control:\r\n  -B, --before-context=NUM  print NUM lines of leading context"
+    ],
+    [
+      3.7e-05,
+      "\r\n  -A, --after-context=NUM   print NUM lines of trailing context\r\n  -C, --context=NUM         print NUM lines of output context\r\n:\u001b[K"
+    ],
+    [
+      0.461263,
+      "\r\u001b[K"
+    ],
+    [
+      0.000542,
+      "  -NUM                      same as --context=NUM\r\n      --color[=WHEN],\r\n      --colour[=WHEN]       use markers to highlight the matching strings;\r\n                            WHEN is 'always', 'never', or 'auto'\r\n  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)\r\n  -u, --Linux-byte-offsets   report offsets as if CRs were not there"
+    ],
+    [
+      4.7e-05,
+      "\r\n                            (MSDOS/Windows)\r\n\r\n'egrep' means 'grep -E'.  'fgrep' means 'grep -F'.\r\nDirect invocation as either 'egrep' or 'fgrep' is deprecated.\r\nWhen FILE is -, read standard input.  With no FILE, read . if a command-line\r\n-r is given, - otherwise.  If fewer than two FILEs are given, assume -h.\r\nExit status is 0 if any line is selected, 1 otherwise;\r\n"
+    ],
+    [
+      3.3e-05,
+      "if any error occurs and -q is not given, the exit status is 2.\r\n\r\n:\u001b[K"
+    ],
+    [
+      0.417526,
+      "\r\u001b[K"
+    ],
+    [
+      9.1e-05,
+      "Report bugs to: bug-grep@gnu.org\r\nGNU Grep home page: <http://www.gnu.org/software/grep/>"
+    ],
+    [
+      5.1e-05,
+      "\r\nGeneral help using GNU software: <http://www.gnu.org/gethelp/>\r\n\u001b[7m(END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.591593,
+      "\r\u001b[K"
+    ],
+    [
+      6.2e-05,
+      "\u0007\r\u001b[K\u001b[7m(END)\u001b[27m\u001b[K"
+    ],
+    [
+      1.02294,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b[?1049l"
+    ],
+    [
+      0.001319,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ]
+}

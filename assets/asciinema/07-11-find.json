@@ -1,0 +1,86 @@
+{
+  "height": 16,
+  "version": 1,
+  "stdout": [
+    [
+      0.117826,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      0.924054,
+      "f"
+    ],
+    [
+      0.09753,
+      "i"
+    ],
+    [
+      0.066084,
+      "n"
+    ],
+    [
+      0.084971,
+      "d"
+    ],
+    [
+      0.087455,
+      " "
+    ],
+    [
+      0.531468,
+      "."
+    ],
+    [
+      0.519117,
+      "\r\n"
+    ],
+    [
+      0.002268,
+      ".\r\n./old"
+    ],
+    [
+      4.5e-05,
+      "\r\n./old/.gitkeep\r\n./haiku.txt\r\n"
+    ],
+    [
+      3.1e-05,
+      "./data\r\n"
+    ],
+    [
+      3.5e-05,
+      "./data/one.txt\r\n./data/two.txt\r\n"
+    ],
+    [
+      5.2e-05,
+      "./tools\r\n"
+    ],
+    [
+      3e-05,
+      "./tools/old\r\n./tools/old/oldtool"
+    ],
+    [
+      3.1e-05,
+      "\r\n./tools/stats\r\n"
+    ],
+    [
+      4.6e-05,
+      "./tools/format\r\n./thesis\r\n"
+    ],
+    [
+      3e-05,
+      "./thesis/empty-draft.md\r\n"
+    ],
+    [
+      0.001383,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "width": 80,
+  "duration": 2.43364,
+  "title": null,
+  "command": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "command": null,
+  "width": 80,
+  "version": 1,
+  "duration": 5.078963,
+  "title": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "height": 16,
+  "stdout": [
+    [
+      0.114275,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      1.292087,
+      "grep day haiku.txt "
+    ],
+    [
+      0.756854,
+      "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b"
+    ],
+    [
+      0.290108,
+      "\u001b[C"
+    ],
+    [
+      0.196388,
+      "\u001b[C"
+    ],
+    [
+      0.107678,
+      "\u001b[C"
+    ],
+    [
+      0.190228,
+      "\u001b[C"
+    ],
+    [
+      0.455348,
+      "\u001b[C\u001b[1@ \b"
+    ],
+    [
+      0.256041,
+      "\u001b[1@-"
+    ],
+    [
+      0.375751,
+      "\u001b[1@w"
+    ],
+    [
+      1.039583,
+      "\r\n"
+    ],
+    [
+      0.003492,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ]
+}

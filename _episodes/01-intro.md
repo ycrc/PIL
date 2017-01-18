@@ -64,11 +64,11 @@ in order to hide some of its complexity and make it simpler to interact with.)
 A shell is a program like any other.
 What's special about it is that its job is to run other programs
 rather than to do calculations itself.
-The most popular Unix shell is Bash,
+The most popular Linux shell is Bash,
 the Bourne Again SHell
 (so-called because it's derived from a shell written by Stephen Bourne).
-Bash is the default shell on most modern implementations of Unix
-and in most packages that provide Unix-like tools for Windows.
+Bash is the default shell on most modern implementations of Linux
+and in most packages that provide Linux-like tools for Windows.
 
 Using Bash or any other shell
 sometimes feels more like programming than like using a mouse.

@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "title": null,
+  "command": null,
+  "width": 80,
+  "stdout": [
+    [
+      0.1177,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      1.58358,
+      "c"
+    ],
+    [
+      0.068688,
+      "d"
+    ],
+    [
+      0.45784,
+      " "
+    ],
+    [
+      2.135874,
+      "w"
+    ],
+    [
+      0.476674,
+      "r"
+    ],
+    [
+      0.124595,
+      "i"
+    ],
+    [
+      0.50561,
+      "ting/"
+    ],
+    [
+      1.490968,
+      "\r\n"
+    ],
+    [
+      0.001073,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      0.817221,
+      "c"
+    ],
+    [
+      0.043537,
+      "a"
+    ],
+    [
+      0.228798,
+      "t"
+    ],
+    [
+      0.059395,
+      " "
+    ],
+    [
+      0.434204,
+      "h"
+    ],
+    [
+      0.070406,
+      "a"
+    ],
+    [
+      0.229219,
+      "iku.txt "
+    ],
+    [
+      0.775146,
+      "\r\n"
+    ],
+    [
+      0.001781,
+      "The Tao that is seen\r\nIs not the true Tao, until\r\nYou bring fresh toner.\r\n\r\nWith searching comes loss\r\nand the presence of absence:\r\n\"My Thesis\" not found."
+    ],
+    [
+      4.7e-05,
+      "\r\n\r\nYesterday it worked\r\nToday it is not working\r\nSoftware is like that.\r\n"
+    ],
+    [
+      0.001268,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "duration": 9.624734,
+  "height": 16
+}

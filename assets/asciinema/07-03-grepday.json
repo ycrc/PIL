@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  },
+  "stdout": [
+    [
+      0.117946,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ],
+    [
+      1.019836,
+      "g"
+    ],
+    [
+      0.258193,
+      "r"
+    ],
+    [
+      0.048866,
+      "e"
+    ],
+    [
+      0.115302,
+      "p"
+    ],
+    [
+      0.169965,
+      " "
+    ],
+    [
+      0.25151,
+      "d"
+    ],
+    [
+      0.063286,
+      "a"
+    ],
+    [
+      0.28907,
+      "y"
+    ],
+    [
+      0.11709,
+      " "
+    ],
+    [
+      0.814038,
+      "h"
+    ],
+    [
+      0.073027,
+      "a"
+    ],
+    [
+      0.194695,
+      "iku.txt "
+    ],
+    [
+      1.357889,
+      "\r\n"
+    ],
+    [
+      0.002184,
+      "Yester\u001b[01;31m\u001b[Kday\u001b[m\u001b[K it worked\r\nTo\u001b[01;31m\u001b[Kday\u001b[m\u001b[K it is not working\r\n"
+    ],
+    [
+      0.00131,
+      "\u001b]0;nelle@stacks: ~/PIL-data/writing\u0007nelle@stacks:~/PIL-data/writing$ "
+    ]
+  ],
+  "title": null,
+  "duration": 4.895344,
+  "width": 80,
+  "height": 16,
+  "command": null
+}
