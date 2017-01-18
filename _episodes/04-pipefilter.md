@@ -152,11 +152,16 @@ so `cat` just shows us what it contains:
 > More useful in practice is the command `less`,
 > which you use with `less lengths.txt`.
 > This displays a screenful of the file, and then stops.
-> * Go forward one screenful by pressing the <kbd>&nbsp;&nbsp;spacebar&nbsp;&nbsp;</kbd>.
-> * Go back one screenful by pressing <kbd>B</kbd>
-> * Go to the beginning of the file with <kbd>G</kbd>
-> * Go to the end of the file with <kbd>SHIFT</kbd> + <kbd>G</kbd>
-> * Press <kbd>Q</kbd> to quit.
+>
+> - Go forward one screenful by pressing the <kbd>&nbsp;&nbsp;spacebar&nbsp;&nbsp;</kbd>.
+>
+> - Go back one screenful by pressing <kbd>B</kbd>
+>
+> - Go to the beginning of the file with <kbd>G</kbd>
+>
+> - Go to the end of the file with <kbd>SHIFT</kbd> + <kbd>G</kbd>
+>
+> - Press <kbd>Q</kbd> to quit.
 {: .callout}
 
 ## **Sort**
