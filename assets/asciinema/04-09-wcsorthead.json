@@ -1,0 +1,82 @@
+{
+  "duration": 6.814655,
+  "width": 80,
+  "version": 1,
+  "title": null,
+  "height": 16,
+  "command": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.113231,
+      "\u001b]0;nelle@stacks: ~/PIL-data/molecules\u0007nelle@stacks:~/PIL-data/molecules$ "
+    ],
+    [
+      0.655266,
+      "wc -l *.pdb | sort -n"
+    ],
+    [
+      1.085946,
+      " "
+    ],
+    [
+      0.292079,
+      "|"
+    ],
+    [
+      1.1301,
+      " "
+    ],
+    [
+      0.470152,
+      "h"
+    ],
+    [
+      0.072031,
+      "e"
+    ],
+    [
+      0.056012,
+      "a"
+    ],
+    [
+      0.17199,
+      "d"
+    ],
+    [
+      0.304357,
+      " "
+    ],
+    [
+      0.542063,
+      "-"
+    ],
+    [
+      0.380186,
+      "n"
+    ],
+    [
+      0.177683,
+      " "
+    ],
+    [
+      0.310114,
+      "1"
+    ],
+    [
+      1.047879,
+      "\r\n"
+    ],
+    [
+      0.003159,
+      "   9 methane.pdb\r\n"
+    ],
+    [
+      0.001337,
+      "\u001b]0;nelle@stacks: ~/PIL-data/molecules\u0007nelle@stacks:~/PIL-data/molecules$ "
+    ]
+  ]
+}

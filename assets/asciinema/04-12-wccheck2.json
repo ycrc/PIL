@@ -1,0 +1,94 @@
+{
+  "stdout": [
+    [
+      0.115514,
+      "\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ "
+    ],
+    [
+      0.984901,
+      "wc -l *.txt | sort -n | he\read -n 5"
+    ],
+    [
+      1.200151,
+      "\b"
+    ],
+    [
+      0.166177,
+      "\b"
+    ],
+    [
+      0.112312,
+      "\b"
+    ],
+    [
+      0.117478,
+      "\b"
+    ],
+    [
+      0.112297,
+      "\b"
+    ],
+    [
+      0.641815,
+      "\b\u001b[1P"
+    ],
+    [
+      0.174737,
+      "\b\u001b[1P"
+    ],
+    [
+      0.149258,
+      "\r\u001b[1P"
+    ],
+    [
+      0.206892,
+      "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C -\u001b[1P\u001b[A\r\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.179586,
+      "-n\u001b[1P 5\u001b[A\r\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.71248,
+      "\u001b[C -n 5\u001b[A\r\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.569083,
+      "t \u001b[1@-\r"
+    ],
+    [
+      0.278664,
+      "\u001b[1@a"
+    ],
+    [
+      0.14835,
+      "\u001b[1@i"
+    ],
+    [
+      0.171232,
+      "\u001b[1@l"
+    ],
+    [
+      0.698354,
+      "\r\n"
+    ],
+    [
+      0.003839,
+      "  300 NENE02040B.txt\r\n  300 NENE02040Z.txt\r\n  300 NENE02043A.txt\r\n  300 NENE02043B.txt\r\n 5040 total\r\n"
+    ],
+    [
+      0.002526,
+      "\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ "
+    ]
+  ],
+  "width": 80,
+  "duration": 6.746699,
+  "command": null,
+  "height": 16,
+  "title": null,
+  "version": 1,
+  "env": {
+    "SHELL": "/bin/bash",
+    "TERM": "xterm"
+  }
+}

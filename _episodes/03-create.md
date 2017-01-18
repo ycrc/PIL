@@ -16,7 +16,7 @@ keypoints:
 - "`mv old new` moves (renames) a file or directory."
 - "`rm path` removes (deletes) a file."
 - "`rmdir path` removes (deletes) an empty directory."
-- "Use of the Control key may be described in many ways, including `Control-X`, <kbd>Ctrl</kbd>+<kbd>X</kbd>, and `^X`."
+- "Use of the Control key may be described in many ways, including `Control-X`, <kbd>CTRL</kbd>+<kbd>X</kbd>, and `^X`."
 - "The shell does not have a trash bin: once something is deleted, it's really gone."
 - "Nano is a very simple text editor: please use something else for real work."
 ---
@@ -129,13 +129,13 @@ $ nano draft.txt
 {: .asciinema}
 
 Let's type in a few lines of text.
-Once we're happy with our text, we can press <kbd>Ctrl</kbd>+<kbd>O</kbd>
+Once we're happy with our text, we can press <kbd>CTRL</kbd>+<kbd>O</kbd>
 (press the Ctrl or Control key and, while
 holding it down, press the O key) to write our data to disk
 (we'll be asked what file we want to save this to:
 press Return to accept the suggested default of `draft.txt`).
 
-Once our file is saved, we can use <kbd>Ctrl</kbd>+<kbd>X</kbd> to quit the editor and
+Once our file is saved, we can use <kbd>CTRL</kbd>+<kbd>X</kbd> to quit the editor and
 return to the shell.
 
 > ## Control, Ctrl, or ^ Key
@@ -152,8 +152,8 @@ return to the shell.
 > * `^X`
 >
 > In nano, along the bottom of the screen you'll see `^G Get Help ^O WriteOut`.
-> This means that you can use <kbd>Ctrl</kbd>+<kbd>G</kbd> to get help and
-> <kbd>Ctrl</kbd>+<kbd>O</kbd> to save your
+> This means that you can use <kbd>CTRL</kbd>+<kbd>G</kbd> to get help and
+> <kbd>CTRL</kbd>+<kbd>O</kbd> to save your
 > file.
 {: .callout}
 

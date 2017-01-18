@@ -1,0 +1,66 @@
+{
+  "height": 16,
+  "command": null,
+  "title": null,
+  "version": 1,
+  "duration": 7.008771,
+  "width": 80,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.117929,
+      "\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ "
+    ],
+    [
+      1.105473,
+      "l"
+    ],
+    [
+      0.086377,
+      "s"
+    ],
+    [
+      0.121665,
+      " "
+    ],
+    [
+      1.258367,
+      "*"
+    ],
+    [
+      1.648249,
+      "Z"
+    ],
+    [
+      1.236385,
+      "."
+    ],
+    [
+      0.725621,
+      "t"
+    ],
+    [
+      0.110019,
+      "x"
+    ],
+    [
+      0.044626,
+      "t"
+    ],
+    [
+      0.547932,
+      "\r\n"
+    ],
+    [
+      0.002532,
+      "NENE01971Z.txt  NENE02040Z.txt\r\n"
+    ],
+    [
+      0.00254,
+      "\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ "
+    ]
+  ]
+}

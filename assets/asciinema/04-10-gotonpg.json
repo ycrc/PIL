@@ -1,0 +1,110 @@
+{
+  "width": 80,
+  "command": null,
+  "stdout": [
+    [
+      0.114914,
+      "\u001b]0;nelle@stacks: ~/PIL-data\u0007nelle@stacks:~/PIL-data$ "
+    ],
+    [
+      0.898477,
+      "c"
+    ],
+    [
+      0.088431,
+      "d"
+    ],
+    [
+      0.197655,
+      " "
+    ],
+    [
+      0.696687,
+      "n"
+    ],
+    [
+      0.157432,
+      "o"
+    ],
+    [
+      0.762549,
+      "r"
+    ],
+    [
+      0.2108,
+      "th-pacific-gyre/"
+    ],
+    [
+      2.14402,
+      "2012-07-03/"
+    ],
+    [
+      0.999576,
+      "\r\n\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ "
+    ],
+    [
+      1.094647,
+      "w"
+    ],
+    [
+      0.463299,
+      "c"
+    ],
+    [
+      0.09426,
+      " "
+    ],
+    [
+      0.437808,
+      "-"
+    ],
+    [
+      0.520656,
+      "l"
+    ],
+    [
+      0.671979,
+      " "
+    ],
+    [
+      1.101902,
+      "*"
+    ],
+    [
+      0.271042,
+      "."
+    ],
+    [
+      0.616939,
+      "t"
+    ],
+    [
+      0.081992,
+      "x"
+    ],
+    [
+      0.07219,
+      "t"
+    ],
+    [
+      0.333677,
+      "\r\n"
+    ],
+    [
+      0.00294,
+      "  300 NENE01729A.txt\r\n  300 NENE01729B.txt\r\n  300 NENE01736A.txt\r\n  300 NENE01751A.txt\r\n  300 NENE01751B.txt\r\n  300 NENE01812A.txt\r\n  300 NENE01843A.txt\r\n  300 NENE01843B.txt\r\n  300 NENE01971Z.txt\r\n  300 NENE01978A.txt\r\n  300 NENE01978B.txt\r\n  240 NENE02018B.txt\r\n  300 NENE02040A.txt\r\n  300 NENE02040B.txt\r\n  300 NENE02040Z.txt\r\n  300 NENE02043A.txt\r\n  300 NENE02043B.txt\r\n 5040 total\r\n"
+    ],
+    [
+      0.002265,
+      "\u001b]0;nelle@stacks: ~/PIL-data/north-pacific-gyre/2012-07-03\u0007nelle@stacks:~/PIL-data/north-pacific-gyre/2012-07-03$ "
+    ]
+  ],
+  "duration": 12.037277,
+  "height": 16,
+  "title": null,
+  "version": 1,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/bash"
+  }
+}
