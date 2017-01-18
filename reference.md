@@ -3,7 +3,21 @@ layout: reference
 permalink: /reference/
 ---
 
-## Summary of Basic Commands
+## **Asciinema Player Control With the Keyboard**
+The following keyboard shortcuts areavailable (when the player focused):
+
+*  <kbd>&nbsp;&nbsp;&nbsp;SPACEBAR&nbsp;&nbsp;&nbsp;</kbd> - play / pause
+
+*  <kbd>f</kbd> - toggle fullscreen mode
+
+*  <kbd>←</kbd> and <kbd>→</kbd> - rewind 5 seconds / fast-forward 5 seconds
+
+*  <kbd>0</kbd> <kbd>1</kbd> <kbd>2</kbd> ... <kbd>9</kbd> - jump to
+ 0%, 10%, 20% ... 90%
+
+*  <kbd><</kbd> and <kbd>></kbd> - decrease / increase playback speed
+
+## **Summary of Basic Commands**
 
 | Action      | Files | Folders      |
 |-------------|-------|--------------|
@@ -15,7 +29,7 @@ permalink: /reference/
 | Create      | nano  | mkdir        |
 | Delete      | rm    | rmdir, rm -r |
 
-## Filesystem heirarchy
+## **Filesystem heirarchy**
 
 The following is an overview of a standard Unix filesystem.
 The exact heirarchy is dependent on the platform,
@@ -23,7 +37,7 @@ so you may not see exactly the same files/directories on your computer:
 
 ![Linux filesystem heirarchy](../fig/standard-filesystem-hierarchy.svg)
 
-## Glossary
+## **Glossary**
 
 {:auto_ids}
 absolute path
