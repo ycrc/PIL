@@ -47,7 +47,7 @@ understand the differences. In general, if something went wrong and
 you just want to get your shell prompt back, it is better to use
 <kbd>CTRL</kbd>+<kbd>C</kbd>.
 
-## Other Shells`
+## Other Shells
 
 Before Bash became popular in the end of nineties, scientists widely
 used (and some still use) another shell, C-shell, or Csh. Bash and Csh
