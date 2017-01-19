@@ -39,7 +39,7 @@ $ ls molecules
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-01-lsmo.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-01-lsmo.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -57,7 +57,7 @@ $ wc *.pdb
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-02-wcwild.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-02-wcwild.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -104,7 +104,7 @@ $ wc -l *.pdb
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-03-wcl.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-03-wcl.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -140,7 +140,7 @@ There's only one file in this case,
 so `cat` just shows us what it contains:
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-04-redirect.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-04-redirect.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -178,7 +178,7 @@ $ sort -n lengths.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-05-sort.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-05-sort.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -196,7 +196,7 @@ $ head -n 1 sorted-lengths.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-06-sortandhead.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-06-sortandhead.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -239,7 +239,7 @@ $ sort -n lengths.txt | head -n 1
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-07-sortpipe.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-07-sortpipe.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -260,7 +260,7 @@ $ wc -l *.pdb | sort -n
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-08-wcsort.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-08-wcsort.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -273,7 +273,7 @@ $ wc -l *.pdb | sort -n | head -n 1
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-09-wcsorthead.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-09-wcsorthead.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -371,7 +371,7 @@ $ wc -l *.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-10-gotonpg.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-10-gotonpg.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -384,7 +384,7 @@ $ wc -l *.txt | sort -n | head -n 5
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-11-wccheck.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-11-wccheck.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -401,7 +401,7 @@ $ wc -l *.txt | sort -n | tail -n 5
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-12-wccheck2.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-12-wccheck2.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -418,7 +418,7 @@ $ ls *Z.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/04-13-ls.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/04-13-ls.json">
 > </asciinema-player>
 >
 {: .asciinema}

@@ -73,7 +73,7 @@ unzip PIL-data.zip
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/00-01-getdata.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/00-01-getdata.json">
 > </asciinema-player>
 >
 {: .asciinema}

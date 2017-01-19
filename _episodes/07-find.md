@@ -40,7 +40,7 @@ $ cat haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-01-cathai.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-01-cathai.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -60,7 +60,7 @@ $ grep not haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-02-grepnot.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-02-grepnot.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -79,7 +79,7 @@ $ grep day haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-03-grepday.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-03-grepday.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -97,7 +97,7 @@ $ grep -w day haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-04-grepwday.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-04-grepwday.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -113,7 +113,7 @@ $ grep -w "is not" haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-05-grepwisnot.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-05-grepwisnot.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -132,7 +132,7 @@ $ grep -n "it" haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-06-grepnit.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-06-grepnit.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -149,7 +149,7 @@ $ grep -n -w "the" haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-07-grepnwthe.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-07-grepnwthe.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -162,7 +162,7 @@ $ grep -n -w -i "the" haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-08-grepnwithe.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-08-grepnwithe.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -176,7 +176,7 @@ $ grep -n -w -v "the" haiku.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-09-grepnnwvthe.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-09-grepnnwvthe.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -191,7 +191,7 @@ $ grep --help | less
 and type <kbd>Q</kbd> to quit when we're done.
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-10-grephelp.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-10-grephelp.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -237,7 +237,7 @@ $ find .
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-11-find.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-11-find.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -263,7 +263,7 @@ $ find . -type d
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-12-findd.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-12-findd.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -277,7 +277,7 @@ $ find . -type f
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-13-findf.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-13-findf.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -290,7 +290,7 @@ $ find . -name *.txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-14-findbadname.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-14-findbadname.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -320,7 +320,7 @@ $ find . -name '*.txt'
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-15-findnametxt.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-15-findnametxt.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -348,7 +348,7 @@ $ wc -l $(find . -name '*.txt')
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-16-findwc.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-16-findwc.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -380,7 +380,7 @@ $ grep "FE" $(find .. -name '*.pdb')
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/07-17-grepfe.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/07-17-grepfe.json">
 > </asciinema-player>
 >
 {: .asciinema}

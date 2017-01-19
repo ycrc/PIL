@@ -44,7 +44,7 @@ head -n 15 octane.pdb | tail -n 5
 {: .source}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-01-middlesh.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-01-middlesh.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -68,7 +68,7 @@ $ bash middle.sh
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-02-runmiddle.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-02-runmiddle.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -114,7 +114,7 @@ $ bash middle.sh octane.pdb
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-03-runmiddlearb.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-03-runmiddlearb.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -127,7 +127,7 @@ $ bash middle.sh pentane.pdb
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-04-runmiddlepentane.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-04-runmiddlepentane.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -160,7 +160,7 @@ $ bash middle.sh pentane.pdb 15 5
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-05-runmiddlearblines.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-05-runmiddlearblines.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -174,7 +174,7 @@ $ bash middle.sh pentane.pdb 20 5
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-06-runmiddlediffnums.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-06-runmiddlediffnums.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -195,7 +195,7 @@ head -n "$2" "$1" | tail -n "$3"
 ~~~
 {: .output}
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-07-documentmiddle.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-07-documentmiddle.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -251,7 +251,7 @@ $ bash sorted.sh *.pdb ../creatures/*.dat
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-08-sorted.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-08-sorted.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -373,7 +373,7 @@ so that the output is just the number of files processed
 rather than the names of the files that were processed.
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/06-09-goorevisit.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/06-09-goorevisit.json">
 > </asciinema-player>
 >
 {: .asciinema}

@@ -33,7 +33,7 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-01-pwdls.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-01-pwdls.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -50,7 +50,7 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-02-mkdir.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-02-mkdir.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -97,7 +97,7 @@ $ cd thesis
 ~~~
 {: .bash}
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-03-cdthesis.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-03-cdthesis.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -123,7 +123,7 @@ Let's run a text editor called Nano to create a file called `draft.txt`.
 $ nano draft.txt
 ~~~
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-04-nano.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-04-nano.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -172,7 +172,7 @@ $ ls
 ~~~
 {: .bash}
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-05-rmdraft.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-05-rmdraft.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -200,7 +200,7 @@ $ cd ..
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-06-nanoagain.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-06-nanoagain.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -214,7 +214,7 @@ $ rm thesis
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-07-rmoops.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-07-rmoops.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -238,7 +238,7 @@ We can do this with the [recursive](https://en.wikipedia.org/wiki/Recursion) opt
 > {: .bash}
 >
 > > ## `output`
-> > <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-08-rmi.json"></asciinema-player>
+> > <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-08-rmi.json"></asciinema-player>
 > >
 > {: .asciinema}
 >
@@ -259,7 +259,7 @@ $ ls thesis
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-09-nanoagainagain.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-09-nanoagainagain.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -275,7 +275,7 @@ $ ls thesis
 ~~~
 {: .bash}
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-10-mv.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-10-mv.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -314,7 +314,7 @@ $ ls
 ~~~
 {: .bash}
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-11-mvup.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-11-mvup.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -333,7 +333,7 @@ $ ls . thesis/
 ~~~
 {: .bash}
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-12-cp.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-12-cp.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -348,7 +348,7 @@ $ ls quotes.txt thesis/quotations.txt
 ~~~
 {: .bash}
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/03-13-rmquotes.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/03-13-rmquotes.json">
 > </asciinema-player>
 >
 {: .asciinema}

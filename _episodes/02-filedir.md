@@ -67,7 +67,7 @@ $ whoami
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-01-whoami.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-01-whoami.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -112,7 +112,7 @@ $ pwd
 ~~~
 {: .bash}
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-02-pwd.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-02-pwd.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -188,7 +188,7 @@ $ ls
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-03-ls.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-03-ls.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -208,7 +208,7 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-04-lsF.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-04-lsF.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -237,7 +237,7 @@ $ man ls
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-05-manls.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-05-manls.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -280,7 +280,7 @@ $ ls -F PIL-data
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-06-lspildata.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-06-lspildata.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -319,7 +319,7 @@ $ pwd
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-07-gotodata.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-07-gotodata.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -338,7 +338,7 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-08-lsdata.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-08-lsdata.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -352,7 +352,7 @@ cd PIL-data
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-09-cdoops.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-09-cdoops.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -373,7 +373,7 @@ $ cd ..
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-10-upone.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-10-upone.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -395,7 +395,7 @@ $ ls -F -a
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-11-lsFa.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-11-lsFa.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -447,7 +447,7 @@ $ pwd
 How can you check what happened?  `pwd` gives us the answer!  
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-12-cdhome.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-12-cdhome.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -467,7 +467,7 @@ $ ls -F
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-13-cdrelpath.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-13-cdrelpath.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -499,7 +499,7 @@ $ cd /home/nelle/Desktop/PIL-data
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-14-cdabspath.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-14-cdabspath.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -594,7 +594,7 @@ and so on.
 This is called **tab completion**,
 and we will see it in many other tools as we go on.
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/02-15-tabcom.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/02-15-tabcom.json">
 > </asciinema-player>
 >
 {: .asciinema}

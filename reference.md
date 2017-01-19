@@ -4,7 +4,7 @@ permalink: /reference/
 ---
 
 ## **Asciinema Player Control With the Keyboard**
-The following keyboard shortcuts areavailable (when the player focused):
+The following keyboard shortcuts are available (when the player focused):
 
 *  <kbd>&nbsp;&nbsp;&nbsp;SPACEBAR&nbsp;&nbsp;&nbsp;</kbd> - play / pause
 

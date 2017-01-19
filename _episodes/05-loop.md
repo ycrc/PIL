@@ -48,7 +48,7 @@ $ cp basilisk.dat unicorn.dat original-*.dat
 This wouldn't back up our files, instead we get an error:
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-01-cperr.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/05-01-cperr.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -71,7 +71,7 @@ $ for filename in basilisk.dat unicorn.dat
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-02-forhead.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/05-02-forhead.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -171,7 +171,7 @@ done
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-03-forechohead.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/05-03-forechohead.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -282,7 +282,7 @@ $ for datafile in *[AB].txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-04-nelleforecho.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/05-04-nelleforecho.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -300,7 +300,7 @@ $ for datafile in *[AB].txt
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-05-nelleforechostats.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/05-05-nelleforechostats.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -331,7 +331,7 @@ $ for datafile in *[AB].txt; do bash goostats $datafile stats-$datafile; done
 {: .bash}
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-06-nelleforabort.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/05-06-nelleforabort.json">
 > </asciinema-player>
 >
 {: .asciinema}
@@ -359,7 +359,7 @@ When she runs her program now,
 it produces one line of output every five seconds or so:
 
 >## `output`
-> <asciinema-player rows="16" src="{{ page.root }}/assets/asciinema/05-07-nelleforgoo.json">
+> <asciinema-player font-size="medium" poster="npt:0:1" rows="16" src="{{ page.root }}/assets/asciinema/05-07-nelleforgoo.json">
 > </asciinema-player>
 >
 {: .asciinema}
