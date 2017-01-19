@@ -231,6 +231,7 @@ We can do this with the [recursive](https://en.wikipedia.org/wiki/Recursion) opt
 > If we're concerned about what we might be deleting we can
 > add the "interactive" flag `-i` to `rm` which will ask us for confirmation
 > before each step
+>
 > ~~~
 > $ rm -r -i thesis
 > ~~~

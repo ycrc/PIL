@@ -270,7 +270,7 @@ which doesn't exist.
 We can also use `ls` to see the contents of a different directory.  Let's take a
 look at our `PIL-data` directory by running `ls -F PIL-data`,
 i.e.,
-the command `ls` with the **arguments** `-F` and `Desktop`.
+the command `ls` with the **arguments** `-F` and `PIL-data`.
 The second argument --- the one *without* a leading dash --- tells `ls` that
 we want a listing of something other than our current working directory:
 
