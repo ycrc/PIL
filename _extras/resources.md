@@ -8,6 +8,8 @@ permalink: /resources/
 
 ### [Other YCRC Courses](http://research.computing.yale.edu/training)
 
+### [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/index.html)
+
 ### [Linux: Bash Shell and Scripts](https://www.lynda.com/Linux-tutorials/Linux-Bash-Shell-Scripts/504429-2.html)
 Linda video covering bash with some different topics covered. Free if you're
 at Yale.
