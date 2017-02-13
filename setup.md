@@ -67,7 +67,7 @@ Windows PuTTY, right click the mouse in the window. In macOS Terminal
 use <kbd>⌘</kbd> + <kbd>v</kbd>
 
 ~~~
-wget https://brevans.github.io/PIL/data/PIL-data.zip
+wget https://ycrc.github.io/PIL/data/PIL-data.zip
 unzip PIL-data.zip
 ~~~
 {: .bash}
