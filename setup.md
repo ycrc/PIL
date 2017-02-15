@@ -19,6 +19,7 @@ This will be accomplished with a cryptographic network protocol called ssh.
 >
 > | Hostname                  | netid  |
 > |---------------------------|--------|
+> | spinup-00041a.yu.yale.edu | ab2772 |
 > | spinup-0003fd.yu.yale.edu | adj24  |
 > | spinup-00040a.yu.yale.edu | agt24  |
 > | spinup-0003ed.yu.yale.edu | agw27  |
@@ -33,12 +34,14 @@ This will be accomplished with a cryptographic network protocol called ssh.
 > | spinup-000413.yu.yale.edu | cdt25  |
 > | spinup-0003f0.yu.yale.edu | cdy6   |
 > | spinup-000402.yu.yale.edu | clh64  |
+> | spinup-00041e.yu.yale.edu | db934  |
 > | spinup-0003f7.yu.yale.edu | dbs58  |
 > | spinup-000378.yu.yale.edu | dd698  |
 > | spinup-000403.yu.yale.edu | dgb9   |
 > | spinup-0003ee.yu.yale.edu | dk659  |
 > | spinup-00040e.yu.yale.edu | ea327  |
 > | spinup-00040b.yu.yale.edu | ef426  |
+> | spinup-00041c.yu.yale.edu | enc24  |
 > | spinup-0003ff.yu.yale.edu | fg223  |
 > | spinup-000372.yu.yale.edu | fjd27  |
 > | spinup-0003e6.yu.yale.edu | fn32   |
@@ -49,6 +52,7 @@ This will be accomplished with a cryptographic network protocol called ssh.
 > | spinup-0003f5.yu.yale.edu | ia85   |
 > | spinup-000407.yu.yale.edu | jj574  |
 > | spinup-0003e4.yu.yale.edu | jpd67  |
+> | spinup-00041b.yu.yale.edu | jrm236 |
 > | spinup-000409.yu.yale.edu | jx98   |
 > | spinup-000412.yu.yale.edu | jz574  |
 > | spinup-00037a.yu.yale.edu | khp6   |
@@ -74,6 +78,7 @@ This will be accomplished with a cryptographic network protocol called ssh.
 > | spinup-00040c.yu.yale.edu | sw838  |
 > | spinup-0003f2.yu.yale.edu | sz243  |
 > | spinup-0003f4.yu.yale.edu | ta375  |
+> | spinup-00041d.yu.yale.edu | tc572  |
 > | spinup-0003f3.yu.yale.edu | tem35  |
 > | spinup-000408.yu.yale.edu | ts749  |
 > | spinup-000415.yu.yale.edu | vn54   |
