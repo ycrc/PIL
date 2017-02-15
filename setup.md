@@ -4,8 +4,10 @@ title: Setup
 permalink: /setup/
 ---
 
+[![Yale Spinup]({{ page.root }}/assets/img/spinup_logo_word.png)](https://spinup.internal.yale.edu/)
+
 We'll be connecting to virtual computers hosted in the cloud for you for the purposes of this course.
-After we finish today, feel free to spin up your own virtual machine at Yale by logging in to [spinup.internal.yale.edu](https://spinup.internal.yale.edu/) using CAS.
+After we finish today, feel free to spin up your own virtual machine at Yale by logging in to [spinup.internal.yale.edu](https://spinup.internal.yale.edu/) using CAS from anywhere on campus or via VPN.
 
 ### Find your Host!
 If you want to follow along today, you'll need to connect to a remote computer.
