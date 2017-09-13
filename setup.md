@@ -19,48 +19,30 @@ This will be accomplished with a cryptographic network protocol called ssh.
 >
 > | Host Name                 | IP address  | NetID    |
 > |---------------------------|-------------|----------|
-> | spinup-00064b.yu.yale.edu | 10.5.35.199 | rla35 |
-> | spinup-00064c.yu.yale.edu | 10.5.34.80 | kem225 |
-> | spinup-00064d.yu.yale.edu | 10.5.33.52 | ry87 |
-> | spinup-00064e.yu.yale.edu | 10.5.32.155 | dd698 |
-> | spinup-00064f.yu.yale.edu | 10.5.32.29 | arh42 |
-> | spinup-000650.yu.yale.edu | 10.5.32.28 | bms53 |
-> | spinup-000651.yu.yale.edu | 10.5.35.202 | rd557 |
-> | spinup-000652.yu.yale.edu | 10.5.35.45 | jx98 |
-> | spinup-000653.yu.yale.edu | 10.5.34.175 | dl784 |
-> | spinup-000654.yu.yale.edu | 10.5.35.144 | cma78 |
-> | spinup-000655.yu.yale.edu | 10.5.33.107 | djt25 |
-> | spinup-000656.yu.yale.edu | 10.5.35.137 | hh468 |
-> | spinup-000657.yu.yale.edu | 10.5.35.43 | ed473 |
-> | spinup-000658.yu.yale.edu | 10.5.33.133 | nr267 |
-> | spinup-000659.yu.yale.edu | 10.5.35.135 | jos23 |
-> | spinup-00065a.yu.yale.edu | 10.5.35.152 | hs679 |
-> | spinup-00065b.yu.yale.edu | 10.5.32.63 | aa768 |
-> | spinup-00065c.yu.yale.edu | 10.5.34.191 | yl553 |
-> | spinup-00065d.yu.yale.edu | 10.5.33.4 | jw597 |
-> | spinup-00065e.yu.yale.edu | 10.5.34.230 | amc294 |
-> | spinup-00065f.yu.yale.edu | 10.5.32.108 | mt52 |
-> | spinup-000660.yu.yale.edu | 10.5.35.100 | sg998 |
-> | spinup-000661.yu.yale.edu | 10.5.34.97 | ts747 |
-> | spinup-000662.yu.yale.edu | 10.5.33.112 | ta363 |
-> | spinup-000663.yu.yale.edu | 10.5.33.74 | wg89 |
-> | spinup-000664.yu.yale.edu | 10.5.33.185 | mas384 |
-> | spinup-000665.yu.yale.edu | 10.5.33.188 | ls957 |
-> | spinup-000666.yu.yale.edu | 10.5.34.43 | jmh45 |
-> | spinup-000667.yu.yale.edu | 10.5.35.9 | arh42 |
-> | spinup-000668.yu.yale.edu | 10.5.34.58 | rd557 |
-> | spinup-000669.yu.yale.edu | 10.5.32.173 | eberhart |
-> | spinup-00066a.yu.yale.edu | 10.5.32.233 | ym267 |
-> | spinup-00066b.yu.yale.edu | 10.5.33.79 | yx265 |
-> | spinup-00066c.yu.yale.edu | 10.5.35.115 | lag48 |
-> | spinup-00066d.yu.yale.edu | 10.5.35.157 | pw374 |
-> | spinup-00066e.yu.yale.edu | 10.5.34.226 | dh462 |
-> | spinup-00066f.yu.yale.edu | 10.5.32.121 | ae388 |
-> | spinup-000670.yu.yale.edu | 10.5.34.216 | lr579 |
-> | spinup-000671.yu.yale.edu | 10.5.33.100 | amc294 |
-> | spinup-000672.yu.yale.edu | 10.5.32.196 | dl785 |
-> | spinup-000673.yu.yale.edu | 10.5.34.107 | sn334 |
-> | spinup-000674.yu.yale.edu | 10.5.33.10 | dfl28 |
+> | spinup-0006c4.yu.yale.edu | 10.5.33.89 | boydenlm |
+> | spinup-0006c5.yu.yale.edu | 10.5.34.132 | seh88 |
+> | spinup-0006c6.yu.yale.edu | 10.5.35.246 | dh462 |
+> | spinup-0006c7.yu.yale.edu | 10.5.35.206 | ebb36 |
+> | spinup-0006c8.yu.yale.edu | 10.5.33.252 | ls957 |
+> | spinup-0006c9.yu.yale.edu | 10.5.32.58 | sjt39 |
+> | spinup-0006ca.yu.yale.edu | 10.5.34.87 | dz259 |
+> | spinup-0006cb.yu.yale.edu | 10.5.35.12 | hy283 |
+> | spinup-0006cc.yu.yale.edu | 10.5.34.213 | lrs44 |
+> | spinup-0006cd.yu.yale.edu | 10.5.32.80 | ab2822 |
+> | spinup-0006ce.yu.yale.edu | 10.5.34.117 | sl2524 |
+> | spinup-0006cf.yu.yale.edu | 10.5.35.59 | wz262 |
+> | spinup-0006d0.yu.yale.edu | 10.5.35.196 | rc832 |
+> | spinup-0006d1.yu.yale.edu | 10.5.32.12 | dt485 |
+> | spinup-0006d2.yu.yale.edu | 10.5.35.66 | mf573 |
+> | spinup-0006d3.yu.yale.edu | 10.5.35.219 | dee2 |
+> | spinup-0006d4.yu.yale.edu | 10.5.33.150 | ldb28 |
+> | spinup-0006d5.yu.yale.edu | 10.5.32.194 | wh334 |
+> | spinup-0006d6.yu.yale.edu | 10.5.32.233 | xl493 |
+> | spinup-0006d7.yu.yale.edu | 10.5.34.225 | sh2352 |
+> | spinup-0006d9.yu.yale.edu | 10.5.33.167 | sa828 |
+> | spinup-0006da.yu.yale.edu | 10.5.32.118 | cq39 |
+> | spinup-0006db.yu.yale.edu | 10.5.35.103 | kyw5 |
+> | spinup-0006dc.yu.yale.edu | 10.5.33.30 | zc263 |
 >
 {: .solution}
 
