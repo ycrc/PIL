@@ -1,0 +1,33 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - user:
+      name: student
+      comment: "Account for student access"
+      shell: /bin/bash
+      password:  $6$1cqU95KVRB$xprJHU5JISCQ5nGaod8yLJph/NoCg7.6MKE3jSjaKbkWHW0R4BuhSR6zX9zAheyOUfn7UpRD4p8Q9DUWDaaiK1 #pa$$word
+  - name: give student user sudo rights
+    lineinfile: dest=/etc/sudoers
+                state=present
+                regexp='^student ALL\='
+                line='student ALL=(ALL) NOPASSWD:ALL'
+                validate='visudo -cf %s'
+  - name: Install required packages for the class environment
+    yum:
+      name:
+        - findutils
+        - grep
+        - nano
+        - unzip
+        - wget
+  - name: Allow password authentication
+    lineinfile: dest=/etc/ssh/sshd_config
+              regexp="^PasswordAuthentication"
+              line="PasswordAuthentication yes"
+              state=present
+    notify: Restart ssh
+  handlers:
+  - name: Restart ssh
+    systemd: name=sshd state=restarted
+
